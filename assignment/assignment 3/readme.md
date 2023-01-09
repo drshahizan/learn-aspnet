@@ -46,7 +46,7 @@ You are given the file CaseStudy2.sln to complete this case study. In this file,
 abc
 Figure 1.4: Solution Explorer
 
-Task 1: SQL Question
+## Task 1: SQL Question
 
 Please create a file named frmSQL.aspx. This file will be used to answer SQL questions. You need to create the SQL syntax and after that, use the GridView to display the SQL execution data.
 
@@ -76,7 +76,7 @@ Figure 1.5: Solution Q1
 
 12. Retrieves the employee who has the lowest salary in each department, then sorts these departments by the salary in ascending order.
 
-### Task 2: Data Presentation Controls
+## Task 2: Data Presentation Controls
 
 ASP.NET provides a wide variety of rich controls that can be bound to data. Under the Data tab of the Visual Studio Toolbox, you can get several controls under the Data tab that could be used to display data from a data source, like a database or XML file. The standard ASP.NET data presentation controls are:
 
