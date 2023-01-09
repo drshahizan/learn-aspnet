@@ -11,3 +11,7 @@
 2. Please improve the interface to make it look more polished and appealing. Change the font, color, and other formatting as needed, and insert the proper title.
 3. Please switch the textbox for the font size to a drop-down list.
 4. Users have three design options on the card.
+
+    <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/ass2.png" width="450" />
+
+    📚[CurrencyConverter.rar](https://github.com/drshahizan/learn-aspnet/blob/main/image/CurrencyConverter.rar)
