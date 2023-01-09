@@ -52,7 +52,8 @@ Figure 1.3: Table employees
 
 You are given the file CaseStudy2.sln to complete this case study. In this file, there is an image folder that contains the staff photo that will be used. Please refer to Figure 1.4. Please download the CaseStudy2.sln file 💾.
 
-abc
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="450" />
+
 Figure 1.4: Solution Explorer
 
 ## Task 1: SQL Question
@@ -60,7 +61,9 @@ Figure 1.4: Solution Explorer
 Please create a file named frmSQL.aspx. This file will be used to answer SQL questions. You need to create the SQL syntax and after that, use the GridView to display the SQL execution data.
 
 1. Sort the salary data in the employees table's salary column from high to low. The values in this data must be unique.
-aaa
+
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="450" />
+
 Figure 1.5: Solution Q1
 
 2. Returns all rows in the employees table sorted by the first_name column. You must restrict to 5 data only.
@@ -94,7 +97,7 @@ ASP.NET provides a wide variety of rich controls that can be bound to data. Unde
 * FormView
 * GridView
 * ListView
-* 
+
 ### Task 2a: frmSearch1.aspx
 You are required to create a file named frmSearch1.aspx. Please perform activities related to Presentation control data. Make a search using the first_name field as text input. Utilize the employees table. The GridView control is used to display the execution's outcomes.  You need to ensure that column name is a combination of first_name and last_name. Column experience is based on hire_date data. Also please change the format for the hire_date and salary fields. 
 
