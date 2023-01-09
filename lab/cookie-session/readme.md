@@ -8,11 +8,11 @@
 6. [ViewState](https://www.educba.com/asp-dot-net-viewstate/)
 
 # Lab
-1. Lab1: Cookie. frmCookie.aspx
+1. Lab 1: Cookie. frmCookie.aspx
 
     <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/cookie-session/cookie.jpg" width="400"  />
     
-2. Lab2: Session. frmSession.aspx
+2. Lab 2: Session. frmSession.aspx
 
     <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/cookie-session/session.jpg" width="400"  />
 
