@@ -14,4 +14,4 @@
 4. Include a new function that facilitates currency conversion, such as from USD to RM. Apply to all forms of money.
 5. Make sure to use the most recent currency movement graph.
 
-![My Image](my-image.jpg)
+![My Image](ass1.png)
