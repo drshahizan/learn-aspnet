@@ -40,10 +40,12 @@ You are required to create a database named HR. After that, create a table as de
 
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" />
+
 Figure 1.2: Database CaseStudy2
 
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" />
+
 Figure 1.3: Table employees
 
 
