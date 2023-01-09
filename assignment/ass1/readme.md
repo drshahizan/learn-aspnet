@@ -15,3 +15,4 @@
 5. Make sure to use the most recent currency movement graph.
 
 ![My Image](ass1.png)
+    <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pembangunan-Aplikasi-Web-Menggunakan-ASP.NET_.jpg" width="150" height="200" />
