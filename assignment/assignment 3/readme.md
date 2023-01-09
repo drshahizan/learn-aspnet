@@ -116,6 +116,6 @@ You are required to create a staff directory by Department. Please use the DropD
 
 Figure 1.9: List of Departments
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="180" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="450" />
 
 Figure 1.10: List of staff by Department
