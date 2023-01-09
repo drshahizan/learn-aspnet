@@ -112,8 +112,10 @@ Figure 1.8: Update data
 ### Task 2c:  frmDataBound.aspx
 You are required to create a staff directory by Department. Please use the DropDownList control to display the Department list. This list must be unique. When the name of the department has been selected, then the output results in the Gridview column. Please produce an interface like Figure 1.9 and Figure 1.10.
 
-abc
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20Departments.png" width="180" />
+
 Figure 1.9: List of Departments
 
-abc
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="180" />
+
 Figure 1.10: List of staff by Department
