@@ -9,10 +9,10 @@
 
 You will do this assignment  related to the human resource (HR) database. This case study requires you to use SQL Server. This database has seven tables such as jobs, regions, countries, locations, dependents, employees, and departments. The following database diagram illustrates the HR database:
 
-    <img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" />
+<img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" />
 Figure 1.1: Database Schema
-
-The HR sample database has seven tables:
+ 
+#### The HR sample database has seven tables:
 
 1. The employees table stores the data of employees.
 2. The jobs table stores the job data including job title and salary range.
@@ -21,25 +21,34 @@ The HR sample database has seven tables:
 5. The locations table stores the location of the departments of the company.
 6. The countries table stores the data of countries where the company is doing business.
 7. The regions table stores the data of regions such as Asia, Europe, America, and the Middle East and Africa. The countries are grouped into regions.
-8. The following picture shows the table names and their records.
 
-Table	Rows
-employees	40
-dependents	30
-departments	11
-jobs	11
-locations	7
-countries	25
-regions	4
+The following picture shows the table names and their records.
+
+| Table | Rows |
+| --- | --- |
+| employees | 40 |
+| dependents | 30 |
+| departments | 11 |
+| jobs | 11 |
+| locations | 7 |
+| countries | 25 |
+| regions | 4 |
+
 📌 Please download the SQL script for creates the HR database structure 💾 and the script allows you to insert data into the tables💾.
 
 You are required to create a database named HR. After that, create a table as described. Then, enter the data (refer Figure 1.2 and 1.3).
 
-abc
+
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" />
+
 Figure 1.2: Database CaseStudy2
 
-abc
+
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" />
+
 Figure 1.3: Table employees
+
+
 
 You are given the file CaseStudy2.sln to complete this case study. In this file, there is an image folder that contains the staff photo that will be used. Please refer to Figure 1.4. Please download the CaseStudy2.sln file 💾.
 
