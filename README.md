@@ -12,3 +12,6 @@ programming model and the .NET framework.
 3. Demonstrate the ability to construct multi-tier serverdriven dynamic web application incorporating access to databases using appropriate software
 methods and tools.
 4. Work in a team to develop a medium to complex program as a group mini project, applying the ASP.NET framework. 
+
+# Book
+![]()
