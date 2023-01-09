@@ -16,4 +16,4 @@ methods and tools.
 # Book
 ![]()
 
-<img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pembangunan-Aplikasi-Web-Menggunakan-ASP.NET_.jpg" data-canonical-src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pembangunan-Aplikasi-Web-Menggunakan-ASP.NET_.jpg" width="200" height="400" />
