@@ -14,7 +14,7 @@ methods and tools.
 4. Work in a team to develop a medium to complex program as a group mini project, applying the ASP.NET framework. 
 
 # Book
-![]()
-
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pembangunan-Aplikasi-Web-Menggunakan-ASP.NET_.jpg" data-canonical-src="https://shopee.com.my/Pembangunan-Aplikasi-Web-menggunakan-ASP.NET-i.86546040.15850128675?sp_atk=36ab45bb-0c76-43a8-b878-12fe3c8732c6&xptdk=36ab45bb-0c76-43a8-b878-12fe3c8732c6" width="300" height="400" />
+Pembangunan Aplikasi Web menggunakan ASP.NET
+[Buy: Shopee](https://shopee.com.my/Pembangunan-Aplikasi-Web-menggunakan-ASP.NET-i.86546040.15850128675?sp_atk=36ab45bb-0c76-43a8-b878-12fe3c8732c6&xptdk=36ab45bb-0c76-43a8-b878-12fe3c8732c6)
 
