@@ -10,5 +10,5 @@
 # Lab
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/cookie-session/cookie.jpg" width="500"  />
-
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/cookie-session/session.jpg" width="500"  />
 height="200"
