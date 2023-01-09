@@ -20,5 +20,4 @@ HTML, CSS, JavaScript, ASP.NET, MS SQL Server.
 
 # PROJECT THEME
 The project theme is FIFA World Cup. The title of your project must be related to the
-specified project theme such as World Cup News, accommodation & ticket reservation etc. If
-you are unsure about your title, please contact me. 
+specified project theme such as World Cup News, accommodation & ticket reservation etc.
