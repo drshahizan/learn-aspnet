@@ -52,7 +52,7 @@ Figure 1.3: Table employees
 
 You are given the file CaseStudy2.sln to complete this case study. In this file, there is an image folder that contains the staff photo that will be used. Please refer to Figure 1.4. Please download the CaseStudy2.sln file 💾.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="450" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="200" />
 
 Figure 1.4: Solution Explorer
 
@@ -62,7 +62,7 @@ Please create a file named frmSQL.aspx. This file will be used to answer SQL que
 
 1. Sort the salary data in the employees table's salary column from high to low. The values in this data must be unique.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="450" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="200" />
 
 Figure 1.5: Solution Q1
 
