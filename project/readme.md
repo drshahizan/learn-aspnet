@@ -8,15 +8,13 @@ HTML, CSS, JavaScript, ASP.NET, MS SQL Server.
 4. The system is not developed through any open-source-based systems.
 5. The database must consist of more than five tables.
 6. The developed system must incorporate:
-   a. Data Manipulation capabilities
-b. Sorting & Searching capabilities
-c. User Verification capabilities
-d. Varied User Access/Level capabilities
-e. You are required to use all the concepts that have been learned such as Master Pages,
-Theme, Skin, Validation Control, Ajax, etc.
+   - Data Manipulation capabilities
+   - Sorting & Searching capabilities
+   - User Verification capabilities
+   - Varied User Access/Level capabilities
+   - You are required to use all the concepts that have been learned such as Master Pages, Theme, Skin, Validation Control, Ajax, etc.
 7. You can also use:
-a. Cookie
-b. Any added function e.g., input validation using validation control (should be
-highlighted during a presentation)
-c. Clean, consistent and attractive presentation (good use of HTML + CSS) 
+   - Cookie
+   - Any added function e.g., input validation using validation control (should be highlighted during a presentation)
+   - Clean, consistent and attractive presentation (good use of HTML + CSS) 
 
