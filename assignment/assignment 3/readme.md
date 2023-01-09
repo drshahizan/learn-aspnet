@@ -11,9 +11,8 @@ You will do this assignment  related to the human resource (HR) database. This c
 
 <img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" />
 Figure 1.1: Database Schema
-
-
-The HR sample database has seven tables:
+ 
+#### The HR sample database has seven tables:
 
 1. The employees table stores the data of employees.
 2. The jobs table stores the job data including job title and salary range.
