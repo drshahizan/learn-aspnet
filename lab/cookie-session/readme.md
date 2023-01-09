@@ -8,5 +8,5 @@
 6. [ViewState](https://www.educba.com/asp-dot-net-viewstate/)
 
 # Lab
-![Cookie](http://url/to/img.png)
+![Cookie](https://github.com/drshahizan/learn-aspnet/blob/main/lab/cookie-session/cookie.jpg)
 ![alt text](http://url/to/img.png)
