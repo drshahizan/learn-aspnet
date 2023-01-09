@@ -76,7 +76,7 @@ Figure 1.5: Solution Q1
 
 12. Retrieves the employee who has the lowest salary in each department, then sorts these departments by the salary in ascending order.
 
-Task2: Data Presentation Controls
+### Task 2: Data Presentation Controls
 
 ASP.NET provides a wide variety of rich controls that can be bound to data. Under the Data tab of the Visual Studio Toolbox, you can get several controls under the Data tab that could be used to display data from a data source, like a database or XML file. The standard ASP.NET data presentation controls are:
 
@@ -90,7 +90,7 @@ You are required to create a file named frmSearch1.aspx. Please perform activiti
 abc
 Figure 1.6: Search name
 
-Task 2b:  frmSearch2.aspx
+### Task 2b:  frmSearch2.aspx
 In this task, you are required to create a GridView control that allows users to edit or delete data. Apart from that, you are also allowed to select the desired data. Please refer to Figure 1.7.
 abc
 Figure 1.7: Search name
@@ -100,7 +100,7 @@ You are required to update the employee_id data numbered 101. Please change the 
 abc
 Figure 1.8: Update data
 
-Task 2c:  frmDataBound.aspx
+### Task 2c:  frmDataBound.aspx
 You are required to create a staff directory by Department. Please use the DropDownList control to display the Department list. This list must be unique. When the name of the department has been selected, then the output results in the Gridview column. Please produce an interface like Figure 1.9 and Figure 1.10.
 
 abc
