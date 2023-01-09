@@ -108,13 +108,13 @@ Figure 1.6: Search name
 ### Task 2b:  frmSearch2.aspx
 In this task, you are required to create a GridView control that allows users to edit or delete data. Apart from that, you are also allowed to select the desired data. Please refer to Figure 1.7.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="450" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="600" />
 
 Figure 1.7: Search name
 
 You are required to update the employee_id data numbered 101. Please change the staff picture and increase the salary to 20,000. Please refer to Figure 1.8.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="450" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="600" />
 
 Figure 1.8: Update data
 
