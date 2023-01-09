@@ -9,19 +9,19 @@
 
 You will do this assignment  related to the human resource (HR) database. This case study requires you to use SQL Server. This database has seven tables such as jobs, regions, countries, locations, dependents, employees, and departments. The following database diagram illustrates the HR database:
 
-<img src="/path/to/img.jpg" alt="Alt text" title="Optional title">
+
 Figure 1.1: Database Schema
 
 The HR sample database has seven tables:
 
-The employees table stores the data of employees.
-The jobs table stores the job data including job title and salary range.
-The departments table stores department data.
-The dependents table stores the employee’s dependents.
-The locations table stores the location of the departments of the company.
-The countries table stores the data of countries where the company is doing business.
-The regions table stores the data of regions such as Asia, Europe, America, and the Middle East and Africa. The countries are grouped into regions.
-The following picture shows the table names and their records.
+1. The employees table stores the data of employees.
+2. The jobs table stores the job data including job title and salary range.
+3. The departments table stores department data.
+4. The dependents table stores the employee’s dependents.
+5. The locations table stores the location of the departments of the company.
+6. The countries table stores the data of countries where the company is doing business.
+7. The regions table stores the data of regions such as Asia, Europe, America, and the Middle East and Africa. The countries are grouped into regions.
+8. The following picture shows the table names and their records.
 
 Table	Rows
 employees	40
