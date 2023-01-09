@@ -8,5 +8,5 @@
 6. [ViewState](https://www.educba.com/asp-dot-net-viewstate/)
 
 # Lab
-![alt text](http://url/to/img.png)
+![Cookie](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
