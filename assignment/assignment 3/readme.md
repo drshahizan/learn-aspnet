@@ -89,11 +89,12 @@ Figure 1.5: Solution Q1
 
 ASP.NET provides a wide variety of rich controls that can be bound to data. Under the Data tab of the Visual Studio Toolbox, you can get several controls under the Data tab that could be used to display data from a data source, like a database or XML file. The standard ASP.NET data presentation controls are:
 
-DataList
-DetailsView
-FormView
-GridView
-ListView
+* DataList
+* DetailsView
+* FormView
+* GridView
+* ListView
+* 
 ### Task 2a: frmSearch1.aspx
 You are required to create a file named frmSearch1.aspx. Please perform activities related to Presentation control data. Make a search using the first_name field as text input. Utilize the employees table. The GridView control is used to display the execution's outcomes.  You need to ensure that column name is a combination of first_name and last_name. Column experience is based on hire_date data. Also please change the format for the hire_date and salary fields. 
 
