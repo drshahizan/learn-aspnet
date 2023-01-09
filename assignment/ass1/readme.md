@@ -13,3 +13,5 @@
 3. Include three new currencies, such as the Botswana pula, the Cambodian riel, and the Bangladeshi taka.
 4. Include a new function that facilitates currency conversion, such as from USD to RM. Apply to all forms of money.
 5. Make sure to use the most recent currency movement graph.
+
+![My Image](my-image.jpg)
