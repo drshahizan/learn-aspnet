@@ -18,3 +18,7 @@ HTML, CSS, JavaScript, ASP.NET, MS SQL Server.
    - Any added function e.g., input validation using validation control (should be highlighted during a presentation)
    - Clean, consistent and attractive presentation (good use of HTML + CSS) 
 
+# PROJECT THEME
+The project theme is FIFA World Cup. The title of your project must be related to the
+specified project theme such as World Cup News, accommodation & ticket reservation etc. If
+you are unsure about your title, please contact me. 
