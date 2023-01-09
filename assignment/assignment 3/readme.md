@@ -9,7 +9,7 @@
 
 You will do this assignment  related to the human resource (HR) database. This case study requires you to use SQL Server. This database has seven tables such as jobs, regions, countries, locations, dependents, employees, and departments. The following database diagram illustrates the HR database:
 
-
+https://github.com/drshahizan/learn-aspnet/blob/main/image/SQL-Sample-Database-Schema.png
 Figure 1.1: Database Schema
 
 The HR sample database has seven tables:
