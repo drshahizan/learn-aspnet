@@ -15,12 +15,12 @@ methods and tools.
 
 # Book
 
-1. [**Pengaturcaraan Web ASP. NET Menggunakan VB dan C#**](https://books.google.com.my/books?id=a78AIMGUOPIC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
+1. [**Pengaturcaraan Web ASP. NET Menggunakan VB dan C#**](https://penerbit.utm.my/booksonline/pengaturcaraan-web-asp-net-menggunakan-vb-dan-c/)
 
     <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pengaturcaraan-Web-ASP.-NET-Menggunakan-VB-dan-C.jpg" width="150" height="200" />
 
     🛒[Buy: Shopee](https://shopee.com.my/Pengaturcaraan-Web-ASP.-NET-Menggunakan-VB-dan-C--i.222448301.8414541215?sp_atk=2382e4f7-d6f8-4eb9-877d-4bb6cadaf1cb&xptdk=2382e4f7-d6f8-4eb9-877d-4bb6cadaf1cb)
-)
+
 
 2. [**Pembangunan Aplikasi Web menggunakan ASP.NET**](https://books.google.com.my/books?id=a78AIMGUOPIC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
 
