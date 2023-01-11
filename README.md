@@ -10,7 +10,10 @@ Don't forget to hit the :star: if you like this repo.
 ### Contents:
   - [Synopsis](#synopsis)
   - [Course Learning Outcome](#course-learning-outcome)
-  - [Lab](#lab)
+  - [Book](#book)
+  - [Contribution](#contribution)
+
+
     - Pandas
     - Modin
   - Assignment
