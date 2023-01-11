@@ -10,6 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 ### Contents:
 - [Synopsis](#synopsis)
 - [Course Learning Outcome](#course-learning-outcome)
+- [Notes](#notes)
 - Assignment
    1. [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    2. [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
@@ -33,7 +34,34 @@ programming model and the .NET framework.
 methods and tools.
 4. Work in a team to develop a medium to complex program as a group mini project, applying the ASP.NET framework. 
 
-# Book
+# Notes
+
+## What do you need:
+- [7-Zip]()
+- [C# Notes for Professionals book]()
+- [C# Basics Cheat Sheet]()
+- [Visual Studio 2022]()
+- [Visual Studio : How to fix missing ASP.NET template for .NET Framework]()
+- [How to Do Web Forms in VS 2022]()
+
+## Introduction to Visual Studio:
+
+- [Visual Studio 2022]()
+- [Visual Studio 2022 (Getting Started) Download & Install]()
+- [Websites in Visual Studio 2022(HTML /JavaScript /CSS)]()
+- [How to install Visual Studio 2022 on Windows 11]()
+- [WebForms in Visual Studio 2022 (Getting Started)]()
+- [Visual Studio 2022 | Getting Started Web Design | HTML & CSS]()
+- [GitHub and Visual Studio Community 2022]()
+- [Your Ultimate Guide To Visual Studio vs Visual Studio Code]()
+- [Wikipedia: Visual Studio]()
+- [Video: History of Visual Basic]()
+- [Video: Bill Gates demonstrates Visual Basic (1991)]()
+- [Welcome to the Visual Studio IDE]()
+- [Keyboard shortcuts in Visual Studio]()
+
+
+# Books
 
 1. [**Pengaturcaraan Web ASP. NET Menggunakan VB dan C#**](https://penerbit.utm.my/booksonline/pengaturcaraan-web-asp-net-menggunakan-vb-dan-c/)
 
