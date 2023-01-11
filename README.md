@@ -3,7 +3,7 @@
 <a href="https://github.com/drshahizan/learn-aspnet/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/learn-aspnet" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/learn-aspnet/issues"><img src="https://img.shields.io/github/issues/drshahizan/learn-aspnet" alt="Issues Badge"/></a>
 <a href="https://github.com/drshahizan/learn-aspnet/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/learn-aspnet?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/learn-aspnet)
 
 Don't forget to hit the :star: if you like this repo.
 
@@ -36,3 +36,10 @@ methods and tools.
     <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pembangunan-Aplikasi-Web-Menggunakan-ASP.NET_.jpg" width="150" height="200" />
 
     🛒[Buy: Shopee](https://shopee.com.my/Pembangunan-Aplikasi-Web-menggunakan-ASP.NET-i.86546040.15850128675?sp_atk=36ab45bb-0c76-43a8-b878-12fe3c8732c6&xptdk=36ab45bb-0c76-43a8-b878-12fe3c8732c6)
+    
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
