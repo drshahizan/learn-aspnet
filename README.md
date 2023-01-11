@@ -7,6 +7,19 @@
 
 Don't forget to hit the :star: if you like this repo.
 
+### Contents:
+  - [Synopsis](#synopsis)
+  - [Course Learning Outcome](#course-learning-outcome)
+  - [Lab](#lab)
+    - Pandas
+    - Modin
+  - Assignment
+    - [Assignment1: Pandas - Data Processing](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201)
+    - [Assignment2: Alternatives to Pandas for Processing Large Datasets]
+      - [Solution 2a](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a)        
+      - [Solution 2b](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202b)
+  - [Project](https://github.com/drshahizan/Python-big-data/tree/main/Project)
+  
 # Synopsis
 This course introduces the fundamentals of web development using ASP.NET, with the aim to
 develop a database (SQL Server) driven website. The course will provide students with
