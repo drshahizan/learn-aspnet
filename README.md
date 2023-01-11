@@ -21,6 +21,7 @@ Don't forget to hit the :star: if you like this repo.
    - [AJAX](#ajax)
 - Lab
    - [Standard Control](#standard-control)
+   - [Database](#database)
 - Assignment
    - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
