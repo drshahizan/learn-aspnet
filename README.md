@@ -22,8 +22,8 @@ Don't forget to hit the :star: if you like this repo.
 - Lab
    - [Standard Control](#standard-control)
    - [Database](#database)
-   - [Styles and Master Pages]()
-- Case Study 
+   - [Styles and Master Pages](#styles-and-master-pages)
+- [Case Study](#case-study)
 - Assignment
    - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
