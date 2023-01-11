@@ -19,6 +19,8 @@ Don't forget to hit the :star: if you like this repo.
    - [Bootstrap & Master Pages](#bootstrap-and-master-pages)
    - [Navigation Control](#navigation-control)
    - [AJAX](#ajax)
+- Lab
+   - [Standard Control](#standard-control)
 - Assignment
    - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
@@ -137,13 +139,22 @@ methods and tools.
 - [ASP.NET Site Navigation Overview]()
 - [Video: ASP.NET - Navigation Controls]()
 
-# AJAX
+## AJAX
 - [AJAX Control Toolkit]()
 - [AJAX Introduction]()
 - [Ajax Control]()
 - [Video: How to install and download latest ajax toolkit]()
 - [Download: AjaxControlToolkit]()
 - [Install AJAX Control Toolkit in Visual Studio]()
+
+# Lab
+
+## Standard Control
+- [ASP.NET Fundamentals]()
+- [Conditionals]()
+- [Pizza store]()
+- [JDT NBA team]()
+- [More controls]()
 
 # Books
 
