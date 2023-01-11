@@ -132,7 +132,7 @@ methods and tools.
 - [Video: Creating Master Page using Visual Studio 2022]()
 - [Free download master page web templates files in .html .css .js format]()
 
-# Navigation Control
+## Navigation Control
 - [Navigation Control in ASP.NET]()
 - [ASP.NET Site Navigation Overview]()
 - [Video: ASP.NET - Navigation Controls]()
