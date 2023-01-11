@@ -22,10 +22,13 @@ Don't forget to hit the :star: if you like this repo.
 - Lab
    - [Standard Control](#standard-control)
    - [Database](#database)
+   - [Styles and Master Pages]()
+- Case Study 
 - Assignment
    - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
    - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
+   - [Assignment 4: Web Design](https://github.com/drshahizan/learn-aspnet/tree/main/web-design)
 - [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
 - [Book](#book)
 - [Contribution](#contribution)
@@ -173,6 +176,19 @@ Exercise: Access
 
 Exercise: MySQL
 - [How to Bind Data From MySQL Database to GridView]()
+
+## Styles and Master Pages
+- [Style sheets]()
+- [Themes & Skin]()
+- [CSS Template]()
+- [Master page: Intro]()
+- [Master page E-learning]()
+- [Master page: brown shadow template]()
+- [Master page: ASP.NET Web Apps]()
+
+# Case Study
+- [Danny’s Diner (Question)]()
+- [Danny’s Diner (Solution)]()
 
 # Books
 
