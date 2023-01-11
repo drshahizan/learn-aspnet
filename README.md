@@ -59,6 +59,10 @@ methods and tools.
 - [Video: Bill Gates demonstrates Visual Basic (1991)]()
 - [Welcome to the Visual Studio IDE]()
 - [Keyboard shortcuts in Visual Studio]()
+- [Basic Web form Using Visual Studio 2022]()
+- [First ASP. Net Project]()
+- [ASP.net DropDownList Controller]()
+- [Creating Two ASP.Net DropDownLists Controls]()
 
 ## History: ASP.Net, Web etc...
 - [THE EVOLUTION OF WEB DEVELOPMENT]()
@@ -73,7 +77,27 @@ methods and tools.
 - [ASP.NET MVC vs Webforms]()
 - [Page Life Cycle In ASP.NET]()
 - [Video: ASP.NET Lifecycle | ASP.NET Page Lifecycle Explained]()
-- 
+- [Microsoft: Learn ASP.NET]()
+- [Tutorialride: ASP.NET Tutorial]()
+- [Tutorialspoint: ASP.NET]()
+
+## Database
+- [Video: Creating Sql Server]()
+- [Video: ASP.Net Database Project]()
+- [Video: Display Two Related Tables into a single GridView]()
+- [Video: Working with GridView & DetailsView Controls]()
+- [Image:Using SQLDataSource in ASP.NET]()
+- [Image: Using Database by ADO.Net in ASP.NET]()
+- [Various Data Bound Controls Used in ASP.Net]()
+- [Joining Three or More Tables in SQL Server]()
+- [SQL Cheat Sheet]()
+- [Resources]()
+- [ETL Tools: The Definitive List]()
+- [52 SQL Editors and IDEs Compared (2020): The Ultimate List]()
+- [60 Best Resources for Learning SQL]()
+- [19 Best Database Books]()
+- [SQL Server]()
+
 # Books
 
 1. [**Pengaturcaraan Web ASP. NET Menggunakan VB dan C#**](https://penerbit.utm.my/booksonline/pengaturcaraan-web-asp-net-menggunakan-vb-dan-c/)
