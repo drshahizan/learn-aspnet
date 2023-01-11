@@ -1,4 +1,4 @@
-#Assignment 2: Birthday Card Maker
+# Assignment 2: Birthday Card Maker
 
 ## Instructions:
 
