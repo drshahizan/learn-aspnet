@@ -15,6 +15,10 @@ Don't forget to hit the :star: if you like this repo.
    - [Introduction to Visual Studio](#introduction-to-visual-studio)
    - [History: ASP.Net, Web etc](#history)
    - [Database](#database)
+   - [Themes and Skins](#themes-and-skins)
+   - [Bootstrap & Master Pages](#bootstrap-and-master-pages)
+   - [Navigation Control](#navigation-control)
+   - [AJAX](#ajax)
 - Assignment
    - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
@@ -101,6 +105,45 @@ methods and tools.
 - [60 Best Resources for Learning SQL]()
 - [19 Best Database Books]()
 - [SQL Server]()
+
+## Themes and Skins
+- [Web design: HTML & CSS]()
+- [Themes]()
+- [Skins]()
+- [Building Beautiful, Responsive Sites with Bootstrap]()
+- [How To Add Bootstrap In ASP.NET (MVC & Web Forms)]()
+- [Video: ASP.NET Themes and Skins]()
+- [Video: How To Apply Free Bootstrap Themes in ASP.NET]()
+- [Tutorial: Themes]()
+- [10 Best Powerful ASP.NET Templates 2022]()
+- [Future of ASP.NET]()
+
+## Bootstrap and Master Pages
+- [Responsive Web Design]()
+- [Bootstrap 5 Tutorial]()
+- [Twitter Bootstrap Grid Examples]()
+- [Medical Care Application UX Case Study]()
+- [Mobile Web Menu - Mamak]()
+- [Top 8 Bootstrap Practice Projects For Beginners 2022]()
+- [Master Page in ASP.NET]()
+- [Web design: Master pages]()
+- [Video: Creating a Base Page in ASP.NET Web Forms]()
+- [Video: ASP.NET Master Page]()
+- [Video: Creating Master Page using Visual Studio 2022]()
+- [Free download master page web templates files in .html .css .js format]()
+
+# Navigation Control
+- [Navigation Control in ASP.NET]()
+- [ASP.NET Site Navigation Overview]()
+- [Video: ASP.NET - Navigation Controls]()
+
+# AJAX
+- [AJAX Control Toolkit]()
+- [AJAX Introduction]()
+- [Ajax Control]()
+- [Video: How to install and download latest ajax toolkit]()
+- [Download: AjaxControlToolkit]()
+- [Install AJAX Control Toolkit in Visual Studio]()
 
 # Books
 
