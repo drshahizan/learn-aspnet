@@ -60,7 +60,20 @@ methods and tools.
 - [Welcome to the Visual Studio IDE]()
 - [Keyboard shortcuts in Visual Studio]()
 
-
+## History: ASP.Net, Web etc...
+- [THE EVOLUTION OF WEB DEVELOPMENT]()
+- [Video: Static vs Dynamic Websites - What's the Difference?]()
+- [Evolution of The Web : Web 1.0, web 2.0, web 3.0 and beyond]()
+- [Web Evolution from 1.0 to 3.0]()
+- [The History of Web Development Technology]()
+- [The History of ASP.NET (Part 1)]()
+- [The History of ASP.NET – Part II (Covers ASP.NET MVC)]()
+- [The History of ASP.NET – Part III (Covers ASP.NET Core)]()
+- [Difference between ASP.NET WebForms and ASP.NET MVC]()
+- [ASP.NET MVC vs Webforms]()
+- [Page Life Cycle In ASP.NET]()
+- [Video: ASP.NET Lifecycle | ASP.NET Page Lifecycle Explained]()
+- 
 # Books
 
 1. [**Pengaturcaraan Web ASP. NET Menggunakan VB dan C#**](https://penerbit.utm.my/booksonline/pengaturcaraan-web-asp-net-menggunakan-vb-dan-c/)
