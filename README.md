@@ -11,10 +11,14 @@ Don't forget to hit the :star: if you like this repo.
 - [Synopsis](#synopsis)
 - [Course Learning Outcome](#course-learning-outcome)
 - [Notes](#notes)
+   - [What do you need](#what-do-you-need)
+   - [Introduction to Visual Studio](#introduction-to-visual-studio)
+   - [History: ASP.Net, Web etc](#history)
+   - [Database](#database)
 - Assignment
-   1. [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
-   2. [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
-   3. [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
+   - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
+   - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
+   - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
 - [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
 - [Book](#book)
 - [Contribution](#contribution)
@@ -36,7 +40,7 @@ methods and tools.
 
 # Notes
 
-## What do you need:
+## What do you need
 - [7-Zip]()
 - [C# Notes for Professionals book]()
 - [C# Basics Cheat Sheet]()
@@ -44,7 +48,7 @@ methods and tools.
 - [Visual Studio : How to fix missing ASP.NET template for .NET Framework]()
 - [How to Do Web Forms in VS 2022]()
 
-## Introduction to Visual Studio:
+## Introduction to Visual Studio
 
 - [Visual Studio 2022]()
 - [Visual Studio 2022 (Getting Started) Download & Install]()
@@ -64,7 +68,7 @@ methods and tools.
 - [ASP.net DropDownList Controller]()
 - [Creating Two ASP.Net DropDownLists Controls]()
 
-## History: ASP.Net, Web etc...
+## History
 - [THE EVOLUTION OF WEB DEVELOPMENT]()
 - [Video: Static vs Dynamic Websites - What's the Difference?]()
 - [Evolution of The Web : Web 1.0, web 2.0, web 3.0 and beyond]()
