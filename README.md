@@ -152,6 +152,30 @@ methods and tools.
 - [Download: AjaxControlToolkit]()
 - [Install AJAX Control Toolkit in Visual Studio]()
 
+## Cookie & Session
+- [LINQ - SQL]()
+- [Add LINQ to SQL Tools in Visual Studio
+- [ASP.NET Cookie]()
+- [ASP.NET Session]()
+- [SessionID]()
+- [ASP.NET - Managing State]()
+- [State Management]()
+- [ViewState]()
+- [Github: lab/cookie-session]()
+
+## XML
+- [XML Tutorial]()
+- [Video: Reading/Writing to XML file in Visual Studio 2022]()
+- [Using XML in ASP.NET]()
+- [XML Tree]()
+- [Walkthrough: Creating a Web Page to Display XML Data]()
+- [Displaying XML Data in ASP.Net GridView]()
+- [Binding GridView From XML Using ASP.Net]()
+- [Lab: books.xml]()
+- [Lab: style_sheet.xslt]()
+- [Display XML Document in ASP.NET using XML Control]()
+- [Read and Write XML Data Using Asp.Net
+
 # Lab
 ## Book
 - Chapter 4
