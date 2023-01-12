@@ -152,7 +152,37 @@ methods and tools.
 - [Install AJAX Control Toolkit in Visual Studio]()
 
 # Lab
-
+## Book: Green
+- Chapter 4
+   - Lab 4.1:  AdRotator (page:97)
+   - Lab 4.2: Calendar (page 105)
+   - Lab 4.3: DropDownList (page 112)
+   - Lab 4.4: Image (page 118)
+   - Lab 4.5: ListBox(page 125)
+- Chapter 5
+   - Lab 5.1: Conversion of Decimal numbers to Octal and Hexadecimal (page 166)
+   - Lab 5.2: Floating point numbers (page 169)
+   - Lab 5.3: Numeric variables (page 179)
+   - Lab 5.4: Arithmetic Operators (page 191)
+   - Lab 5.5: Mathematical functions (page 195)
+- Chapter 6
+   - Lab 6.1: Changing the shape of characters (page 212)
+   - Lab 6.2: Replace function (page 233)
+   - Lab 6.3: Space Function (page 241)
+   - Lab 6.4: Various Dates and Times (page 247)
+   - Lab 6.5: Date and time (page 249)
+- Chapter 7
+   - Lab 7.1: If Statement (page 259)
+   - Lab 7.2: ElseIf Statement (page 268)
+   - Lab 7.3: Select Cade statement (page 278)
+   - Lab 7.4: For Next Statement (page 286)
+   - Lab 7.5: For Each statement (page 290)
+ - Chapter 8
+   - Lab 8.1: RegularExpressionValidator control (page 328)
+   - Lab 8.2: RequiredFieldValidator control (page 333)
+   - Lab 8.3: RequiredFieldValidator and CompareValidator controls (page 336)
+   - Lab 8.4: RequiredFieldValidator control (page 339)
+   - Lab 8.5: ValidationSummary control (page 343)
 ## Standard Control
 - [ASP.NET Fundamentals]()
 - [Conditionals]()
