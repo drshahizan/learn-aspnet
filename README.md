@@ -19,6 +19,8 @@ Don't forget to hit the :star: if you like this repo.
    - [Bootstrap & Master Pages](#bootstrap-and-master-pages)
    - [Navigation Control](#navigation-control)
    - [AJAX](#ajax)
+   - [Cookie and Session](#cookie-and-session)
+   - [XML](#xml)
 - Lab
    - [Book: ASP Web Programming. NET Using VB and C#](#book)
    - [Standard Control](#standard-control)
@@ -152,7 +154,7 @@ methods and tools.
 - [Download: AjaxControlToolkit]()
 - [Install AJAX Control Toolkit in Visual Studio]()
 
-## Cookie & Session
+## Cookie and Session
 - [LINQ - SQL]()
 - [Add LINQ to SQL Tools in Visual Studio
 - [ASP.NET Cookie]()
@@ -174,7 +176,7 @@ methods and tools.
 - [Lab: books.xml]()
 - [Lab: style_sheet.xslt]()
 - [Display XML Document in ASP.NET using XML Control]()
-- [Read and Write XML Data Using Asp.Net
+- [Read and Write XML Data Using Asp.Net]()
 
 # Lab
 ## Book
