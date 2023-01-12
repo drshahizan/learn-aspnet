@@ -20,6 +20,7 @@ Don't forget to hit the :star: if you like this repo.
    - [Navigation Control](#navigation-control)
    - [AJAX](#ajax)
 - Lab
+   - [Book: ASP Web Programming. NET Using VB and C#](#book)
    - [Standard Control](#standard-control)
    - [Database](#database)
    - [Styles and Master Pages](#styles-and-master-pages)
@@ -152,7 +153,7 @@ methods and tools.
 - [Install AJAX Control Toolkit in Visual Studio]()
 
 # Lab
-## Book: Green
+## Book
 - Chapter 4
    - Lab 4.1:  AdRotator (page:97)
    - Lab 4.2: Calendar (page 105)
