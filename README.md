@@ -64,16 +64,16 @@ methods and tools.
 ## Introduction to Visual Studio
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
-- [Visual Studio 2022 (Getting Started) Download & Install](https://youtu.be/5Eeq1xJVrx4)
-- [Websites in Visual Studio 2022(HTML /JavaScript /CSS)](https://youtu.be/o_lmRHkLvp8)
-- [How to install Visual Studio 2022 on Windows 11](https://youtu.be/PIe38G0nINY)
-- [WebForms in Visual Studio 2022 (Getting Started)](https://youtu.be/eq5F4Afmlac)
-- [Visual Studio 2022 | Getting Started Web Design | HTML & CSS](https://youtu.be/o_lmRHkLvp8)
-- [GitHub and Visual Studio Community 2022](https://youtu.be/F-Azm-JvJmM)
+- [Visual Studio 2022 (Getting Started) Download & Install](https://youtu.be/5Eeq1xJVrx4)🎥
+- [Websites in Visual Studio 2022(HTML /JavaScript /CSS)](https://youtu.be/o_lmRHkLvp8)🎥
+- [How to install Visual Studio 2022 on Windows 11](https://youtu.be/PIe38G0nINY)🎥
+- [WebForms in Visual Studio 2022 (Getting Started)](https://youtu.be/eq5F4Afmlac)🎥
+- [Visual Studio 2022 | Getting Started Web Design | HTML & CSS](https://youtu.be/o_lmRHkLvp8)🎥
+- [GitHub and Visual Studio Community 2022](https://youtu.be/F-Azm-JvJmM)🎥
 - [Your Ultimate Guide To Visual Studio vs Visual Studio Code](https://www.turing.com/kb/ultimate-guide-visual-studio-vs-visual-studio-code)
 - [Wikipedia: Visual Studio](https://en.wikipedia.org/wiki/Visual_Studio)
-- [Video: History of Visual Basic](https://youtu.be/m0GV84kfmrc)
-- [Video: Bill Gates demonstrates Visual Basic (1991)](https://youtu.be/Fh_UDQnboRw)
+- [History of Visual Basic](https://youtu.be/m0GV84kfmrc)🎥
+- [Bill Gates demonstrates Visual Basic (1991)](https://youtu.be/Fh_UDQnboRw)🎥
 - [Welcome to the Visual Studio IDE](https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide?view=vs-2022)
 - [Keyboard shortcuts in Visual Studio](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
 - [Basic Web form Using Visual Studio 2022]()
@@ -99,10 +99,10 @@ methods and tools.
 - [Tutorialspoint: ASP.NET]()
 
 ## Database
-- [Video: Creating Sql Server](https://youtu.be/8izMJicSk6U)
-- [Video: ASP.Net Database Project](https://youtu.be/7-bCRq7-7SI)
-- [Video: Display Two Related Tables into a single GridView](https://youtu.be/Ww0SJh565S8)
-- [Video: Working with GridView & DetailsView Controls](https://youtu.be/FhxuPGlXQtE)
+- [Creating Sql Server](https://youtu.be/8izMJicSk6U)
+- [ASP.Net Database Project](https://youtu.be/7-bCRq7-7SI)
+- [Display Two Related Tables into a single GridView](https://youtu.be/Ww0SJh565S8)🎥
+- [Working with GridView & DetailsView Controls](https://youtu.be/FhxuPGlXQtE)🎥
 - [Various Data Bound Controls Used in ASP.Net](https://www.c-sharpcorner.com/UploadFile/af3b72/different-data-bound-controls-used-in-Asp-Net/)
 - [Joining Three or More Tables in SQL Server](https://www.c-sharpcorner.com/UploadFile/rohatash/joining-three-or-more-tables-in-sql-server-2012/)
 - [SQL Cheat Sheet](https://learnsql.com/blog/sql-basics-cheat-sheet/)
@@ -116,8 +116,8 @@ methods and tools.
 - 💾[Skins](https://drive.google.com/file/d/1vyFqJk2_QsCo4orvwlt2LsmNPmGkqwrZ/view?usp=share_link)
 - [Building Beautiful, Responsive Sites with Bootstrap]()
 - [How To Add Bootstrap In ASP.NET (MVC & Web Forms)](https://www.mytecbits.com/microsoft/dot-net/how-to-add-bootstrap-in-asp-net)
-- [Video: ASP.NET Themes and Skins](https://youtu.be/HCZ76wAXJfs)
-- [Video: How To Apply Free Bootstrap Themes in ASP.NET](https://youtu.be/bUgFQeUaze0)
+- [ASP.NET Themes and Skins](https://youtu.be/HCZ76wAXJfs)🎥
+- [How To Apply Free Bootstrap Themes in ASP.NET](https://youtu.be/bUgFQeUaze0)🎥
 - [10 Best Powerful ASP.NET Templates 2022](https://colorlib.com/wp/asp-net-templates/)
 - [Future of ASP.NET](https://thecompetenza.com/asp-net-future/)
 
@@ -129,8 +129,8 @@ methods and tools.
 - [Mobile Web Menu - Mamak](https://www.behance.net/gallery/152300087/Mobile-Web-Menu-Mamak)
 - [Top 8 Bootstrap Practice Projects For Beginners 2022](https://themeselection.com/bootstrap-practice-projects/)
 - 💾[Master Page in ASP.NET](https://drive.google.com/drive/folders/1yXHGO3ODVE_lRAxhRZO0dKvLNu3Ft45I)-belum link
-- [Video: ASP.NET Master Page](https://www.youtube.com/watch?v=W3zH8xtIW4U)
-- [Video: Creating Master Page using Visual Studio 2022](https://www.youtube.com/watch?v=vRQVgVuZXwY)
+- [ASP.NET Master Page](https://www.youtube.com/watch?v=W3zH8xtIW4U)🎥
+- [Creating Master Page using Visual Studio 2022](https://www.youtube.com/watch?v=vRQVgVuZXwY)🎥
 - [Free download master page web templates files in .html .css .js format](https://all-free-download.com/free-website-templates/master-page.html)
 
 ## Navigation Control
@@ -141,14 +141,14 @@ methods and tools.
 ## AJAX
 - [AJAX Control Toolkit](https://elearnppsm.utmspace.edu.my/mod/url/view.php?id=20027)
 - [AJAX Introduction](https://www.tutorialspoint.com/asp.net/asp.net_ajax_control.htm)
-- [Ajax Control](https://www.youtube.com/watch?v=xKcBtfvcPmk)
+- [Ajax Control](https://www.youtube.com/watch?v=xKcBtfvcPmk)🎥
 - [Video: How to install and download latest ajax toolkit]()
 - [Download: AjaxControlToolkit](https://www.nuget.org/packages/AjaxControlToolkit/20.1.0)
 - [Install AJAX Control Toolkit in Visual Studio](https://www.aspsnippets.com/Articles/Install-AJAX-Control-Toolkit-in-Visual-Studio-ToolBox.aspx)
 
 ## Cookie and Session
 - [LINQ - SQL](https://www.tutorialspoint.com/linq/linq_sql.htm)
-- [Add LINQ to SQL Tools in Visual Studio](https://www.youtube.com/watch?v=M_3K0pcsMdA)
+- [Add LINQ to SQL Tools in Visual Studio](https://www.youtube.com/watch?v=M_3K0pcsMdA)🎥
 - [ASP.NET Cookie](https://www.educba.com/asp-dot-net-cookie/)
 - [ASP.NET Session](https://www.educba.com/asp-dot-net-session/)
 - [SessionID](https://www.educba.com/asp-net-sessionid/)
@@ -159,7 +159,7 @@ methods and tools.
 
 ## XML
 - [XML Tutorial](https://www.w3schools.com/xml/default.asp)
-- [Video: Reading/Writing to XML file in Visual Studio 2022](https://www.youtube.com/watch?v=3Wn1HxKT-NY)
+- [Video: Reading/Writing to XML file in Visual Studio 2022](https://www.youtube.com/watch?v=3Wn1HxKT-NY)🎥
 - [Using XML in ASP.NET](https://beansoftware.com/ASP.NET-Tutorials/Using-XML.aspx)
 - [XML Tree](https://www.w3schools.com/xml/xml_tree.asp)
 - [Walkthrough: Creating a Web Page to Display XML Data](https://learn.microsoft.com/en-us/previous-versions/aspnet/13ftcwy9(v=vs.100))
