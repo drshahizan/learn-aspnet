@@ -112,8 +112,8 @@ methods and tools.
 - [SQL Server](https://www.databasestar.com/sql-server/)
 
 ## Themes and Skins
-- 💾[Themes](https://drive.google.com/drive/folders/1yXHGO3ODVE_lRAxhRZO0dKvLNu3Ft45I) using themes.zip-belum link
-- 💾[Skins](https://drive.google.com/drive/folders/1yXHGO3ODVE_lRAxhRZO0dKvLNu3Ft45I)tema.rar- belum link
+- 💾[Themes]() using themes.zip-belum link
+- 💾[Skins](https://drive.google.com/file/d/1vyFqJk2_QsCo4orvwlt2LsmNPmGkqwrZ/view?usp=share_link)
 - [Building Beautiful, Responsive Sites with Bootstrap]()
 - [How To Add Bootstrap In ASP.NET (MVC & Web Forms)](https://www.mytecbits.com/microsoft/dot-net/how-to-add-bootstrap-in-asp-net)
 - [Video: ASP.NET Themes and Skins](https://youtu.be/HCZ76wAXJfs)
