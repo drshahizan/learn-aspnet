@@ -112,8 +112,8 @@ methods and tools.
 - [SQL Server](https://www.databasestar.com/sql-server/)
 
 ## Themes and Skins
-- 💾[Themes]() using themes.zip-belum link
-- 💾[Skins](https://drive.google.com/file/d/1vyFqJk2_QsCo4orvwlt2LsmNPmGkqwrZ/view?usp=share_link)
+- [Themes](https://drive.google.com/file/d/1TMtGkBz-x9KVzRYyZIMNYkA3tmU-uVB4/view?usp=share_link)💾
+- [Skins](https://drive.google.com/file/d/1vyFqJk2_QsCo4orvwlt2LsmNPmGkqwrZ/view?usp=share_link)💾
 - [Building Beautiful, Responsive Sites with Bootstrap]()
 - [How To Add Bootstrap In ASP.NET (MVC & Web Forms)](https://www.mytecbits.com/microsoft/dot-net/how-to-add-bootstrap-in-asp-net)
 - [ASP.NET Themes and Skins](https://youtu.be/HCZ76wAXJfs)🎥
@@ -128,7 +128,7 @@ methods and tools.
 - [Medical Care Application UX Case Study](https://www.behance.net/gallery/139951199/Medical-Care-Application-UX-Case-Study)
 - [Mobile Web Menu - Mamak](https://www.behance.net/gallery/152300087/Mobile-Web-Menu-Mamak)
 - [Top 8 Bootstrap Practice Projects For Beginners 2022](https://themeselection.com/bootstrap-practice-projects/)
-- 💾[Master Page in ASP.NET](https://drive.google.com/drive/folders/1yXHGO3ODVE_lRAxhRZO0dKvLNu3Ft45I)-belum link
+- [Master Page in ASP.NET](https://drive.google.com/file/d/18pGfs1qOGaJt3liVj_1gBfM8Xp3v0fwL/view?usp=share_link)💾
 - [ASP.NET Master Page](https://www.youtube.com/watch?v=W3zH8xtIW4U)🎥
 - [Creating Master Page using Visual Studio 2022](https://www.youtube.com/watch?v=vRQVgVuZXwY)🎥
 - [Free download master page web templates files in .html .css .js format](https://all-free-download.com/free-website-templates/master-page.html)
