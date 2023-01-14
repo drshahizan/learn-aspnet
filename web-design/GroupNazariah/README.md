@@ -19,16 +19,15 @@ Pages, Skins and Themes.
 ### Design Mock-up Web Design
 
 ### Homepage
-
-![](images/image2.png)
+[<img src="images/image2.png" width="500"/>](images/image2.png)
 
 If user, click Top 10 "Halal" Food in Penang or Top 10 "Non-Halal" Food in Penang, this page as below 
 (refer homepage design)
 
-![](images/image3.png)
+[<img src="images/image3.png" width="500"/>](images/image3.png)
 
 ### About Us Menu
-![](images/image4.png)
+[<img src="images/image4.png" width="500"/>](images/image4.png)
 
 ### Source Code
 Please refer to the attachment file upload in e-learning portal
@@ -38,16 +37,16 @@ Please refer to the attachment file upload in e-learning portal
 ### 3. Design Interface
 ### Homepage
 
-![](images/image6.png)
+[<img src="images/image6.png" width="500"/>](images/image6.png)
 
 ### About Us
 
-![](images/image7.png)
+[<img src="images/image7.png" width="500"/>](images/image7.png)
 
 ### Top 10 "Halal" Food in Penang
 
-![](images/image8.png)
+[<img src="images/image8.png" width="500"/>](images/image8.png)
 
 ### Top 10 "Non" Halal Food in Penang
 
-![](images/image9.png)
+[<img src="images/image9.png" width="500"/>](images/image9.png)
