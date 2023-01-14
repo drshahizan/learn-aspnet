@@ -148,8 +148,6 @@ methods and tools.
 - [Install AJAX Control Toolkit in Visual Studio](https://www.aspsnippets.com/Articles/Install-AJAX-Control-Toolkit-in-Visual-Studio-ToolBox.aspx)
 
 ## Cookie and Session
-- [LINQ - SQL](https://www.tutorialspoint.com/linq/linq_sql.htm)
-- [Add LINQ to SQL Tools in Visual Studio](https://www.youtube.com/watch?v=M_3K0pcsMdA)🎥
 - [ASP.NET Cookie](https://www.educba.com/asp-dot-net-cookie/)
 - [ASP.NET Session](https://www.educba.com/asp-dot-net-session/)
 - [SessionID](https://www.educba.com/asp-net-sessionid/)
@@ -170,6 +168,13 @@ methods and tools.
 - [Lab: style_sheet.xslt]()
 - [Display XML Document in ASP.NET using XML Control](https://www.ezzylearning.net/tutorial/display-xml-document-in-asp-net-using-xml-control)
 - [Read and Write XML Data Using Asp.Net](https://www.encodedna.com/2014/07/read-write-xml-data-using-aspdotnet.htm)
+
+## Adv Database
+- [LINQ - SQL](https://www.tutorialspoint.com/linq/linq_sql.htm)
+- [ Sample LINQ Queries](https://www.tutorialsteacher.com/linq/sample-linq-queries)
+- [Add LINQ to SQL Tools in Visual Studio](https://www.youtube.com/watch?v=M_3K0pcsMdA)🎥
+- [Simple Tutorial with example of using LINQ to SQL in ASP.Net Website using C# and VB.Net](https://www.aspsnippets.com/Articles/Simple-Tutorial-with-example-of-using-LINQ-to-SQL-in-ASPNet-Website-using-C-and-VBNet.aspx)
+- [SQL Stored Procedures for SQL Server](https://www.w3schools.com/sql/sql_stored_procedures.asp)
 
 # Lab
 ## Book
