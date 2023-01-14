@@ -34,6 +34,7 @@ Don't forget to hit the :star: if you like this repo.
    - [Assignment 4: Web Design](https://github.com/drshahizan/learn-aspnet/tree/main/web-design)
 - [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
 - [Book](#book)
+- [Final exam](#final-exam)
 - [Contribution](#contribution)
   
 # Synopsis
@@ -253,7 +254,9 @@ Exercise: MySQL
     <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Pembangunan-Aplikasi-Web-Menggunakan-ASP.NET_.jpg" width="150" height="200" />
 
     🛒[Buy: Shopee](https://shopee.com.my/Pembangunan-Aplikasi-Web-menggunakan-ASP.NET-i.86546040.15850128675?sp_atk=36ab45bb-0c76-43a8-b878-12fe3c8732c6&xptdk=36ab45bb-0c76-43a8-b878-12fe3c8732c6)
-    
+
+# Final Exam
+-[cover page]()
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
