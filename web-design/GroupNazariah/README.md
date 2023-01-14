@@ -1,116 +1,53 @@
-![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image1.png){width="6.268054461942257in"
-height="1.7916666666666667in"}
+# SCSJ3253
+# PROGRAMMING TECHNIQUE III
+## REPORT FOR ASSIGNMENT 4 (WEB DESIGN)
 
-> **SCSJ3253**\
-> **PROGRAMMING TECHNIQUE III**
->
-> **REPORT FOR ASSIGNMENT 4 (WEB DESIGN)**
+1 SITI NAZARIAH BINTI ABDUL RAHMAN SX161507CSJF01
 
-+-----------------------+-----------------------+-----------------------+
-| 1                     | > SITI NAZARIAH BINTI | SX161507CSJF01        |
-|                       | > ABDUL RAHMAN        |                       |
-+=======================+=======================+=======================+
-| 2                     | > MAZRIZAL BINTI      | SX181730CSJF04        |
-|                       | > ABDULLAH            |                       |
-+-----------------------+-----------------------+-----------------------+
-| 3                     | > CHARLENE NG ANDREW  | SX180355CSJS04        |
-+-----------------------+-----------------------+-----------------------+
-| 4                     | > NIK NUR ASHIKIN     | SX170113CSJS04        |
-|                       | > BINTI MEGAT SHAIDI  |                       |
-+-----------------------+-----------------------+-----------------------+
+2 MAZRIZAL BINTI ABDULLAH SX181730CSJF04
 
-**PM DR MOHD SHAHIZAN OTHMAN**
+3 CHARLENE NG ANDREW SX180355CSJS04
 
-> **Tasks**
+4 NIK NUR ASHIKIN BINTI MEGAT SHAIDI SX170113CSJS04
 
-+-----------------------------------+-----------------------------------+
-| > •\                              | > This asent rou to complete a    |
-| > •\                              | > project using the concepts of   |
-| > •                               | > Master Pages, and               |
-|                                   | >                                 |
-|                                   | > You nese to complete this task. |
-|                                   | >                                 |
-|                                   | > The Malaysian culture is        |
-|                                   | > essential to this project\'s    |
-|                                   | > concept.                        |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+## Tasks
+This assignment requires you to complete a project using the concepts of Master
+Pages, Skins and Themes.
+- You need to use Bootstrap to complete this task.
+- The Malaysian culture is essential to this project's concept.
 
-> 1\. Design Mock-up Web Design
->
-> [Homepage Menu]{.underline}
+### Design Mock-up Web Design
 
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image2.png){width="6.268054461942257in"
-  height="5.0375in"}
-  ---------------------------------------------------------------------------------------------
+### Homepage
 
-  ---------------------------------------------------------------------------------------------
+![](images/image2.png)
 
-> If user, click Top 10 "Halal" Food in Penang or Top 10 "Non-Halal"
-> Food in Penang, this page as below
->
-> (refer homepage design)
+If user, click Top 10 "Halal" Food in Penang or Top 10 "Non-Halal" Food in Penang, this page as below 
+(refer homepage design)
 
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image3.png){width="6.268054461942257in"
-  height="4.919444444444444in"}
-  ---------------------------------------------------------------------------------------------
+![](images/image3.png)
 
-  ---------------------------------------------------------------------------------------------
+### About Us Menu
+![](images/image4.png)
 
-> [About Us Menu]{.underline}
+### Source Code
+Please refer to the attachment file upload in e-learning portal
 
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image4.png){width="6.268054461942257in"
-  height="5.554166666666666in"}
-  ---------------------------------------------------------------------------------------------
+![](images/image5.png)
 
-  ---------------------------------------------------------------------------------------------
+### 3. Design Interface
+### Homepage
 
-> 2\. Source Code\
-> Please refer to the attachment file upload in e-learning portal
+![](images/image6.png)
 
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image5.png){width="4.261111111111111in"
-  height="5.5111100174978125in"}
-  ---------------------------------------------------------------------------------------------
+### About Us
 
-  ---------------------------------------------------------------------------------------------
+![](images/image7.png)
 
-> 3\. Design Interface\
-> [Homepage]{.underline}
+### Top 10 "Halal" Food in Penang
 
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image6.png){width="6.268054461942257in"
-  height="5.419444444444444in"}
-  ---------------------------------------------------------------------------------------------
+![](images/image8.png)
 
-  ---------------------------------------------------------------------------------------------
+### Top 10 "Non" Halal Food in Penang
 
-> [About us]{.underline}
-
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image7.png){width="6.268054461942257in"
-  height="4.8125in"}
-  ---------------------------------------------------------------------------------------------
-
-  ---------------------------------------------------------------------------------------------
-
-> [Top 10 "Halal" Food in Penang]{.underline}
-
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image8.png){width="6.268055555555556in"
-  height="4.731944444444444in"}
-  ---------------------------------------------------------------------------------------------
-
-  ---------------------------------------------------------------------------------------------
-
-> [Top 10 "Non" Halal Food in Penang]{.underline}
-
-  ---------------------------------------------------------------------------------------------
-  ![](vertopal_6bb83786251f45eea1df7f686319c48c/media/image9.png){width="6.268055555555556in"
-  height="4.833333333333333in"}
-  ---------------------------------------------------------------------------------------------
-
-  ---------------------------------------------------------------------------------------------
+![](images/image9.png)
