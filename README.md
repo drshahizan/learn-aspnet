@@ -18,10 +18,10 @@ Don't forget to hit the :star: if you like this repo.
    - [Themes and Skins](#themes-and-skins)
    - [Bootstrap & Master Pages](#bootstrap-and-master-pages)
    - [Navigation Control](#navigation-control)
-   - [AJAX](#ajax)
-   - [Cookie and Session](#cookie-and-session)
-   - [XML](#xml)
-   - [Adv Database](#adv-database)
+   - 🔥[AJAX](#ajax)
+   - 🔥[Cookie and Session](#cookie-and-session)
+   - 🔥[XML](#xml)
+   - 🔥[Adv Database](#adv-database)
 - Lab
    - [Book: ASP Web Programming. NET Using VB and C#](#book)
    - [Standard Control](#standard-control)
@@ -140,7 +140,7 @@ methods and tools.
 - [ASP.NET Site Navigation Overview](https://learn.microsoft.com/en-us/previous-versions/aspnet/e468hxky(v=vs.100))
 - [Video: ASP.NET - Navigation Controls](https://www.youtube.com/watch?v=xC9coirLmZk)
 
-## AJAX
+## AJAX🔥
 - [AJAX Control Toolkit](https://elearnppsm.utmspace.edu.my/mod/url/view.php?id=20027)
 - [AJAX Introduction](https://www.tutorialspoint.com/asp.net/asp.net_ajax_control.htm)
 - [Ajax Control](https://www.youtube.com/watch?v=xKcBtfvcPmk)🎥
@@ -148,7 +148,7 @@ methods and tools.
 - [Download: AjaxControlToolkit](https://www.nuget.org/packages/AjaxControlToolkit/20.1.0)
 - [Install AJAX Control Toolkit in Visual Studio](https://www.aspsnippets.com/Articles/Install-AJAX-Control-Toolkit-in-Visual-Studio-ToolBox.aspx)
 
-## Cookie and Session
+## Cookie and Session🔥
 - [ASP Cookies](https://www.w3schools.com/asp/asp_cookies.asp)
 - [ASP.NET Cookie](https://www.educba.com/asp-dot-net-cookie/)
 - [ASP Session Object](https://www.w3schools.com/asp/asp_sessions.asp)
@@ -159,7 +159,7 @@ methods and tools.
 - [ViewState](https://www.educba.com/asp-dot-net-viewstate/)
 - [Github: lab/cookie-session](https://github.com/drshahizan/learn-aspnet/tree/main/lab/cookie-session)
 
-## XML
+## XML🔥
 - [XML Tutorial](https://www.w3schools.com/xml/default.asp)
 - [Video: Reading/Writing to XML file in Visual Studio 2022](https://www.youtube.com/watch?v=3Wn1HxKT-NY)🎥
 - [Using XML in ASP.NET](https://beansoftware.com/ASP.NET-Tutorials/Using-XML.aspx)
@@ -172,7 +172,7 @@ methods and tools.
 - [Display XML Document in ASP.NET using XML Control](https://www.ezzylearning.net/tutorial/display-xml-document-in-asp-net-using-xml-control)
 - [Read and Write XML Data Using Asp.Net](https://www.encodedna.com/2014/07/read-write-xml-data-using-aspdotnet.htm)
 
-## Adv Database
+## Adv Database🔥
 - [LINQ - SQL](https://www.tutorialspoint.com/linq/linq_sql.htm)
 - [ Sample LINQ Queries](https://www.tutorialsteacher.com/linq/sample-linq-queries)
 - [Add LINQ to SQL Tools in Visual Studio](https://www.youtube.com/watch?v=M_3K0pcsMdA)🎥
