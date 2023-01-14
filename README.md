@@ -57,8 +57,8 @@ methods and tools.
 - [7-Zip](https://www.7-zip.org/download.html)
 - [C# Notes for Professionals book](https://books.goalkicker.com/CSharpBook/)
 - [C# Basics Cheat Sheet](https://elearnppsm.utmspace.edu.my/pluginfile.php/56775/mod_resource/content/1/CSharpCheatSheetV2.2.pdf)
-[
-](https://youtu.be/5Eeq1xJVrx4)- [Visual Studio : How to fix missing ASP.NET template for .NET Framework](https://www.howtosolutions.net/2021/11/visual-studio-missing-asp-net-web-application-template-dotnet-framework/)
+- [Visual Studio 2022 (Getting Started) Download & Install](https://youtu.be/5Eeq1xJVrx4)🎥
+- [Visual Studio : How to fix missing ASP.NET template for .NET Framework](https://www.howtosolutions.net/2021/11/visual-studio-missing-asp-net-web-application-template-dotnet-framework/)
 - [How to Do Web Forms in VS 2022](https://visualstudiomagazine.com/articles/2022/05/16/vs2022-web-forms-tip.aspx?oly_enc_id=3070E5140245A5X&m=1)
 
 ## Introduction to Visual Studio
