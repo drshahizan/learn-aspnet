@@ -256,7 +256,7 @@ Exercise: MySQL
     🛒[Buy: Shopee](https://shopee.com.my/Pembangunan-Aplikasi-Web-menggunakan-ASP.NET-i.86546040.15850128675?sp_atk=36ab45bb-0c76-43a8-b878-12fe3c8732c6&xptdk=36ab45bb-0c76-43a8-b878-12fe3c8732c6)
 
 # Final Exam
--[cover page]()
+-[cover page](https://github.com/drshahizan/learn-aspnet/blob/main/image/tp3%20cover.jpg)
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
