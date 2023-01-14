@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SatayTepi.SiteMaster" EnableTheming="True" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - SatayTepi</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary container rounded-3 shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-5" href="/">SatayTepi</a>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="row mb-5">
+                <div class="col-md-2">
+                    <div class="border rounded-3 ps-5 pe-3 py-5 shadow">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="~/" runat="server">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/About" runat="server">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Menu" runat="server">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Contact" runat="server">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Location" runat="server">Location</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="container body-content shadow">
+                        <div class="border h-100 p-5">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <footer class="mt-5">
+                <p>&copy; <%: DateTime.Now.Year %> - SatayTepi @ All Right Reserved.</p>
+                <p>Assignment 4: </p>
+                <p>Muhammad Zunnur bin Mohd Suhaimi (SX180425CSJS04) <br />
+NUR SYAHMIR RAFIQ BIN RAHIM (SX171517CSJF04) <br />
+WAN ATRISYIA BINTI A'ABIDIN (SX180875CSJS04) <br />
+4. MUHAMMAD AKMAL BIN MOHD RAZALI (SX180407CSJS04)
+
+                </p>
+            </footer>
+        </div>
+
+
+
+    </form>
+</body>
+</html>
