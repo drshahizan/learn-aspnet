@@ -56,7 +56,6 @@ methods and tools.
 ## What do you need
 - [7-Zip](https://www.7-zip.org/download.html)
 - [C# Notes for Professionals book](https://books.goalkicker.com/CSharpBook/)
-- [C# Basics Cheat Sheet](https://elearnppsm.utmspace.edu.my/pluginfile.php/56775/mod_resource/content/1/CSharpCheatSheetV2.2.pdf)
 - [Visual Studio 2022 (Getting Started) Download & Install](https://youtu.be/5Eeq1xJVrx4)🎥
 - [Visual Studio : How to fix missing ASP.NET template for .NET Framework](https://www.howtosolutions.net/2021/11/visual-studio-missing-asp-net-web-application-template-dotnet-framework/)
 - [How to Do Web Forms in VS 2022](https://visualstudiomagazine.com/articles/2022/05/16/vs2022-web-forms-tip.aspx?oly_enc_id=3070E5140245A5X&m=1)
@@ -64,25 +63,28 @@ methods and tools.
 ## Introduction to Visual Studio
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
-- [Visual Studio 2022 (Getting Started) Download & Install](https://youtu.be/5Eeq1xJVrx4)🎥
-- [Websites in Visual Studio 2022(HTML /JavaScript /CSS)](https://youtu.be/o_lmRHkLvp8)🎥
-- [How to install Visual Studio 2022 on Windows 11](https://youtu.be/PIe38G0nINY)🎥
-- [WebForms in Visual Studio 2022 (Getting Started)](https://youtu.be/eq5F4Afmlac)🎥
-- [Visual Studio 2022 | Getting Started Web Design | HTML & CSS](https://youtu.be/o_lmRHkLvp8)🎥
-- [GitHub and Visual Studio Community 2022](https://youtu.be/F-Azm-JvJmM)🎥
 - [Your Ultimate Guide To Visual Studio vs Visual Studio Code](https://www.turing.com/kb/ultimate-guide-visual-studio-vs-visual-studio-code)
 - [Wikipedia: Visual Studio](https://en.wikipedia.org/wiki/Visual_Studio)
-- [History of Visual Basic](https://youtu.be/m0GV84kfmrc)🎥
-- [Bill Gates demonstrates Visual Basic (1991)](https://youtu.be/Fh_UDQnboRw)🎥
 - [Welcome to the Visual Studio IDE](https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide?view=vs-2022)
 - [Keyboard shortcuts in Visual Studio](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
-- [Basic Web form Using Visual Studio 2022](https://youtu.be/N6xphIa7V3Q)🎥
-- [First ASP. Net Project](https://youtu.be/vM89ngDniGw)🎥
-- [ASP.net DropDownList Controller](https://youtu.be/Y-mN_44aHus)🎥
-- [Creating Two ASP.Net DropDownLists Controls](https://youtu.be/AZuTOQoEK4U)🎥
+
+#### Youtube 🎥
+- [Visual Studio 2022 (Getting Started) Download & Install](https://youtu.be/5Eeq1xJVrx4)
+- [Websites in Visual Studio 2022(HTML /JavaScript /CSS)](https://youtu.be/o_lmRHkLvp8)
+- [How to install Visual Studio 2022 on Windows 11](https://youtu.be/PIe38G0nINY)
+- [WebForms in Visual Studio 2022 (Getting Started)](https://youtu.be/eq5F4Afmlac)
+- [Visual Studio 2022 | Getting Started Web Design | HTML & CSS](https://youtu.be/o_lmRHkLvp8)
+- [GitHub and Visual Studio Community 2022](https://youtu.be/F-Azm-JvJmM)
+- [History of Visual Basic](https://youtu.be/m0GV84kfmrc)
+- [Bill Gates demonstrates Visual Basic (1991)](https://youtu.be/Fh_UDQnboRw)
+- [Basic Web form Using Visual Studio 2022](https://youtu.be/N6xphIa7V3Q)
+- [First ASP. Net Project](https://youtu.be/vM89ngDniGw)
+- [ASP.net DropDownList Controller](https://youtu.be/Y-mN_44aHus)
+- [Creating Two ASP.Net DropDownLists Controls](https://youtu.be/AZuTOQoEK4U)
+- [Video: Static vs Dynamic Websites - What's the Difference?](https://youtu.be/_wFJj94kSTU)
+- [ASP.NET Lifecycle | ASP.NET Page Lifecycle Explained](https://youtu.be/y60P5yPlAcM)
 
 ## History
-- [Video: Static vs Dynamic Websites - What's the Difference?](https://youtu.be/_wFJj94kSTU)🎥
 - [Evolution of The Web : Web 1.0, web 2.0, web 3.0 and beyond](http://ahmadfaizar.blogspot.com/2018/08/evolution-of-web-web-10-web-20-web-30.html)
 - [Web Evolution from 1.0 to 3.0](https://medium.com/@vivekmadurai/web-evolution-from-1-0-to-3-0-e84f2c06739)
 - [The History of Web Development Technology](https://www.andysowards.com/blog/2016/history-of-web-development-technology/)
@@ -92,7 +94,6 @@ methods and tools.
 - [Difference between ASP.NET WebForms and ASP.NET MVC](https://www.dotnettricks.com/learn/mvc/difference-between-aspnet-webform-and-aspnet-mvc)
 - [ASP.NET MVC vs Webforms](https://www.codeproject.com/Tips/1167929/ASP-NET-MVC-vs-Webforms)
 - [Page Life Cycle In ASP.NET](https://www.c-sharpcorner.com/UploadFile/8911c4/page-life-cycle-with-examples-in-Asp-Net/)
-- [ASP.NET Lifecycle | ASP.NET Page Lifecycle Explained](https://youtu.be/y60P5yPlAcM)🎥
 - [Microsoft: Learn ASP.NET](https://dotnet.microsoft.com/en-us/learn/aspnet)
 - [Tutorialride: ASP.NET Tutorial](https://www.tutorialride.com/asp-net/asp-net-tutorial.htm)
 - [Tutorialspoint: ASP.NET](https://www.tutorialspoint.com/index.htm)
