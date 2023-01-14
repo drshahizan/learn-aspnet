@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 ### Contents:
 - [Synopsis](#synopsis)
 - [Course Learning Outcome](#course-learning-outcome)
-- [Notes](#notes)
+- [Useful Links](#notes)
    - [What do you need](#what-do-you-need)
    - [Introduction to Visual Studio](#introduction-to-visual-studio)
    - [History: ASP.Net, Web etc](#history)
