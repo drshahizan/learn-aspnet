@@ -18,10 +18,10 @@ Don't forget to hit the :star: if you like this repo.
    - [Themes and Skins](#themes-and-skins)
    - [Bootstrap & Master Pages](#bootstrap-and-master-pages)
    - [Navigation Control](#navigation-control)
-   - 🔥[AJAX](#ajax)
-   - 🔥[Cookie and Session](#cookie-and-session)
-   - 🔥[XML](#xml)
-   - 🔥[Adv Database](#adv-database)
+   - [AJAX](#ajax)🔥
+   - [Cookie and Session](#cookie-and-session)🔥
+   - [XML](#xml)🔥
+   - [Adv Database](#adv-database)🔥
 - Lab
    - [Book: ASP Web Programming. NET Using VB and C#](#book)
    - [Standard Control](#standard-control)
