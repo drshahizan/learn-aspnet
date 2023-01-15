@@ -1,3 +1,13 @@
+# Assignment 4
+
+# Group Members
+
+1. Ramli Bin Abdul Rahim - SX161518CSJF04 (LEADER)
+2. Neoh Siew Teng - SX180532CSJS04 (Programmer)
+3. Nor Amira Binti Ahmad Azizi - SX160105CSJS04 (Programmer)
+4. Rohaya Binti Abdul Karim - SX180608CSJS04 (Programmer)
+
+
 # INSTRUCTIONS:
 
 This case study can be completed in groups (four students per group - max).
