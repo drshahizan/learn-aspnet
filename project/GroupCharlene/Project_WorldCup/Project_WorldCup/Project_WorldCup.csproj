@@ -70,6 +70,10 @@
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Admin\frmadduser.aspx" />
     <Content Include="Admin\frmlogin.aspx" />
+    <Content Include="App_Data\WorldCup_Qatar.mdf" />
+    <Content Include="App_Data\WorldCup_Qatar_log.ldf">
+      <DependentUpon>WorldCup_Qatar.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Themes\Theme1\styles.css" />
     <Content Include="App_Themes\Theme2\azia.css" />
     <Content Include="App_Themes\Theme2\azia.min.css" />
