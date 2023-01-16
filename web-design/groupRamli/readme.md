@@ -8,11 +8,6 @@
 4. Ramli Bin Abdul Rahim - SX161518CSJF04
 
 
-# INSTRUCTIONS:
-
-This case study can be completed in groups (four students per group - max).
-Please submit source code and reports using. This report outlines the tasks you completed.
-
 ## Tasks
 
 * This assignment requires you to complete a project using the concepts of Master Pages, Skins and Themes.
