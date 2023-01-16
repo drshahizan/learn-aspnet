@@ -23,3 +23,9 @@ Examples of websites that you can referred:
 
 Topic:
 Introduction of Batik Apparels in Malaysia
+<p align="center">
+<img src="https://3.bp.blogspot.com/-Grv8ln5FR8A/VS4rmQNWPpI/AAAAAAAACOY/xdI7Iey0Nh0/s1600/shop-malaysian-batik.jpguser=Ramli05" width="200">
+</p>
+Malaysia rich in both cultural and natural heritage,which often merges in its traditional art and craft
+Although the history of batik in Malaysia can be traced back to Indonesia about 100 years ago,
+Malaysian batik has developed its own characteristic over the years.To appreciate our local artistic traditions,we hightligted artistic of malaysia batik apparels 
