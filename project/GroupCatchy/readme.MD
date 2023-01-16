@@ -1,6 +1,6 @@
 ![World Cup](https://img.freepik.com/free-vector/banner-theme-world-championship-qatar-2022_87202-1274.jpg?w=1380&t=st=1673857927~exp=1673858527~hmac=525d10cbe3a5ebc1b642f071d7c747f16522767dcf57d0c905dacd5c6580a3fe)
 
-# Project Title*
+## Project Title : *Player Scouting*
 
 by group Catchy :v:
 
@@ -13,12 +13,12 @@ by group Catchy :v:
 ---
 ## Tasks & Timeline:
 
-- Design (16/1/2023)
-- Database design (17/1/2023)
-- Development (16/1/2023 - 27/1/2023)
-- User Manual & Reporting (16/1/2023 - 27/1/2023)
-- Presentation compilation (27/1/2023)
-- Submission (31-1-2023)
+- Design (16/1/2023) | *Syahmir*
+- Database design (17/1/2023) | *Zunnur*
+- Development (16/1/2023 - 27/1/2023) | *Akmal , Zunnur*
+- User Manual & Reporting (16/1/2023 - 27/1/2023) | *Atrisya*
+- Presentation compilation (27/1/2023) | *Atrisya*
+- Submission (31-1-2023) | *Akmal*
 
 ## Submission requirement checklist:
 
