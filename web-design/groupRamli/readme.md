@@ -8,11 +8,6 @@
 4. Ramli Bin Abdul Rahim - SX161518CSJF04
 
 
-# INSTRUCTIONS:
-
-This case study can be completed in groups (four students per group - max).
-Please submit source code and reports using. This report outlines the tasks you completed.
-
 ## Tasks
 
 * This assignment requires you to complete a project using the concepts of Master Pages, Skins and Themes.
@@ -25,3 +20,14 @@ Examples of websites that you can referred:
 3. [Cultured Society Website](https://www.behance.net/gallery/116697291/Cultured-Society-Website-(Anchor-Link-Project)/modules/665409291)
 4. [Malaysian Food Culture](https://www.behance.net/gallery/110721813/Malaysian-Food-Culture-Digital-Editorial)
 5. [BOOS - Kadazan Language Learning](https://www.behance.net/gallery/123080573/BOOS-Mobile-App-Design)
+
+Topic:
+Introduction of Batik Apparels in Malaysia
+<p align="center">
+<img src="https://3.bp.blogspot.com/-Grv8ln5FR8A/VS4rmQNWPpI/AAAAAAAACOY/xdI7Iey0Nh0/s1600/shop-malaysian-batik.jpguser=Ramli05" width="200">
+</p>
+Malaysia rich in both cultural and natural heritage,which often merges in its traditional art and craft
+Although the history of batik in Malaysia can be traced back to Indonesia about 100 years ago,
+Malaysian batik has developed its own characteristic over the years.To appreciate our local artistic traditions,we hightligted artistic of malaysia batik apparels 
+
+
