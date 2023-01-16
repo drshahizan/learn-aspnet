@@ -1,6 +1,6 @@
 ![World Cup](https://img.freepik.com/free-vector/banner-theme-world-championship-qatar-2022_87202-1274.jpg?w=1380&t=st=1673857927~exp=1673858527~hmac=525d10cbe3a5ebc1b642f071d7c747f16522767dcf57d0c905dacd5c6580a3fe)
 
-# Project Title*
+## Project Title : *Player Scouting*
 
 by group Catchy :v:
 
