@@ -6,9 +6,9 @@
 ### About Us
 We are made up of four members who have various job backgrounds. In this semester, we are united in the subject of Programming Techniques III. PM DR TS MOHD SHAHIZAN BIN OTHMAN, is a cool lecturer and never gets tired of teaching us especially in ASP.Net programming
 
-<p align="center">
-[<img src="img/our_team.jpg" width="500"/>](img/our_team.jpg)
-</p>
+
+[<img src="images/our_team.jpg" width="500"/>](images/our_team.png)
+
 
 From left: Nazariah, Ashikin, PM Dr. Ts Mohd Shahizan, Masrizal and Charlene
 
