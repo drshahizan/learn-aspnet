@@ -30,5 +30,4 @@ Malaysia rich in both cultural and natural heritage,which often merges in its tr
 Although the history of batik in Malaysia can be traced back to Indonesia about 100 years ago,
 Malaysian batik has developed its own characteristic over the years.To appreciate our local artistic traditions,we hightligted artistic of malaysia batik apparels 
 
-[Report - Assignment 4.docx](https://github.com/drshahizan/learn-aspnet/files/10427426/Report.-.Assignment.4.docx)
 
