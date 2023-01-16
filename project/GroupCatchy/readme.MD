@@ -13,12 +13,12 @@ by group Catchy :v:
 ---
 ## Tasks & Timeline:
 
-- Design (16/1/2023) | Syahmir
-- Database design (17/1/2023) | Zunnur
-- Development (16/1/2023 - 27/1/2023) | Akmal , Zunnur
-- User Manual & Reporting (16/1/2023 - 27/1/2023) | Atrisya
-- Presentation compilation (27/1/2023) | Atrisya
-- Submission (31-1-2023) | Akmal
+- Design (16/1/2023) | *Syahmir*
+- Database design (17/1/2023) | *Zunnur*
+- Development (16/1/2023 - 27/1/2023) | *Akmal , Zunnur*
+- User Manual & Reporting (16/1/2023 - 27/1/2023) | *Atrisya*
+- Presentation compilation (27/1/2023) | *Atrisya*
+- Submission (31-1-2023) | *Akmal*
 
 ## Submission requirement checklist:
 
