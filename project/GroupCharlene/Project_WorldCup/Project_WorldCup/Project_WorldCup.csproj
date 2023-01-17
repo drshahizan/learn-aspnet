@@ -89,6 +89,17 @@
     <Content Include="img\favicon.ico" />
     <Content Include="img\fifa_logo.png" />
     <Content Include="img\logo_fifa_admin.png" />
+    <Content Include="img\news\Id_1.jpg" />
+    <Content Include="img\news\Id_10.jpg" />
+    <Content Include="img\news\Id_2.jpeg" />
+    <Content Include="img\news\Id_3.jpg" />
+    <Content Include="img\news\Id_4.jpg" />
+    <Content Include="img\news\Id_5.jpg" />
+    <Content Include="img\news\Id_6.jpg" />
+    <Content Include="img\news\Id_7.jpg" />
+    <Content Include="img\news\Id_8.jpg" />
+    <Content Include="img\news\Id_9.jpg" />
+    <Content Include="img\WorldCup_Result.jpg" />
     <Content Include="js\app-calendar-events.js" />
     <Content Include="js\app-calendar.js" />
     <Content Include="js\azia.js" />
