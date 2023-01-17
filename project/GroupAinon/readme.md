@@ -18,3 +18,4 @@
 ## To our sifu : Prof. Madya. Ts. Dr. Mohd Shahizan Bin Othman
 
 - Your understanding and compassion to us are really admirable. Thank you for making this semester so interesting and super fun!
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/project/GroupAinon/content/groupAinon_with_prof.jpeg?raw=true" alt="WE LOVE ASPNET">
