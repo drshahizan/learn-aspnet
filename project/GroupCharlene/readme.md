@@ -25,3 +25,8 @@ There are two Main Pages which are the Administrator Page and the User Page. The
 ### Member's Task
 
 All members will commit the results of the project using github provided by Dr. Shahizan.
+
+1. Nazariah - Commit Web Design Code (User + Admin Page) & User Manual 
+2. Masrizal - Commit Database Design & Commit Picture of Players 
+3. Charlene - Commit Database Connection (SQL QUERY) Code for Display in Public User + Admin Page
+4. Ashikin - Commit Final Report & Database Design

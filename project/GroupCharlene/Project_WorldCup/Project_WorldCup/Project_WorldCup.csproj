@@ -70,12 +70,9 @@
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Admin\frmadduser.aspx" />
     <Content Include="Admin\frmlogin.aspx" />
-    <Content Include="App_Data\WorldCup_Qatar.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="App_Data\WorldCup_Qatar.mdf" />
     <Content Include="App_Data\WorldCup_Qatar_log.ldf">
       <DependentUpon>WorldCup_Qatar.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Themes\Theme1\styles.css" />
     <Content Include="App_Themes\Theme2\azia.css" />
@@ -6123,6 +6120,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToDelete.aspx.cs">
       <DependentUpon>ToDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ToDelete.aspx.designer.cs">
       <DependentUpon>ToDelete.aspx</DependentUpon>
