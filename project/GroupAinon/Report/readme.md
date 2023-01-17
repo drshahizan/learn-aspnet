@@ -15,6 +15,17 @@
 - A web-based FIFA on the go platform
 - Was\Currently developed using ASPnet platform:
 
+## System Design Details
+
+- CSS Framework	: Bootstrap v4.3.1
+- Application	: ASP.net Web Application (.Net Framework 4.8.1)
+- Application Theme	: FIFAonTheGoTheme
+- Application Theme Skin :	FIFAonTheGoSkin.skin
+- Application Master Page : MainSite.Master
+
+Source Code Repository URL : [https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon/](https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon/Source%20Code)
+
+
 ## To our sifu : Prof. Madya. Ts. Dr. Mohd Shahizan Bin Othman
 
 - Your understanding and compassion to us are really admirable. Thank you for making this semester so interesting and super fun!
