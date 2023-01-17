@@ -1,8 +1,9 @@
-﻿<%@ Page Title="Home - FIFA WORLD CUP QATAR" Language="C#" MasterPageFile="~/Masterpage/Site1.Master" AutoEventWireup="true" CodeBehind="Homepage.aspx.cs" Inherits="Project_WorldCup.Homepage" Theme="Theme1"%>
+﻿<%@ Page Title="Home - FIFA WORLD CUP QATAR" Language="C#" MasterPageFile="~/Masterpage/Site1.Master" AutoEventWireup="true" CodeBehind="Homepage.aspx.cs" Inherits="Project_WorldCup.Homepage" Theme="Theme1" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <section class="py-5">
+    <section class="py-5">
         <div class="container px-5">
 
             <div class="card border-0 shadow rounded-3 overflow-hidden">
@@ -10,10 +11,10 @@
                     <div class="row gx-0">
                         <div class="col-lg-6 col-xl-5 py-lg-5">
                             <div class="p-4 p-md-5">
-                                
+
                                 <div class="h2 fw-bolder">FIFA World Cup Qatar 2022™</div>
                                 <p>The 2022 FIFA World Cup was an international football tournament contested by the men's national teams of FIFA's member associations and 22nd edition of the FIFA World Cup</p>
-                               
+
                             </div>
                         </div>
                         <div class="col-lg-6 col-xl-7">
@@ -54,52 +55,43 @@
         </div>
     </section>
     <section class="py-5">
-                <div class="container px-5">
-                    <h2 class="fw-bolder fs-5 mb-4">Football News</h2>
-                    <div class="row gx-5">
+        <div class="container px-5">
+            <h2 class="fw-bolder fs-5 mb-4">Football News</h2>
+            <div class="row gx-5">
+                <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1">
+                    <EmptyDataTemplate>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                              
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Tajuk News1</div></a>
-                                    <p class="card-text mb-0">Data akan dipaparkan dari tbl News dalam db </p>
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mb-5">
-                            <div class="card h-100 shadow border-0">
-                               
-                                <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Tajuk News2</div></a>
-                                    <p class="card-text mb-0">Data akan dipaparkan dari tbl News dalam db</p>
-                                </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-between">
-                                      
-                                    </div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!">
+                                        <div class="h5 card-title mb-3">-</div>
+                                    </a>
+                                    <p class="card-text mb-0">No news available. </p>
                                 </div>
                             </div>
                         </div>
+                    </EmptyDataTemplate>
+                    <ItemTemplate>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Tajuk News3</div></a>
-                                    <p class="card-text mb-0">Data akan dipaparkan dari tbl News dalam db</p>
-                                </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-between">
-                                        
-                                    </div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!">
+                                        <div class="h5 card-title mb-3">
+                                            <asp:Label ID="newsLabel" runat="server" Text='<%# Eval("news") %>' /></div>
+                                    </a>
+                                    <p class="card-text mb-0">
+                                        <asp:Label ID="articleLabel" runat="server" Text='<%# Eval("article") %>' /></p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   
-                </div>
-            </section>
+                    </ItemTemplate>
+                </asp:ListView>
+
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [news], [article] FROM [newsArticle]"></asp:SqlDataSource>
+            </div>
+
+        </div>
+    </section>
 </asp:Content>
