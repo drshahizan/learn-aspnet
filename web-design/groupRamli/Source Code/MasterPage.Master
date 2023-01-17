@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment_4.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+   <link rel="stylesheet"href="~/bootstrap/css/bootstrap.min.css" />
+    <style type="text/css">
+        a:hover,
+        a:focus {
+         color: #2a6496;
+        text-decoration: underline;
+        }
+
+         a:focus {
+         outline: thin dotted #333;
+         outline: 5px auto -webkit-focus-ring-color;
+         outline-offset: -2px;
+         }
+
+        .header{  
+            text-align:center;   
+            background-position:top;
+            color:darkgreen;
+            font-size:30px;
+            font-family:'Times New Roman', Times, serif;
+            font-style:italic;
+            background-image: url('Images/batik banner image.jpg');
+            background-repeat: round;
+            text-shadow: 2px 2px grey;
+        }       
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  <script src ="~bootstrap/js/bootstrap.min.js"></script>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Header" runat="server">
+             <div class="header">
+             <h1>An Unity Art in Malaysia</h1>       
+            </div>   
+                <div class="container text-center">
+                 <div class="row">
+                   <div class="col">
+                    About
+                     </div>
+                      <div class="col">
+                      Symbolic Patterns 
+                     </div>
+                     <div class="col">
+                        Apparels
+                    </div>
+                     </div>
+                    </div>
+            </asp:ContentPlaceHolder>           
+            </div>
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" PathSeparator=">" Font-Names="Arial" PathDirection="RootToCurrent" RenderCurrentNodeAsLink="True">
+            <CurrentNodeStyle Font-Bold="True" Font-Italic="True" ForeColor="#6600FF" />
+        </asp:SiteMapPath>
+            <div>
+             <asp:ContentPlaceHolder ID="Main" runat="server">
+
+            </asp:ContentPlaceHolder>
+            </div>
+        <center>
+        <footer style="font-family: 'Arial'; font-size: medium; font-style: italic; color: #FFFFFF; ">
+            SCSJ3253: Teknik Pengaturcaraan III - Assignment 4 Web Design
+        </footer>
+        </center>
+    </form>
+</body>
+</html>
