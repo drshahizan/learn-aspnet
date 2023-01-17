@@ -31,3 +31,13 @@ Although the history of batik in Malaysia can be traced back to Indonesia about 
 Malaysian batik has developed its own characteristic over the years.To appreciate our local artistic traditions,we hightligted artistic of malaysia batik apparels 
 
 
+## Web Design Mock Up
+ <p>Home Page</p>
+<img width="352" alt="Home Page1" src="https://user-images.githubusercontent.com/122657444/212835034-a68886b6-49bb-49b4-a48f-6edeb5c4f695.png">
+<br>
+<p> About Batik</p>
+<img width="352" alt="About Batik 1" src="https://user-images.githubusercontent.com/122657444/212835126-69c404ab-4001-4de9-9518-f4334bd90e64.png">
+<br>
+<p> Costumes</p>
+<img width="352" alt="Costumes1" src="https://user-images.githubusercontent.com/122657444/212835180-2f6c9ee5-6f48-4783-8773-b828acf1d8c7.png">
+
