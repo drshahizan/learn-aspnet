@@ -12,10 +12,19 @@
             text-align:center;
             position:center;
         }
+        
+        .rectangle{
+	         width: 1366px;
+	         height: 400px;
+	         padding: 8px 8px 8px 8px;
+	         opacity: 0.5;
+	         background: #232323;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
+    
         <div class="center">
             <asp:ContentPlaceHolder ID="topBar" runat="server">
                 <row>
@@ -28,10 +37,13 @@
                 </row>
             </asp:ContentPlaceHolder>
         </div>
-        <div>
+        
+         <div class="rectangle">
             <asp:ContentPlaceHolder ID="Header" runat="server">
+             <center><h1 style="color: #999999; text-align: center; font-size: 75px; font-style: italic; padding-top: 125px;">Batik The Unity Art</h1></center>   
             </asp:ContentPlaceHolder>
         </div>
+        
         <div>
             <asp:ContentPlaceHolder ID="Main" runat="server">
             </asp:ContentPlaceHolder>
