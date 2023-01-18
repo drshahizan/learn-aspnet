@@ -1,15 +1,76 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="PLASS.WebForm1" %>
+﻿<%@ Page Title="HomePage" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="PLASS.HomePage" %>
 
-<!DOCTYPE html>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+    <div>
+        <h2>Country FIFA World 2022</h2>
+        <div class="row row-cols-2 row-cols-md-4 g-5">
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Images/Netherland.png" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" class="btn btn-primary">Netherland</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </form>
-</body>
-</html>
+    </div>
+</asp:Content>
