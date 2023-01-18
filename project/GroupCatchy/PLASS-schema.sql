@@ -57,17 +57,17 @@ CREATE TABLE [dbo].[AspNetUserClaims] (
 );
 
 CREATE TABLE [country] (
-  [id] NVARCHAR (128) PRIMARY KEY,
+  [id] INT PRIMARY KEY,
   [name] nvarchar(255),
   [code] nvarchar(50)
 );
 
 CREATE TABLE [player] (
-  [id] NVARCHAR (128) PRIMARY KEY,
+  [id] INT PRIMARY KEY,
   [date_of_birth] datetime,
   [height_cm] decimal(10, 2),
   [weight_kg] decimal(10, 2),
-  [country_id] nvarchar (128),
+  [country_id] INT,
   [dominant_foot] nvarchar(255),
   [estimated_value] decimal(10, 2),
   [created_at] datetime,
@@ -76,59 +76,52 @@ CREATE TABLE [player] (
 );
 
 CREATE TABLE [team] (
-  [id] NVARCHAR (128) PRIMARY KEY,
+  [id] INT PRIMARY KEY,
   [name] nvarchar(255)
 );
 
 CREATE TABLE [position] (
-  [id] NVARCHAR (128) PRIMARY KEY,
+  [id] INT PRIMARY KEY,
   [name] nvarchar(255)
 );
 
 CREATE TABLE [transfer_history] (
-  [id] NVARCHAR (128) PRIMARY KEY,
+  [id] INT PRIMARY KEY,
   [date] datetime,
   [transfer_fees] decimal(10, 2),
   [contract_value] decimal(10, 2),
-  [team_id] nvarchar (128),
+  [team_id] INT,
   FOREIGN KEY ([team_id]) REFERENCES [team] ([id])
 );
 
 CREATE TABLE [match] (
-  [id] NVARCHAR (128) PRIMARY KEY,
+  [id] INT PRIMARY KEY,
   [title] nvarchar(255),
   [date] datetime,
   [number_of_goal] int,
   [number_of_assist] int,
   [number_of_yellow_card] int,
   [number_of_red_card] int,
-  [position_id] nvarchar (128),
+  [position_id] INT,
   [jersey_number] nvarchar ,
   [is_captain] bit NOT NULL CHECK ([is_captain] = 0 OR [is_captain] = 1),
-  [team_id] nvarchar (128),
+  [team_id] INT,
   [created_at] datetime,
   [updated_at] datetime,
   FOREIGN KEY ([position_id]) REFERENCES [position] ([id]),
   FOREIGN KEY ([team_id]) REFERENCES [team] ([id])
 );
 
-CREATE TABLE [user_has_player] (
-  [user_id] NVARCHAR (128) NOT NULL,
-  [player_id] nvarchar (128),
-  FOREIGN KEY ([user_id]) REFERENCES [AspNetUsers] ([Id]),
-  FOREIGN KEY ([player_id]) REFERENCES [player] ([id])
-);
-
 CREATE TABLE [player_has_match] (
-  [player_id] NVARCHAR (128),
-  [match_id] NVARCHAR (128),
+  [player_id] INT,
+  [match_id] INT,
   FOREIGN KEY ([player_id]) REFERENCES [player] ([id]),
   FOREIGN KEY ([match_id]) REFERENCES [match] ([id])
 );
 
 CREATE TABLE [player_has_transfer_history] (
-  [player_id] NVARCHAR (128),
-  [transfer_history_id] NVARCHAR (128),
+  [player_id] INT,
+  [transfer_history_id] INT,
   FOREIGN KEY ([player_id]) REFERENCES [player] ([id]),
   FOREIGN KEY ([transfer_history_id]) REFERENCES [transfer_history] ([id])
 );
