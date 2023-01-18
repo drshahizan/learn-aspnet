@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+.vs/PLASS/v17/.suo
+.vs/PLASS/config/applicationhost.config
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
