@@ -19,13 +19,13 @@
         <div class="center">
             <asp:ContentPlaceHolder ID="topBar" runat="server">
                 <row>
+                    <column><img src="images/BatikLogo.png" width="100" height="100"/></column>
                     <column>Home</column>
                      <ItemSeparatorTemplate>  |  </ItemSeparatorTemplate>
                     <column>About Batik</column>
                      <ItemSeparatorTemplate>  |  </ItemSeparatorTemplate>
                     <column>Costumes</column>
                 </row>
-                 <ItemSeparatorTemplate>  |  </ItemSeparatorTemplate>
             </asp:ContentPlaceHolder>
         </div>
         <div>
