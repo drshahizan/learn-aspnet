@@ -17,7 +17,6 @@
                 <div class="card">
                     <img src="Images/Netherland.png" class="card-img-top" alt="...">
                     <div class="card-img-overlay">
-
                         <a href="#" class="btn btn-primary">Netherland</a>
                     </div>
                 </div>
@@ -50,7 +49,6 @@
                 <div class="card">
                     <img src="Images/Netherland.png" class="card-img-top" alt="...">
                     <div class="card-img-overlay">
-
                         <a href="#" class="btn btn-primary">Netherland</a>
                     </div>
                 </div>
