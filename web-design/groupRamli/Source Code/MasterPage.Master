@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment_4.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .center {
+            text-align:center;
+            position:center;
+        }
+        
+        .rectangle{
+	         width: 1366px;
+	         height: 400px;
+	         padding: 8px 8px 8px 8px;
+	         opacity: 0.5;
+	         background: #232323;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div class="center">
+            <asp:ContentPlaceHolder ID="topBar" runat="server">
+                <row>
+                    <column><img src="images/BatikLogo.png" width="100" height="100"/></column>
+                    <column>Home</column>
+                     <ItemSeparatorTemplate>  |  </ItemSeparatorTemplate>
+                    <column>About Batik</column>
+                     <ItemSeparatorTemplate>  |  </ItemSeparatorTemplate>
+                    <column>Costumes</column>
+                </row>
+            </asp:ContentPlaceHolder>
+        </div>
+        
+         <div class="rectangle">
+            <asp:ContentPlaceHolder ID="Header" runat="server">
+             <center><h1 style="color: #999999; text-align: center; font-size: 75px; font-style: italic; padding-top: 125px;">Batik The Unity Art</h1></center>   
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="center">
+            <footer runat="server">
+                <p style="font-style: italic; color: #808080; font-size: medium">Created by Batik Art. </p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
