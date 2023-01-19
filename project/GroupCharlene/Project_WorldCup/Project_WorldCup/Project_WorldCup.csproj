@@ -6047,7 +6047,6 @@
     <Content Include="lib\typicons.font\typicons.css" />
     <Content Include="lib\typicons.font\typicons.svg" />
     <Content Include="Players.aspx" />
-    <Content Include="ToDelete.aspx" />
     <Content Include="User\frmnews.aspx" />
     <Content Include="User\frmPlayers.aspx" />
     <Content Include="User\Group.aspx" />
@@ -6118,13 +6117,6 @@
       <DependentUpon>Players.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ToDelete.aspx.cs">
-      <DependentUpon>ToDelete.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ToDelete.aspx.designer.cs">
-      <DependentUpon>ToDelete.aspx</DependentUpon>
-    </Compile>
     <Compile Include="User\frmnews.aspx.cs">
       <DependentUpon>frmnews.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
