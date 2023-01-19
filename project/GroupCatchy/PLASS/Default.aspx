@@ -4,14 +4,15 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div>
-            <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center">
-                <br />
-                Search country by name:
+        <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center">
+            <br />
+            Search country by name:
                 <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
-                <asp:Button ID="btnSearch" runat="server" Text="Filter" />
-                <br />
-            </asp:Panel>
-        </div>
+            <asp:Button ID="btnSearch" runat="server" Text="Filter" />
+            <br />
+
+        </asp:Panel>
+    </div>
     <div>
         <h2 class="mb-5">Countries List</h2>
 
@@ -29,7 +30,7 @@
                 </li>
             </SelectedItemTemplate>--%>
             <AlternatingItemTemplate>
-                <td runat="server" style="width:200px;" class="px-2">
+                <td runat="server" style="width: 300px;" class="px-2">
                     <div class="">
                         <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl='<%# "~/Assets/countries_flag/" + Eval("code").ToString().ToLower() + ".svg" %>' />
                         <p><%# Eval("name") %></p>
@@ -81,11 +82,11 @@
                 </td>
             </InsertItemTemplate>
             <ItemTemplate>
-                <td runat="server" style="width:200px;" class="px-2">
-                     <div class="">
-                         <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl='<%# "~/Assets/countries_flag/" + Eval("code").ToString().ToLower() + ".svg" %>' />
-                         <p><%# Eval("name") %></p>
-                     </div>
+                <td runat="server" style="width: 300px;" class="px-2">
+                    <div class="">
+                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl='<%# "~/Assets/countries_flag/" + Eval("code").ToString().ToLower() + ".svg" %>'   />
+                        <p><%# Eval("name") %></p>
+                    </div>
                 </td>
             </ItemTemplate>
             <LayoutTemplate>
@@ -102,9 +103,9 @@
                         <td runat="server" class="text-center">
                             <asp:DataPager ID="DataPager1" runat="server" PageSize="25">
                                 <Fields>
-                                    <asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="True" ShowNextPageButton="False" ShowPreviousPageButton="True" />
-                                    <asp:NumericPagerField />
-                                    <asp:NextPreviousPagerField ButtonType="Button" ShowLastPageButton="True" ShowNextPageButton="True" ShowPreviousPageButton="False" />
+                                    <asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="True" ShowNextPageButton="False" ShowPreviousPageButton="True" ButtonCssClass="px-3 btn btn-outline-dark" />
+                                    <asp:NumericPagerField CurrentPageLabelCssClass="btn btn-primary" NumericButtonCssClass="px-2 text-decoration-none btn" NextPreviousButtonCssClass="btn text-decoration-none" />
+                                    <asp:NextPreviousPagerField ButtonType="Button" ShowLastPageButton="True" ShowNextPageButton="True" ShowPreviousPageButton="False" ButtonCssClass="px-3 btn btn-outline-dark" />
                                 </Fields>
                             </asp:DataPager>
                         </td>
@@ -148,9 +149,9 @@
             <SortedDescendingCellStyle BackColor="#CAC9C9" />
             <SortedDescendingHeaderStyle BackColor="#00547E" />
         </asp:GridView>--%>
-        <asp:SqlDataSource ID="CountryList" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [name], [code], [id] FROM [country] WHERE ([name] LIKE '%' + @name + '%')">
+        <asp:SqlDataSource ID="CountryList" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [name], [code], [id] FROM [country] WHERE ([name] LIKE '%' + @name + '%') OR (@name = '')">
             <SelectParameters>
-                <asp:ControlParameter ControlID="txtSearch" Name="name" PropertyName="Text" Type="String" />
+                <asp:ControlParameter ControlID="txtSearch" Name="name" PropertyName="Text" Type="String" DefaultValue=" " />
             </SelectParameters>
         </asp:SqlDataSource>
     </div>
