@@ -133,12 +133,8 @@ CREATE TABLE [player_has_transfer_history] (
 );
 
 INSERT INTO country (name, code) VALUES ('Afghanistan', 'AF');
-INSERT INTO country (name, code) VALUES ('Afghanistan', 'AF');
-INSERT INTO country (name, code) VALUES ('Albania', 'AL');
 INSERT INTO country (name, code) VALUES ('Albania', 'AL');
 INSERT INTO country (name, code) VALUES ('Algeria', 'DZ');
-INSERT INTO country (name, code) VALUES ('Algeria', 'DZ');
-INSERT INTO country (name, code) VALUES ('American Samoa', 'AS');
 INSERT INTO country (name, code) VALUES ('American Samoa', 'AS');
 INSERT INTO country (name, code) VALUES ('Andorra', 'AD');
 INSERT INTO country (name, code) VALUES ('Angola', 'AO');
