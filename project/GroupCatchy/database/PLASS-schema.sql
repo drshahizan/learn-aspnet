@@ -74,16 +74,19 @@ CREATE TABLE [player] (
   [created_at] datetime,
   [updated_at] datetime,
   FOREIGN KEY ([country_id]) REFERENCES [country] ([id]),
+  PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
 CREATE TABLE [team] (
   [id] INT IDENTITY (1, 1) NOT NULL,
-  [name] nvarchar(255)
+  [name] nvarchar(255),
+  PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
 CREATE TABLE [position] (
   [id] INT IDENTITY (1, 1) NOT NULL,
-  [name] nvarchar(255)
+  [name] nvarchar(255),
+  PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
 CREATE TABLE [transfer_history] (
@@ -92,7 +95,8 @@ CREATE TABLE [transfer_history] (
   [transfer_fees] decimal(10, 2),
   [contract_value] decimal(10, 2),
   [team_id] INT,
-  FOREIGN KEY ([team_id]) REFERENCES [team] ([id])
+  FOREIGN KEY ([team_id]) REFERENCES [team] ([id]),
+  PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
 CREATE TABLE [match] (
@@ -110,7 +114,8 @@ CREATE TABLE [match] (
   [created_at] datetime,
   [updated_at] datetime,
   FOREIGN KEY ([position_id]) REFERENCES [position] ([id]),
-  FOREIGN KEY ([team_id]) REFERENCES [team] ([id])
+  FOREIGN KEY ([team_id]) REFERENCES [team] ([id]),
+  PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
 CREATE TABLE [player_has_match] (
