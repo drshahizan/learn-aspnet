@@ -8,7 +8,7 @@ by group Catchy :v:
 ## Team member :
 - Muhammad Zunnur bin Mohd Suhaimi
 - Muhammad Akmal bin Mohd Razali
-- Wan Atrisyia binti A'Bidin
+- Wan Atrisyia binti A'Abidin
 - Nur Syahmir Rafiq bin Rahim
 
 ---
