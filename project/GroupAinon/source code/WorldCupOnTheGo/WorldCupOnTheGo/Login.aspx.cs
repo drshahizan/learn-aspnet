@@ -13,5 +13,13 @@ namespace WorldCupOnTheGo
         {
 
         }
+
+        protected void btnSignIn_Click(object sender, EventArgs e)
+        {
+            var email = txtEmail.Text;
+            var password = txtPassword.Text;
+            
+
+        }
     }
 }

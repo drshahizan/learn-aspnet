@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7791a3f516ed4a818cb4770b5b98d947" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.tblFoulsAndMisconduct" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblMatch" Width="1.5" PointX="5.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblPlayer" Width="1.5" PointX="8.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblPost" Width="1.5" PointX="3" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTeam" Width="1.5" PointX="3" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblUser" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK__tblFoulsA__creat__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblFoulsA__match__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblFoulsA__playe__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblFoulsA__updat__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblMatch__create__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblMatch__team_a__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblMatch__team_b__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblMatch__update__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblPlayer__creat__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblPlayer__team___3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblPlayer__updat__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblPost__created__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblPost__updated__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblTeam__created__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblTeam__updated__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

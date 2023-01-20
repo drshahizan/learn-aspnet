@@ -11,15 +11,15 @@
             <h1 class="h5 mb-3 fw-normal">Sign-in to your admin account</h1>
 
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server"></asp:TextBox>
                 <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <asp:TextBox ID="txtPassword" CssClass="form-control" runat="server"></asp:TextBox>
                 <label for="floatingPassword">Password</label>
             </div>
             
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <asp:Button ID="btnSignIn" CssClass="w-100 btn btn-lg btn-primary" runat="server" Text="Sign" OnClick="btnSignIn_Click" />
             <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
         </form>
     </main>
