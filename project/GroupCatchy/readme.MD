@@ -54,7 +54,7 @@ System must include:
      - [x] Group name
      - [x] Lecturer name
      - [x] Team member info 
-- [ ] Project overview
+- [x] Project overview
 - [ ] Tools & technology usage
 - [ ] System module
 - [ ] Module functionality
