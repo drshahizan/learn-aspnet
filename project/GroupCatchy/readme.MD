@@ -49,11 +49,11 @@ System must include:
   - [ ] Input validation using validation control
 
 ### 2. Project Report
-- [ ] Front page
-     - [ ] Project title
-     - [ ] Group name
-     - [ ] Lecturer name
-     - [ ] Team member info 
+- [x] Front page
+     - [x] Project title
+     - [x] Group name
+     - [x] Lecturer name
+     - [x] Team member info 
 - [ ] Project overview
 - [ ] Tools & technology usage
 - [ ] System module
