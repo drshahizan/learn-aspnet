@@ -91,6 +91,12 @@
     <Content Include="WCOTG_DB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WCOTG_DB.Context.cs</LastGenOutput>
+      <DependentUpon>WCOTG_DB.edmx</DependentUpon>
+    </Content>
+    <Content Include="WCOTG_DB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WCOTG_DB.edmx</DependentUpon>
+      <LastGenOutput>WCOTG_DB.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
@@ -117,10 +123,33 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tblFoulsAndMisconduct.cs">
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblMatch.cs">
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPlayer.cs">
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPost.cs">
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTeam.cs">
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUser.cs">
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
     <Compile Include="WCOTG_DB.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>WCOTG_DB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WCOTG_DB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WCOTG_DB.tt</DependentUpon>
     </Compile>
     <Compile Include="WCOTG_DB.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -138,9 +167,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>WCOTG_DB.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="WCOTG_DB.edmx.diagram">
+    <Content Include="WCOTG_DB.edmx.diagram">
       <DependentUpon>WCOTG_DB.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
