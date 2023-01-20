@@ -33,22 +33,13 @@ namespace Assignment_4
           protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
           /// <summary>
-          /// Header control.
+          /// Summary control.
           /// </summary>
           /// <remarks>
           /// Auto-generated field.
           /// To modify move field declaration from designer file to code-behind file.
           /// </remarks>
-          protected global::System.Web.UI.WebControls.ContentPlaceHolder Header;
-
-          /// <summary>
-          /// SiteMapPath1 control.
-          /// </summary>
-          /// <remarks>
-          /// Auto-generated field.
-          /// To modify move field declaration from designer file to code-behind file.
-          /// </remarks>
-          protected global::System.Web.UI.WebControls.SiteMapPath SiteMapPath1;
+          protected global::System.Web.UI.WebControls.ContentPlaceHolder Summary;
 
           /// <summary>
           /// Main control.
@@ -58,5 +49,23 @@ namespace Assignment_4
           /// To modify move field declaration from designer file to code-behind file.
           /// </remarks>
           protected global::System.Web.UI.WebControls.ContentPlaceHolder Main;
+
+          /// <summary>
+          /// Main1 control.
+          /// </summary>
+          /// <remarks>
+          /// Auto-generated field.
+          /// To modify move field declaration from designer file to code-behind file.
+          /// </remarks>
+          protected global::System.Web.UI.WebControls.ContentPlaceHolder Main1;
+
+          /// <summary>
+          /// Main2 control.
+          /// </summary>
+          /// <remarks>
+          /// Auto-generated field.
+          /// To modify move field declaration from designer file to code-behind file.
+          /// </remarks>
+          protected global::System.Web.UI.WebControls.ContentPlaceHolder Main2;
      }
 }

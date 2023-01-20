@@ -1,12 +1,15 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment_4.About" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment_4.About" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Main1" runat="server">
       <div class="container body-content">
          <div class="container">
             <div class="row">  
-                <div class="col-6">Introduction of Batik</div>
-                <div class="col-6"> (to insert image)</div>
+                <div class="col-6"><h1>Introduction of Batik</h1></div>
+                <div class="col-6"> 
+                    <br />
+                    <img src="Images/aboutimage3.jpg" />
+                </div>
                 </div>
             </div>
           </div>

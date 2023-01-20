@@ -1,4 +1,4 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment_4.MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment_4.MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -26,8 +26,13 @@
 	width: 1666px;
 	height: 230px;
 	padding: 8px 8px 8px 8px;
-	background-color: darkslategrey;
-}
+    background-color:darkslategray;
+    background-repeat:round;
+    background-image:url("batikbannerimage1.jpg");
+    
+    }
+
+    
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -36,18 +41,19 @@
 <body>
     <form id="form1" runat="server">
     <hr />
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-absolute-top">
             <div class="container">
                 <div class="navbar-header"></div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="tabs" data-target=".navbar-tabs">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src= "Images/BatikLogo.jpg" width="80" height="75"/></a>              
-            </div>
-
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"></a>                    
+               <img src= "Images/BatikLogo.jpg" width="80" height="75"/>
+               </div>
+              
            
                <div class="nav-tabs tabs">
               <ul class="nav nav-tabs">
@@ -57,9 +63,7 @@
                 </ul>        
             </div>
         </div>
-            <hr />
-            <hr />
-               <div class="rectangle">             
+               <div class="rectangle">  
                   <p><center style="color:antiquewhite; font-size: 75px; font-style: italic">Batik The Unity Art</center></p>
                   <p> <center style="color:antiquewhite; font-size:15px; font-style: italic">The Art that embraces in the traditional costumes of multiraces in Malaysia. A unique medium of expression as it uses cultural patterns of respective races. </center></p>
                </div> 

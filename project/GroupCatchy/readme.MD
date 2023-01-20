@@ -8,7 +8,7 @@ by group Catchy :v:
 ## Team member :
 - Muhammad Zunnur bin Mohd Suhaimi
 - Muhammad Akmal bin Mohd Razali
-- Wan Atrisyia binti A'Bidin
+- Wan Atrisyia binti A'Abidin
 - Nur Syahmir Rafiq bin Rahim
 
 ---
@@ -49,16 +49,16 @@ System must include:
   - [ ] Input validation using validation control
 
 ### 2. Project Report
-- [ ] Front page
-     - [ ] Project title
-     - [ ] Group name
-     - [ ] Lecturer name
-     - [ ] Team member info 
-- [ ] Project overview
+- [x] Front page
+     - [x] Project title
+     - [x] Group name
+     - [x] Lecturer name
+     - [x] Team member info 
+- [x] Project overview
 - [ ] Tools & technology usage
 - [ ] System module
 - [ ] Module functionality
-- [ ] Database design:
+- [x] Database design:
      - [ ] ERD/Use Case/Activity Diagram
      - [ ] Authentication
 - [ ] References (APA Harvard 6)
