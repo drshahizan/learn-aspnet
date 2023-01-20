@@ -19,51 +19,52 @@
     </style>
 </head>
 <body>
-
-    <header>
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-white">WorldCupOnTheGo is not the official website for FIFA World Cup 2022</p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li><a target="_blank" href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon" class="text-white">Follow this project on github</a></li>
-                            <li><a target="_blank" href="https://github.com/orgs/GroupAinon/people" class="text-white">View Our Team</a></li>
-                        </ul>
-                        <a class="btn btn-primary" href="login.aspx">Login as admin</a>
+    <form id="form1" runat="server">
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4 class="text-white">About</h4>
+                            <p class="text-white">WorldCupOnTheGo is not the official website for FIFA World Cup 2022</p>
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="text-white">Contact</h4>
+                            <ul class="list-unstyled">
+                                <li><a target="_blank" href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon" class="text-white">Follow this project on github</a></li>
+                                <li><a target="_blank" href="https://github.com/orgs/GroupAinon/people" class="text-white">View Our Team</a></li>
+                            </ul>
+                            <asp:Button ID="btnLogin" runat="server" CssClass="btn btn-primary" Text="Login as admin" OnClick="btnLogin_Click" />
+                            <asp:Button ID="btnLogout" runat="server" CssClass="btn btn-primary" Text="Logout" OnClick="btnLogout_Click" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-            <div class="container">
-                <a href="/" class="navbar-brand d-flex align-items-center">                     
-                    <strong>WorldCupOnTheGo</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <a href="/" class="navbar-brand d-flex align-items-center">
+                        <strong>WorldCupOnTheGo</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
             </div>
-        </div>
-    </header>
-    <form id="form1" runat="server">
+        </header>
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+        <footer class="text-muted py-5">
+            <div class="container">
+                <p class="float-end mb-1">
+                    <a href="#">Back to top</a>
+                </p>
+                <p class="mb-1">Disclaimer : GroupAinon shall not be liable for any loss or damage caused by the usage of any information obtained from this portal.</p>
+            </div>
+        </footer>
     </form>
-    <footer class="text-muted py-5">
-        <div class="container">
-            <p class="float-end mb-1">
-                <a href="#">Back to top</a>
-            </p>
-            <p class="mb-1">Disclaimer : GroupAinon shall not be liable for any loss or damage caused by the usage of any information obtained from this portal.</p>
-        </div>
-    </footer>
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

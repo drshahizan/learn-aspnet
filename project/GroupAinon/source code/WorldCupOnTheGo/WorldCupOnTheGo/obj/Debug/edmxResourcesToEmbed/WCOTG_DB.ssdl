@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tblFoulsAndMisconduct">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="card_color" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="action_taken_datetime" Type="datetime" Nullable="false" />
+    <Property Name="player_id" Type="bigint" Nullable="false" />
+    <Property Name="match_id" Type="bigint" Nullable="false" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="created_by" Type="bigint" />
+    <Property Name="updated_date" Type="datetime" />
+    <Property Name="updated_by" Type="bigint" />
+  </EntityType>
+  <EntityType Name="tblMatch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="team_a_id" Type="bigint" Nullable="false" />
+    <Property Name="team_a_score" Type="int" Nullable="false" />
+    <Property Name="team_b_id" Type="bigint" Nullable="false" />
+    <Property Name="team_b_score" Type="int" />
+    <Property Name="match_datetime" Type="datetime" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="created_by" Type="bigint" />
+    <Property Name="updated_date" Type="datetime" />
+    <Property Name="updated_by" Type="bigint" />
+  </EntityType>
+  <EntityType Name="tblPlayer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="bigint" Nullable="false" />
+    <Property Name="jercy_no" Type="int" Nullable="false" />
+    <Property Name="team_id" Type="bigint" Nullable="false" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="created_by" Type="bigint" />
+    <Property Name="updated_date" Type="datetime" />
+    <Property Name="updated_by" Type="bigint" />
+  </EntityType>
+  <EntityType Name="tblPost">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="created_by" Type="bigint" />
+    <Property Name="updated_date" Type="datetime" />
+    <Property Name="updated_by" Type="bigint" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="published_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblTeam">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="bigint" Nullable="false" />
+    <Property Name="created_date" Type="datetime" />
+    <Property Name="created_by" Type="bigint" />
+    <Property Name="updated_date" Type="datetime" />
+    <Property Name="updated_by" Type="bigint" />
+  </EntityType>
+  <EntityType Name="tblUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="role" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tblFoulsA__creat__46E78A0C">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblFoulsAndMisconduct" Type="Self.tblFoulsAndMisconduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblFoulsAndMisconduct">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblFoulsA__match__49C3F6B7">
+    <End Role="tblMatch" Type="Self.tblMatch" Multiplicity="1" />
+    <End Role="tblFoulsAndMisconduct" Type="Self.tblFoulsAndMisconduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblMatch">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblFoulsAndMisconduct">
+        <PropertyRef Name="match_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblFoulsA__playe__48CFD27E">
+    <End Role="tblPlayer" Type="Self.tblPlayer" Multiplicity="1" />
+    <End Role="tblFoulsAndMisconduct" Type="Self.tblFoulsAndMisconduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPlayer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblFoulsAndMisconduct">
+        <PropertyRef Name="player_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblFoulsA__updat__47DBAE45">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblFoulsAndMisconduct" Type="Self.tblFoulsAndMisconduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblFoulsAndMisconduct">
+        <PropertyRef Name="updated_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblMatch__create__412EB0B6">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblMatch" Type="Self.tblMatch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblMatch">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblMatch__team_a__4316F928">
+    <End Role="tblTeam" Type="Self.tblTeam" Multiplicity="1" />
+    <End Role="tblMatch" Type="Self.tblMatch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTeam">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblMatch">
+        <PropertyRef Name="team_a_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblMatch__team_b__440B1D61">
+    <End Role="tblTeam" Type="Self.tblTeam" Multiplicity="1" />
+    <End Role="tblMatch" Type="Self.tblMatch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTeam">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblMatch">
+        <PropertyRef Name="team_b_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblMatch__update__4222D4EF">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblMatch" Type="Self.tblMatch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblMatch">
+        <PropertyRef Name="updated_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblPlayer__creat__3C69FB99">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblPlayer" Type="Self.tblPlayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblPlayer">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblPlayer__team___3E52440B">
+    <End Role="tblTeam" Type="Self.tblTeam" Multiplicity="1" />
+    <End Role="tblPlayer" Type="Self.tblPlayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTeam">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblPlayer">
+        <PropertyRef Name="team_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblPlayer__updat__3D5E1FD2">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblPlayer" Type="Self.tblPlayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblPlayer">
+        <PropertyRef Name="updated_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblPost__created__4CA06362">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblPost" Type="Self.tblPost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblPost">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblPost__updated__4D94879B">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblPost" Type="Self.tblPost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblPost">
+        <PropertyRef Name="updated_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTeam__created__38996AB5">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblTeam" Type="Self.tblTeam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblTeam">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblTeam__updated__398D8EEE">
+    <End Role="tblUser" Type="Self.tblUser" Multiplicity="0..1" />
+    <End Role="tblTeam" Type="Self.tblTeam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tblTeam">
+        <PropertyRef Name="updated_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="tblFoulsAndMisconduct" EntityType="Self.tblFoulsAndMisconduct" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblMatch" EntityType="Self.tblMatch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPlayer" EntityType="Self.tblPlayer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPost" EntityType="Self.tblPost" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblTeam" EntityType="Self.tblTeam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblUser" EntityType="Self.tblUser" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tblFoulsA__creat__46E78A0C" Association="Self.FK__tblFoulsA__creat__46E78A0C">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblFoulsAndMisconduct" EntitySet="tblFoulsAndMisconduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblFoulsA__match__49C3F6B7" Association="Self.FK__tblFoulsA__match__49C3F6B7">
+      <End Role="tblMatch" EntitySet="tblMatch" />
+      <End Role="tblFoulsAndMisconduct" EntitySet="tblFoulsAndMisconduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblFoulsA__playe__48CFD27E" Association="Self.FK__tblFoulsA__playe__48CFD27E">
+      <End Role="tblPlayer" EntitySet="tblPlayer" />
+      <End Role="tblFoulsAndMisconduct" EntitySet="tblFoulsAndMisconduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblFoulsA__updat__47DBAE45" Association="Self.FK__tblFoulsA__updat__47DBAE45">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblFoulsAndMisconduct" EntitySet="tblFoulsAndMisconduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblMatch__create__412EB0B6" Association="Self.FK__tblMatch__create__412EB0B6">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblMatch" EntitySet="tblMatch" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblMatch__team_a__4316F928" Association="Self.FK__tblMatch__team_a__4316F928">
+      <End Role="tblTeam" EntitySet="tblTeam" />
+      <End Role="tblMatch" EntitySet="tblMatch" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblMatch__team_b__440B1D61" Association="Self.FK__tblMatch__team_b__440B1D61">
+      <End Role="tblTeam" EntitySet="tblTeam" />
+      <End Role="tblMatch" EntitySet="tblMatch" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblMatch__update__4222D4EF" Association="Self.FK__tblMatch__update__4222D4EF">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblMatch" EntitySet="tblMatch" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblPlayer__creat__3C69FB99" Association="Self.FK__tblPlayer__creat__3C69FB99">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblPlayer" EntitySet="tblPlayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblPlayer__team___3E52440B" Association="Self.FK__tblPlayer__team___3E52440B">
+      <End Role="tblTeam" EntitySet="tblTeam" />
+      <End Role="tblPlayer" EntitySet="tblPlayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblPlayer__updat__3D5E1FD2" Association="Self.FK__tblPlayer__updat__3D5E1FD2">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblPlayer" EntitySet="tblPlayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblPost__created__4CA06362" Association="Self.FK__tblPost__created__4CA06362">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblPost" EntitySet="tblPost" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblPost__updated__4D94879B" Association="Self.FK__tblPost__updated__4D94879B">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblPost" EntitySet="tblPost" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTeam__created__38996AB5" Association="Self.FK__tblTeam__created__38996AB5">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblTeam" EntitySet="tblTeam" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblTeam__updated__398D8EEE" Association="Self.FK__tblTeam__updated__398D8EEE">
+      <End Role="tblUser" EntitySet="tblUser" />
+      <End Role="tblTeam" EntitySet="tblTeam" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

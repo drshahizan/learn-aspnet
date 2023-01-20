@@ -9,13 +9,37 @@
                 <img class="mb-4" src="../assets/brand/2022_FIFA_World_Cup.svg.png" alt="" height="200">
             </center>
             <h1 class="h5 mb-3 fw-normal">Sign-in to your admin account</h1>
+            <div class="alert alert-info" role="alert">
+              Info : Do not type and enter, click sign in button instead :P
+            </div>
+            <div class="v-card-text">
+                <div class="v-alert v-theme--light text-primary v-alert--density-comfortable v-alert--variant-tonal" role="alert"><!---->
+                    <span class="v-alert__underlay"></span><!----><!---->
+                    <div class="v-alert__content"><!----><!---->
+                        <p class="text-caption mb-2"> 
+                            <h6>Admin</h6>
+                            Email: <strong>admin@worldcuponthego.my</strong><br />Pass: <strong>password</strong>
+                        </p>
+                        <hr />
+                        <p class="text-caption mb-0"> 
+                            <h6>Subscriber</h6>                            
+                            Email: <strong>subscriber@worldcuponthego.my</strong><br />Pass: <strong>password</strong>
 
+                        </p>
+                    </div><!----><!---->
+                </div>
+            </div>
+
+            <div class="text-center">
+                <asp:Label ID="lblMessage" runat="server" Text="" ForeColor="#FF3300"></asp:Label>            
+            </div>
             <div class="form-floating">
-                <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server"></asp:TextBox>
+                
+                <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server" TextMode="Email"></asp:TextBox>
                 <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-                <asp:TextBox ID="txtPassword" CssClass="form-control" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtPassword" CssClass="form-control" runat="server" TextMode="Password"></asp:TextBox>
                 <label for="floatingPassword">Password</label>
             </div>
             

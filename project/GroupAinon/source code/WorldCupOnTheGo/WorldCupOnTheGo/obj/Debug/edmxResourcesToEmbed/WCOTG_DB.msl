@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="tblFoulsAndMisconducts">
+      <EntityTypeMapping TypeName="DatabaseModel.tblFoulsAndMisconduct">
+        <MappingFragment StoreEntitySet="tblFoulsAndMisconduct">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="card_color" ColumnName="card_color" />
+          <ScalarProperty Name="action_taken_datetime" ColumnName="action_taken_datetime" />
+          <ScalarProperty Name="player_id" ColumnName="player_id" />
+          <ScalarProperty Name="match_id" ColumnName="match_id" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMatches">
+      <EntityTypeMapping TypeName="DatabaseModel.tblMatch">
+        <MappingFragment StoreEntitySet="tblMatch">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="team_a_id" ColumnName="team_a_id" />
+          <ScalarProperty Name="team_a_score" ColumnName="team_a_score" />
+          <ScalarProperty Name="team_b_id" ColumnName="team_b_id" />
+          <ScalarProperty Name="team_b_score" ColumnName="team_b_score" />
+          <ScalarProperty Name="match_datetime" ColumnName="match_datetime" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPlayers">
+      <EntityTypeMapping TypeName="DatabaseModel.tblPlayer">
+        <MappingFragment StoreEntitySet="tblPlayer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="jercy_no" ColumnName="jercy_no" />
+          <ScalarProperty Name="team_id" ColumnName="team_id" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPosts">
+      <EntityTypeMapping TypeName="DatabaseModel.tblPost">
+        <MappingFragment StoreEntitySet="tblPost">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="published_date" ColumnName="published_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTeams">
+      <EntityTypeMapping TypeName="DatabaseModel.tblTeam">
+        <MappingFragment StoreEntitySet="tblTeam">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUsers">
+      <EntityTypeMapping TypeName="DatabaseModel.tblUser">
+        <MappingFragment StoreEntitySet="tblUser">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
