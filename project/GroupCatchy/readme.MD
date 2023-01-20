@@ -18,7 +18,8 @@ by group Catchy :v:
 - Database design (17/1/2023) | *Zunnur*
 - Development (16/1/2023 - 27/1/2023) | *Akmal , Zunnur*
 - User Manual & Reporting (16/1/2023 - 27/1/2023) | *Atrisya*
-- Presentation compilation (27/1/2023) | *Atrisya*
+- Presentation slide (27/1/2023) | *Atrisya*
+- Presentation video | *Syahmir*
 - Submission (31-1-2023) | *Akmal*
 
 
@@ -27,18 +28,18 @@ by group Catchy :v:
 ### 1. System
 
 System must include:
-- [ ] Database
-- [ ] HTML
+- [x] Database
+- [x] HTML
 - [ ] CSS
 - [ ] JavaScript
-- [ ] ASP.NET
-- [ ] MS SQL Server
-- [ ] Minimum 5 table (DB)
+- [x] ASP.NET
+- [x] MS SQL Server
+- [x] Minimum 5 table (DB)
 - [ ] Data Manipulation
-- [ ] Sorting & Searching
-- [ ] Authentication
+- [x] Sorting & Searching
+- [x] Authentication
 - [ ] User Roles & Permissions
-- [ ] Master Pages
+- [x] Master Pages
 - [ ] Theme
 - [ ] Skin
 - [ ] Validation Control
@@ -63,9 +64,8 @@ System must include:
 - [ ] References (APA Harvard 6)
 
 ### 3. Database & SQL Dump File
-- [ ] Contain sample data
-- [ ] At least 5 table
-- [ ] File name: <mark>project_title-sql-dump.sql<mark>
+- [x] Contain sample data
+- [x] At least 5 table
 
 ### 4. User Manual
 - [ ] Instruction for each module
