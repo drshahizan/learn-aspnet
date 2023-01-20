@@ -58,7 +58,7 @@ System must include:
 - [ ] Tools & technology usage
 - [ ] System module
 - [ ] Module functionality
-- [ ] Database design:
+- [x] Database design:
      - [ ] ERD/Use Case/Activity Diagram
      - [ ] Authentication
 - [ ] References (APA Harvard 6)
