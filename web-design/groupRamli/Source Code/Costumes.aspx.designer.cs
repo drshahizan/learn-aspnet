@@ -11,7 +11,7 @@ namespace Assignment_4
 {
 
 
-     public partial class Apparels
+     public partial class WebForm3
      {
      }
 }

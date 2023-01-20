@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "bootstrap@5.2.3",
+      "destination": "lib/bootstrap/"
+    }
+  ]
+}
