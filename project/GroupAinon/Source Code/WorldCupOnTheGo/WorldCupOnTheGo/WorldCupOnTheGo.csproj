@@ -68,13 +68,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\brand\bootstrap-logo-white.svg" />
-    <Content Include="assets\brand\bootstrap-logo.svg" />
     <Content Include="assets\custom\css\custom.css" />
+    <Content Include="assets\custom\css\sign-in.css" />
     <Content Include="assets\dist\css\bootstrap.min.css" />
     <Content Include="assets\dist\css\bootstrap.rtl.min.css" />
     <Content Include="assets\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\brand\2022_FIFA_World_Cup.svg.png" />
     <Content Include="Default.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +85,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -106,6 +114,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
