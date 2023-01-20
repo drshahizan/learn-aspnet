@@ -3,9 +3,10 @@
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/project/GroupAinon/content/groupAinon.gif?raw=true" alt="WE LOVE ASPNET">
 
 ## Setup instruction
-- Open and run all scripts inside scripts folder in sequence order.
-- Use your localdb by using SQL Server Object Explorer in VS Studio 2022 (Please ensure your your database already connected in SQL Server Object Explored(Tools->Connect To Database->SQL Server Object Explorer))
-- Database named is db_wcotg (localdb->databases->db_wcotg)
+- Refer complete scripts in the database folder
+- Database also already created in the source code project folder. Refer folder App_Data->database.mdf
+- To view database, double click on database.mdf inside App_Data folder and refer to Server Explorer
+- You should see at least 6 tables inside the database. (tblUser, tblTeam, tblPlayer, tblMatch, tblFoulsAndMisconduct and tblPost)
  
 
 
