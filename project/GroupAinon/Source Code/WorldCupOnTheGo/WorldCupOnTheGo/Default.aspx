@@ -14,8 +14,11 @@
                     <h1 class="fw-light">Welcome to WorldCupOnTheGo</h1>
                     <p class="lead text-muted">A free world cup news portal for all fans to get updates about their favorite teams on their smartphones, tablets and computers – anytime, anywhere in Malaysia.</p>
                     <p>
-                        <a href="#" class="btn btn-primary my-2">Go to content list</a>
-                        <a href="#" class="btn btn-secondary my-2">Add new content</a>
+                        <asp:Label ID="lblDisplayEmail" runat="server" Text=""></asp:Label>
+                    </p>
+                    <p>
+                        <asp:Button ID="btnGoToContentList" runat="server" CssClass="btn btn-primary my-2" Text="Go to content list" OnClick="btnGoToContentList_Click"/>
+                        <asp:Button ID="btnGoToContentAdd" runat="server" CssClass="btn btn-primary my-2" Text="Add new content" OnClick="btnGoToContentAdd_Click"/>
                     </p>
                 </div>
             </div>

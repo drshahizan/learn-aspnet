@@ -86,6 +86,8 @@
     <Content Include="assets\dist\css\bootstrap.rtl.min.css" />
     <Content Include="assets\dist\js\bootstrap.bundle.min.js" />
     <Content Include="assets\brand\2022_FIFA_World_Cup.svg.png" />
+    <Content Include="ContentAdd.aspx" />
+    <Content Include="ContentList.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="WCOTG_DB.Context.tt">
@@ -101,6 +103,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContentAdd.aspx.cs">
+      <DependentUpon>ContentAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentAdd.aspx.designer.cs">
+      <DependentUpon>ContentAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentList.aspx.cs">
+      <DependentUpon>ContentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentList.aspx.designer.cs">
+      <DependentUpon>ContentList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

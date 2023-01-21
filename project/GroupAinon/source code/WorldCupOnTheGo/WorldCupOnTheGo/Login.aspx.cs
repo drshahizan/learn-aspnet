@@ -33,6 +33,7 @@ namespace WorldCupOnTheGo
                 //record found, redirect to default page
                 Session["email"] = user.email;
                 Session["role"] = user.role;
+                Session["userid"] = user.Id;
                 Response.Redirect("default.aspx");
             }
             else
