@@ -1,40 +1,35 @@
+
 CREATE TABLE [dbo].[tblUser] (
-    [Id]       BIGINT         NOT NULL,
+    [Id]       BIGINT         NOT NULL IDENTITY(1,1) PRIMARY KEY,
     [email]    NVARCHAR (MAX) NOT NULL,
     [password] NVARCHAR (MAX) NOT NULL,    
     [role]     NVARCHAR (MAX) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id])
 );
 
 CREATE TABLE [dbo].[tblTeam]
 (
-	[Id] BIGINT NOT NULL PRIMARY KEY, 
+	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [name] BIGINT NOT NULL, 
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
 	[updated_date] DATETIME NULL, 
-    [updated_by] BIGINT NULL,
-	FOREIGN KEY (created_by) REFERENCES tblUser(id),
-	FOREIGN KEY (updated_by) REFERENCES tblUser(id)
+    [updated_by] BIGINT NULL
 )
 CREATE TABLE [dbo].[tblPlayer]
 (
-	[Id] BIGINT NOT NULL PRIMARY KEY, 
+	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [name] BIGINT NOT NULL, 
     [jercy_no] INT NOT NULL, 
     [team_id] BIGINT NOT NULL, 
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
 	[updated_date] DATETIME NULL, 
-    [updated_by] BIGINT NULL,
-	FOREIGN KEY (created_by) REFERENCES tblUser(id),
-	FOREIGN KEY (updated_by) REFERENCES tblUser(id),
-	FOREIGN KEY (team_id) REFERENCES tblTeam(id)
+    [updated_by] BIGINT NULL
 )
 
 CREATE TABLE [dbo].[tblMatch]
 (
-	[Id] BIGINT NOT NULL PRIMARY KEY, 
+	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [team_a_id] BIGINT NOT NULL, 
     [team_a_score] INT NOT NULL, 
     [team_b_id] BIGINT NOT NULL, 
@@ -43,15 +38,11 @@ CREATE TABLE [dbo].[tblMatch]
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
 	[updated_date] DATETIME NULL, 
-    [updated_by] BIGINT NULL,
-	FOREIGN KEY (created_by) REFERENCES tblUser(id),
-	FOREIGN KEY (updated_by) REFERENCES tblUser(id),
-	FOREIGN KEY (team_a_id) REFERENCES tblTeam(id),
-	FOREIGN KEY (team_b_id) REFERENCES tblTeam(id)
+    [updated_by] BIGINT NULL
 )
 CREATE TABLE [dbo].[tblFoulsAndMisconduct]
 (
-	[Id] BIGINT NOT NULL PRIMARY KEY, 
+	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [card_color] NVARCHAR(MAX) NOT NULL, 
     [action_taken_datetime] DATETIME NOT NULL, 
     [player_id] BIGINT NOT NULL, 
@@ -59,15 +50,11 @@ CREATE TABLE [dbo].[tblFoulsAndMisconduct]
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
 	[updated_date] DATETIME NULL, 
-    [updated_by] BIGINT NULL,
-    FOREIGN KEY (created_by) REFERENCES tblUser(id),
-	FOREIGN KEY (updated_by) REFERENCES tblUser(id),
-	FOREIGN KEY (player_id) REFERENCES tblPlayer(id),
-	FOREIGN KEY (match_id) REFERENCES tblMatch(id)
+    [updated_by] BIGINT NULL
 )
 CREATE TABLE [dbo].[tblPost]
 (
-	[Id] BIGINT NOT NULL PRIMARY KEY, 
+	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [title] NVARCHAR(MAX) NOT NULL, 
     [content] NVARCHAR(MAX) NOT NULL,  
     [created_date] DATETIME NULL, 
@@ -75,7 +62,13 @@ CREATE TABLE [dbo].[tblPost]
 	[updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL,
     [status] NVARCHAR(50) NULL, 
-    [published_date] DATETIME NOT NULL,
-	FOREIGN KEY (created_by) REFERENCES tblUser(id),
-	FOREIGN KEY (updated_by) REFERENCES tblUser(id)
+    [published_date] DATETIME NOT NULL
 )
+
+
+--SEED user record
+INSERT INTO tblUser
+VALUES ('admin@worldcuponthego.my', 'password', 'admin');
+INSERT INTO tblUser
+VALUES ('subscriber@worldcuponthego.my', 'password', 'subscriber');
+

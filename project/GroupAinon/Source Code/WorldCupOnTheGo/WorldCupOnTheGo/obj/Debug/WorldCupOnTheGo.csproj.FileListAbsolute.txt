@@ -175,3 +175,7 @@ C:\Users\Ainon\OneDrive\Documents\GitHub\learn-aspnet\project\GroupAinon\Source 
 C:\Users\Ainon\OneDrive\Documents\GitHub\learn-aspnet\project\GroupAinon\Source Code\WorldCupOnTheGo\WorldCupOnTheGo\obj\Debug\WorldCupOnTheGo.csproj.CopyComplete
 C:\Users\Ainon\OneDrive\Documents\GitHub\learn-aspnet\project\GroupAinon\Source Code\WorldCupOnTheGo\WorldCupOnTheGo\obj\Debug\WorldCupOnTheGo.dll
 C:\Users\Ainon\OneDrive\Documents\GitHub\learn-aspnet\project\GroupAinon\Source Code\WorldCupOnTheGo\WorldCupOnTheGo\obj\Debug\WorldCupOnTheGo.pdb
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.dll
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.SqlServer.dll
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.xml
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.SqlServer.xml
