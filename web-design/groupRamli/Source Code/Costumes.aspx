@@ -5,24 +5,40 @@
       <div class="container body-content">
          <div class="container">
             <div class="row">  
-                <div class="col-6">Batik Costumes in Malaysia</div>
-                <div class="col-6"> (to insert image)</div>
+                <div class="col-6">
+                    <h2>Batik Costumes in Malaysia</h2>
+
+                </div>
+                <div class="col-6"> 
+                    <br /><img src="Images/costumeimage1.jpg" height="350"/>
+                </div>
                 </div>
             </div>
           </div>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Main2" runat="server">
+    <br />
     <center><h2>Batik Designs</h2></center>
     <hr />
     <div class="container body-content">
          <div class="container">
             <div class="row">  
-                <div class="col-2">Batik Kurung</div>
+                <div class="col-2">
+                <center>Batik Kurung</center><br />
+                <img src="Images/costumesBatikKurung_t.jpg" />
+                </div>
                 <div class="col-2"> Batik CheongSam</div>
-                <div class="col-2">Batik Tang Suit</div>
+                <div class="col-2">
+                    <center>Batik SamFu</center><br />
+                <img src="Images/costumesBatikSamfu_t.jpg" />
+                </div>
+              
                 <div class="col-2"> Batik Saree</div>
-                <div class="col-2"> Batik Kurta</div>
+                <div class="col-2"> 
+                    <center>Batik Kurta</center><br />
+                     <img src="Images/costumesBatikKurta_t.jpg" />   
+                </div>
                 </div>
             </div>
           </div>
