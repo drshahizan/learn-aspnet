@@ -13,9 +13,9 @@ Please follow these instructions:
 </p>
 
 - The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
-- 
+
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs2.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs2.png"  height="100" /><br>
 <b>Figure 1.2: </b>Members table
 </p>
 
@@ -25,7 +25,7 @@ Please follow these instructions:
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs4.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs4.png"  height="100" /><br>
 <b>Figure 1.4: </b>Menu table
 </p>
 
