@@ -8,31 +8,31 @@ Please follow these instructions:
 - Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, please click 💾. Figure 1.1 depicts the outcomes of the application.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/images/cs1.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs1.png"  height="300" /><br>
 <b>Figure 1.1: </b>Create table
 </p>
 
 - The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
 - 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/images/cs2.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs2.png"  height="300" /><br>
 <b>Figure 1.2: </b>Members table
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/images/cs3.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs3.png"  height="300" /><br>
 <b>Figure 1.3: </b>Sales table
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/images/cs4.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs4.png"  height="300" /><br>
 <b>Figure 1.4: </b>Menu table
 </p>
 
 Please open the 📁 file to view the entire source code.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/images/cs5.png"  height="300" /><br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs5.png"  height="300" /><br>
 <b>Figure 1.5: </b>Output
 </p>
 
