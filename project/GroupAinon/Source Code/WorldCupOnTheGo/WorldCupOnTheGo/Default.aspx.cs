@@ -52,5 +52,18 @@ namespace WorldCupOnTheGo
         {
             Response.Redirect("MatchList.aspx");
         }
+        protected void ManageContent_Click(object sender, EventArgs e)
+        {
+            LinkButton lnkbtn = (LinkButton)sender;
+            switch (lnkbtn.CommandName)
+            {
+                case "EditLink":
+                    Response.Redirect("ContentEdit.aspx?id=" + lnkbtn.CommandArgument.ToString());
+                    break;
+                case "ViewLink":
+                    Response.Redirect("ContentView.aspx?id=" + lnkbtn.CommandArgument.ToString());
+                    break;
+            }
+        }
     }
 }

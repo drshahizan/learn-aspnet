@@ -49,6 +49,7 @@
     <EntitySetMapping Name="tblPosts">
       <EntityTypeMapping TypeName="DatabaseModel.tblPost">
         <MappingFragment StoreEntitySet="tblPost">
+          <ScalarProperty Name="file_path" ColumnName="file_path" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="title" ColumnName="title" />
           <ScalarProperty Name="content" ColumnName="content" />

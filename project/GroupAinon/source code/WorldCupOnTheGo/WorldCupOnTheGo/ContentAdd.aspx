@@ -18,6 +18,10 @@
                 <label for="exampleFormControlTextarea1">Content</label>
                 <asp:TextBox ID="txtContent" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
             </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Image</label>
+                <asp:FileUpload ID="fuImage" CssClass="form-control" runat="server" accept=".png,.jpg,.jpeg,.gif" />
+            </div> 
             <div class="mb-2">
                 <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-success my-2" OnClick="btnSubmit_Click" />
                 <asp:Button ID="btnContentList" runat="server" CssClass="btn btn-primary my-2" Text="Go to content list" OnClick="btnContentList_Click" />

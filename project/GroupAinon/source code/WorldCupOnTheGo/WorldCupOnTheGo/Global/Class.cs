@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.UI.WebControls;
 
 namespace WorldCupOnTheGo.Global
 {
@@ -22,21 +23,32 @@ namespace WorldCupOnTheGo.Global
                 //record not found, show failed label
                 return null;
             }
-            
+
         }
-        public static bool InsertContent(string title, string content, long createdby)
+        public static bool InsertContent(string title, string content, FileUpload fuImage, long createdby)
         {
             try
             {
+                //store file
+                string savePath = "";
+                string folderPath = "";
+                if (fuImage.HasFile)
+                {
+                    folderPath = "Upload_Folder\\" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + "_" + fuImage.FileName;
+                    savePath = AppDomain.CurrentDomain.BaseDirectory + folderPath;
+                    fuImage.SaveAs(savePath);
+                }
+
                 //insert record to model
                 var post = new tblPost
                 {
                     title = title,
-                    content = content,                    
+                    content = content,
                     created_date = DateTime.Now,
                     status = "published",
                     created_by = createdby,
                     published_date = DateTime.Now,
+                    file_path = folderPath
                 };
 
                 //bind record to table post
@@ -46,11 +58,44 @@ namespace WorldCupOnTheGo.Global
                 WCOTG_DB.SaveChanges();
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return false;
             }
-            
+
+        }
+        public static bool UpdateContent(tblPost Post, string title, string content, FileUpload fuImage, long updatedBy)
+        {
+            try
+            {
+                //store file
+                string savePath = "";
+                string folderPath = "";
+                if (fuImage.HasFile)
+                {
+                    folderPath = "Upload_Folder\\" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + "_" + fuImage.FileName;
+                    savePath = AppDomain.CurrentDomain.BaseDirectory + folderPath;
+                    fuImage.SaveAs(savePath);
+                }
+
+                //update record to model
+                Post.title = title;
+                Post.content = content;
+                Post.updated_date = DateTime.Now;
+                Post.status = "published";
+                Post.updated_by = updatedBy;
+                Post.published_date = DateTime.Now;
+                Post.file_path = folderPath;
+
+                //store record to database
+                WCOTG_DB.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
         }
         public static bool InsertTeam(string name, long createdby)
         {
@@ -80,13 +125,44 @@ namespace WorldCupOnTheGo.Global
         public static tblTeam GetTeam(long Id)
         {
             try
-            {                
+            {
                 //get team
-                return WCOTG_DB.tblTeams.Where(d=>d.Id==Id).FirstOrDefault();
+                return WCOTG_DB.tblTeams.Where(d => d.Id == Id).FirstOrDefault();
             }
             catch (Exception ex)
             {
                 return null;
+            }
+
+        }
+        public static tblPost GetPost(long Id)
+        {
+            try
+            {
+                //get post
+                return WCOTG_DB.tblPosts.Where(d => d.Id == Id).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+        }
+        public static bool DeletePost(long Id)
+        {
+            try
+            {
+                //get post
+                var post = WCOTG_DB.tblPosts.Where(d => d.Id == Id).FirstOrDefault();
+
+                //delete post
+                WCOTG_DB.tblPosts.Remove(post);
+                WCOTG_DB.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
 
         }

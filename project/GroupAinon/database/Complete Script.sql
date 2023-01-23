@@ -63,7 +63,8 @@ CREATE TABLE [dbo].[tblPost]
     [updated_by] BIGINT NULL,
     [status] NVARCHAR(50) NULL, 
     [published_date] DATETIME NOT NULL,
-	[match_id_id] BIGINT NOT NULL
+	[match_id_id] BIGINT NOT NULL,
+	[file_path] NVARCHAR(MAX) NOT NULL
 )
 
 

@@ -78,6 +78,7 @@
   <ItemGroup>
     <Content Include="ContentDelete.aspx" />
     <Content Include="ContentEdit.aspx" />
+    <Content Include="ContentView.aspx" />
     <Content Include="MatchDelete.aspx" />
     <Content Include="MatchEdit.aspx" />
     <Content Include="MatchList.aspx" />
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="ContentEdit.aspx.designer.cs">
       <DependentUpon>ContentEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentView.aspx.cs">
+      <DependentUpon>ContentView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentView.aspx.designer.cs">
+      <DependentUpon>ContentView.aspx</DependentUpon>
     </Compile>
     <Compile Include="MatchDelete.aspx.cs">
       <DependentUpon>MatchDelete.aspx</DependentUpon>
@@ -284,6 +292,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\images\" />
+    <Folder Include="Upload_Folder\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

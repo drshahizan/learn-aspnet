@@ -42,6 +42,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.TextBox txtContent;
 
         /// <summary>
+        /// fuImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fuImage;
+
+        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>

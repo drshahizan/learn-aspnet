@@ -18,7 +18,8 @@ namespace WorldCupOnTheGo
         {
             var title = txtTitle.Text;
             var content = txtContent.Text;
-            if(Global.Class.InsertContent(title, content, Convert.ToInt64(Session["userid"])))
+
+            if(Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"])))
             {
                 //successfully created
                 lblMessage.Text = "Record creaated successfully";

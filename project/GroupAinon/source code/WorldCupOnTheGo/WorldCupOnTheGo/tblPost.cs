@@ -24,5 +24,6 @@ namespace WorldCupOnTheGo
         public string status { get; set; }
         public System.DateTime published_date { get; set; }
         public long match_id_id { get; set; }
+        public string file_path { get; set; }
     }
 }

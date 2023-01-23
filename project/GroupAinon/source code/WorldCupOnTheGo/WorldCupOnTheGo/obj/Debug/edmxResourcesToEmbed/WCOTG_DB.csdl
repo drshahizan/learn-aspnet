@@ -56,6 +56,7 @@
     <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="published_date" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="match_id_id" Type="Int64" Nullable="false" />
+    <Property Name="file_path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="tblTeam">
     <Key>
