@@ -54,9 +54,10 @@ You are required to create a database named HR. After that, create a table as de
 
 You are given the file CaseStudy2.sln to complete this case study. In this file, there is an image folder that contains the staff photo that will be used. Please refer to Figure 1.4. Please download the CaseStudy2.sln file 💾.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="200" />
-
-Figure 1.4: Solution Explorer
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="200" /></br>
+<b>Figure 1.4:</b> Solution Explorer
+</p>
 
 ## Task 1: SQL Question
 
@@ -66,7 +67,7 @@ Please create a file named frmSQL.aspx. This file will be used to answer SQL que
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="200" />
 
-Figure 1.5: Solution Q1
+<b>Figure 1.5:</b> Solution Q1
 
 2. Returns all rows in the employees table sorted by the first_name column. You must restrict to 5 data only.
 
@@ -105,28 +106,28 @@ You are required to create a file named frmSearch1.aspx. Please perform activiti
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama1.png" width="450" />
 
-Figure 1.6: Search name
+  <b>Figure 1.6:</b> Search name
 
 ### Task 2b:  frmSearch2.aspx
 In this task, you are required to create a GridView control that allows users to edit or delete data. Apart from that, you are also allowed to select the desired data. Please refer to Figure 1.7.
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="600" />
 
-Figure 1.7: Search name
+  <b>Figure 1.7:</b> Search name
 
 You are required to update the employee_id data numbered 101. Please change the staff picture and increase the salary to 20,000. Please refer to Figure 1.8.
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="600" />
 
-Figure 1.8: Update data
+<b>Figure 1.8:</b> Update data
 
 ### Task 2c:  frmDataBound.aspx
 You are required to create a staff directory by Department. Please use the DropDownList control to display the Department list. This list must be unique. When the name of the department has been selected, then the output results in the Gridview column. Please produce an interface like Figure 1.9 and Figure 1.10.
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20Departments.png" width="180" />
 
-Figure 1.9: List of Departments
+<b>Figure 1.9:</b> List of Departments
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="450" />
 
-Figure 1.10: List of staff by Department
+<b>Figure 1.10:</b> List of staff by Department
