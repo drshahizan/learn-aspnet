@@ -8,3 +8,10 @@ Create an ASP.NET Web Application that implements a DropDown List that is data b
 [Manual: 📁](https://drive.google.com/file/d/1_MR9CT4D4hocBIpX7HN8of9LyG0mgcuW/view?usp=share_link)
 
 [Source code:💾](https://drive.google.com/file/d/1axLXtjIRbB4SIqEWGjBokVyf3fJmdyEe/view?usp=sharing)
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
