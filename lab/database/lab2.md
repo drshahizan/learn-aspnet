@@ -18,7 +18,7 @@ In this exercise you will:
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/griddetail.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/griddetail.png"  height="300" /></br>
 <b>Figure 3:</b> GridandDetail.aspx
 </p>
 
