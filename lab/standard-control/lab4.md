@@ -14,3 +14,10 @@ Don't forget to hit the :star: if you like this repo.
 </p>
 
 📚[JDT_NBA.rar](https://drive.google.com/file/d/1hQTtwzeGjj6GfX6f82iFdLUCqPYWRx87/view?usp=sharing)
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
