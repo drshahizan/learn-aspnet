@@ -6,8 +6,12 @@ Please follow these instructions:
 
 - You must establish a database called CaseStudy1.
 - Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, please click 💾. Figure 1.1 depicts the outcomes of the application.
-abc
-Figure 1.1: Cipta jadual
+
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/images/morecontrols.png"  height="300" /><br>
+<b>Figure 1.1: </b>Create table
+</p>
+
 
 - The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
 
