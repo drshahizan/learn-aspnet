@@ -225,12 +225,12 @@ methods and tools.
 - [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
 ## Lab: Database
-[Exercise: SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
+### [Exercise: SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
 - [Lab 1: Create Table](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab1.md)
 - [Lab 2: Data binding](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab2.md)
 - [Lab 3: Implementing CRUD in FormView](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab3.md)
 
-Exercise: Access
+### Exercise: Access
 - [Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64]()
 - [Data binding using an Access database]()
 - [Filtering data]()
@@ -238,7 +238,7 @@ Exercise: Access
 - [Data binding: Using calender control to filter data]()
 - [Working with relational database]()
 
-Exercise: MySQL
+### Exercise: MySQL
 - [How to Bind Data From MySQL Database to GridView]()
 
 ## Styles and Master Pages
