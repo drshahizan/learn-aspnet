@@ -13,6 +13,9 @@
 3. Please switch the textbox for the font size to a drop-down list.
 4. Users have three design options on the card.
 
+<p align="center">
     <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/ass2.png" width="450" />
+</p>
 
-    📚[BirthdayCardMaker.rar](https://github.com/drshahizan/learn-aspnet/blob/main/image/CurrencyConverter.rar)
+
+📚[BirthdayCardMaker.rar](https://github.com/drshahizan/learn-aspnet/blob/main/image/CurrencyConverter.rar)

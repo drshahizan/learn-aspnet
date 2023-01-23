@@ -1,0 +1,2 @@
+﻿<asp:TextBox BorderStyle="Ridge" runat="server" />
+<asp:Button runat="server" backColor="Black" ForeColor="White" Text="Subscribe" SkinID="RidgeTB"/>
