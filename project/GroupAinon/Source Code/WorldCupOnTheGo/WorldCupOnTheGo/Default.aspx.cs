@@ -13,24 +13,26 @@ namespace WorldCupOnTheGo
         static DatabaseEntities WCOTG_DB = new DatabaseEntities();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["email"] == null)
+            if (!IsPostBack)
             {
-                lblDisplayEmail.Text = "";
-                btnGoToContentList.Visible = false;
-                btnGoToContentAdd.Visible = false;
-                btnGoToMatchList.Visible = false;
-                btnGoToTeamList.Visible = false;
+                if (Session["email"] == null)
+                {
+                    lblDisplayEmail.Text = "";
+                    btnGoToContentList.Visible = false;
+                    btnGoToMatchList.Visible = false;
+                    btnGoToTeamList.Visible = false;
+                }
+                else
+                {
+                    lblDisplayEmail.Text = "Hello " + Session["email"];
+                    btnGoToContentList.Visible = true;
+                    btnGoToMatchList.Visible = true;
+                    btnGoToTeamList.Visible = true;
+                }
+                lvContent.DataSource = WCOTG_DB.tblPosts.ToList();
+                lvContent.DataBind();
             }
-            else
-            {
-                lblDisplayEmail.Text = "Hello " + Session["email"];
-                btnGoToContentList.Visible = true;
-                btnGoToContentAdd.Visible = true;
-                btnGoToMatchList.Visible = true;
-                btnGoToTeamList.Visible = true;
-            }
-            lvContent.DataSource = WCOTG_DB.tblPosts.ToList();
-            lvContent.DataBind();
+                
         }
 
         protected void btnGoToContentList_Click(object sender, EventArgs e)

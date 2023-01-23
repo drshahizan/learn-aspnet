@@ -14,8 +14,12 @@ namespace WorldCupOnTheGo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            lvContent.DataSource = WCOTG_DB.tblPosts.ToList();
-            lvContent.DataBind();
+            if (!IsPostBack)
+            {
+                lvContent.DataSource = WCOTG_DB.tblPosts.ToList();
+                lvContent.DataBind();
+            }
+                
         }
         protected void ManageContent_Click(object sender, EventArgs e)
         {

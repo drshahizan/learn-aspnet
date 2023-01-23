@@ -17,17 +17,18 @@
                     </div>
                     <div class="card mb-4 mb-lg-0">
                         <div class="card-body">
+                            <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="form1Example1">Name</label>
-                                <input type="text" id="form1Example1" class="form-control" />
+                                <asp:TextBox ID="txtName" runat="server" CssClass="form-control"></asp:TextBox>
                             </div>
 
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="form1Example2">Jercy No</label>
-                                <input type="text" id="form1Example2" class="form-control" />
+                                <asp:TextBox ID="txtJercyNo" runat="server" CssClass="form-control" TextMode="Number"></asp:TextBox>
                             </div>
                             <div class="d-flex justify-content-center mb-2">
-                                <button type="button" class="btn btn-primary">Add Player</button>
+                                <asp:Button ID="btnAddPlayer" runat="server" CssClass="btn btn-primary" OnClick="btnAddPlayer_Click" Text="Add Player" />
                             </div>
                         </div>
                     </div>
@@ -35,35 +36,36 @@
                 <div class="col-lg-8">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <table class="table">
-                                <thead>
+                            <p class="text-muted mb-1"><b>Player List</b></p>
+                            <asp:ListView ID="lvlPlayerList" runat="server" GroupPlaceholderID="groupPlaceHolder1" ItemPlaceholderID="itemPlaceHolder1">
+                                <LayoutTemplate>
+                                    <table class="table" cellpadding="2" cellspacing="0" border="1">
+                                        <tr id="Tr1" runat="server" class="TableHeader">
+                                            <td id="Td1" runat="server">Name</td>
+                                            <td id="Td2" runat="server">Jercy No</td>
+                                            <td id="Td3" runat="server">Action</td>
+                                        </tr>
+                                        <asp:PlaceHolder runat="server" ID="groupPlaceHolder1"></asp:PlaceHolder>
+                                    </table>
+
+                                </LayoutTemplate>
+                                <GroupTemplate>
                                     <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Player Name</th>
-                                        <th scope="col">Jercy No</th>
-                                        <th scope="col">Action</th>
+                                        <asp:PlaceHolder runat="server" ID="itemPlaceHolder1"></asp:PlaceHolder>
                                     </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td colspan="2">Larry the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                </GroupTemplate>
+                                <ItemTemplate>
+                                    <td>
+                                        <asp:Label ID="lblPlayerName" runat="server" Text='<%# Eval("name") %>'></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lblPlayerJercyNo" runat="server" Text='<%# Eval("jercy_no") %>'></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:LinkButton ID="DeleteContent" runat="server" OnClick="ManageContent_Click" CommandArgument='<%#Eval("Id")%>' CommandName="DeleteLink">Delete</asp:LinkButton>
+                                    </td>
+                                </ItemTemplate>
+                            </asp:ListView>
                         </div>
                     </div>
                 </div>

@@ -79,6 +79,7 @@
     <Content Include="ContentDelete.aspx" />
     <Content Include="ContentEdit.aspx" />
     <Content Include="ContentView.aspx" />
+    <Content Include="MatchAdd.aspx" />
     <Content Include="MatchDelete.aspx" />
     <Content Include="MatchEdit.aspx" />
     <Content Include="MatchList.aspx" />
@@ -135,6 +136,13 @@
     </Compile>
     <Compile Include="ContentView.aspx.designer.cs">
       <DependentUpon>ContentView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MatchAdd.aspx.cs">
+      <DependentUpon>MatchAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MatchAdd.aspx.designer.cs">
+      <DependentUpon>MatchAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="MatchDelete.aspx.cs">
       <DependentUpon>MatchDelete.aspx</DependentUpon>

@@ -11,21 +11,25 @@ namespace WorldCupOnTheGo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var Id = Request.QueryString["Id"];
-            var Post = Global.Class.GetPost(Convert.ToInt64(Id));
-            if (Post != null)
+            if (!IsPostBack)
             {
-                txtTitle.Text = Post.title;
-                txtContent.Text = Post.content;
-                imCurrentImage.ImageUrl = Post.file_path;
-                imCurrentImage.Width = 150;
-                imCurrentImage.Height = 150;
+                var Id = Request.QueryString["Id"];
+                var Post = Global.Class.GetPost(Convert.ToInt64(Id));
+                if (Post != null)
+                {
+                    txtTitle.Text = Post.title;
+                    txtContent.Text = Post.content;
+                    imCurrentImage.ImageUrl = Post.file_path;
+                    imCurrentImage.Width = 150;
+                    imCurrentImage.Height = 150;
+                }
+                else
+                {
+                    //invalid id
+                    Response.Redirect("ContentList.aspx");
+                }
             }
-            else
-            {
-                //invalid id
-                Response.Redirect("ContentList.aspx");
-            }
+                
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)

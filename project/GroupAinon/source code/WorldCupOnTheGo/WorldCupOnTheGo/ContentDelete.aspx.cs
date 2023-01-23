@@ -11,21 +11,23 @@ namespace WorldCupOnTheGo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblMessage.Text = "Are your sure you want to delete this record?";
-            var Id = Request.QueryString["Id"];
-            var Post = Global.Class.GetPost(Convert.ToInt64(Id));
-            if (Post != null)
-            {
-                txtTitle.Text = Post.title;
-                txtContent.Text = Post.content;
-                imCurrentImage.ImageUrl = Post.file_path;
-                imCurrentImage.Width = 150;
-                imCurrentImage.Height = 150;
-            }
-            else
-            {
-                //invalid id
-                Response.Redirect("ContentList.aspx");
+            if (!IsPostBack) {
+                lblMessage.Text = "Are your sure you want to delete this record?";
+                var Id = Request.QueryString["Id"];
+                var Post = Global.Class.GetPost(Convert.ToInt64(Id));
+                if (Post != null)
+                {
+                    txtTitle.Text = Post.title;
+                    txtContent.Text = Post.content;
+                    imCurrentImage.ImageUrl = Post.file_path;
+                    imCurrentImage.Width = 150;
+                    imCurrentImage.Height = 150;
+                }
+                else
+                {
+                    //invalid id
+                    Response.Redirect("ContentList.aspx");
+                }
             }
         }
 

@@ -13,8 +13,11 @@ namespace WorldCupOnTheGo
         static DatabaseEntities WCOTG_DB = new DatabaseEntities();
         protected void Page_Load(object sender, EventArgs e)
         {
-            lvTeam.DataSource = WCOTG_DB.tblTeams.ToList();
-            lvTeam.DataBind();
+            if (!IsPostBack)
+            {
+                lvTeam.DataSource = WCOTG_DB.tblTeams.ToList();
+                lvTeam.DataBind();
+            }                
         }
 
         protected void ManageTeam_Click(object sender, EventArgs e)
