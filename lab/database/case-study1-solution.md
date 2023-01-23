@@ -14,14 +14,14 @@ Don't forget to hit the :star: if you like this repo.
 Please follow these instructions:
 
 - You must establish a database called CaseStudy1.
-- Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, please click 💾. Figure 1.1 depicts the outcomes of the application.
+- Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, [please click 💾](https://drive.google.com/file/d/1yxcAMvYdLwKVTLoZDz5kVkwrsCAzroMy/view?usp=share_link). Figure 1.1 depicts the outcomes of the application.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs1.png"  height="300" /><br>
 <b>Figure 1.1: </b>Create table
 </p>
 
-- The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
+- The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, [please click 💾](https://drive.google.com/file/d/1i4r6mSlJ9tQ8-JLYS7_MrBQOitW3eFSZ/view?usp=share_link). The information entered matches Figures 2 to 4.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs2.png"  height="100" /><br>
@@ -38,7 +38,7 @@ Please follow these instructions:
 <b>Figure 1.4: </b>Menu table
 </p>
 
-Please open the 📁 file to view the entire source code.
+Please open [the 📁 file](https://drive.google.com/file/d/17bWve0OR_V74sS_r3ZdCym39OZLF-3yW/view?usp=share_link) to view the entire source code.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs5.png"  height="300" /><br>
@@ -48,7 +48,7 @@ Please open the 📁 file to view the entire source code.
 ## Case Study Solutions
 
 1. What is the total amount each customer spent at the restaurant?
-We use the SUM and GROUP BY functions to find out total spent for each customer and JOIN function because customer_id is from sales table and price is from menu table.
+We use the `SUM` and `GROUP BY` functions to find out total spent for each customer and `JOIN` function because customer_id is from sales table and price is from menu table.
 
 ```
   SELECT s.customer_id, SUM(price) AS total_sales
@@ -78,7 +78,7 @@ We use the SUM and GROUP BY functions to find out total spent for each customer 
   )
 ```
 
-Subsequently, we GROUP BY the columns to show rank = 1 only.
+Subsequently, we `GROUP BY` the columns to show rank = 1 only.
 
 ```
   SELECT customer_id, product_name
@@ -151,7 +151,7 @@ Next, we filter the table by rank = 1 to show first item purchased by customer.
 7. Which item was purchased just before the customer became a member?
 Basically this is a reversed of Question #6. Create a CTE in order
 
-- Create new column rank by partitioning customer_id by DESC order_date to find out the order_date just before the customer became member
+- Create new column rank by partitioning customer_id by `DESC order_date` to find out the order_date just before the customer became member
 - Filter order_date before join_date.
 
 ```
@@ -179,7 +179,7 @@ Then, pull table to show the last item ordered by customer before becoming membe
 
 8. What is the total items and amount spent for each member before they became a member?
 
-First, filter order_date before their join_date. Then, COUNT unique product_id and SUM the prices total spent before becoming member.
+First, filter order_date before their join_date. Then, `COUNT` unique product_id and SUM the prices total spent before becoming member.
 
 ```
   SELECT s.customer_id, COUNT(DISTINCT s.product_id) AS unique_menu_item, SUM(mm.price) AS total_sales
@@ -198,8 +198,8 @@ Let’s breakdown the question.
 
 - Each $1 spent = 10 points.
 - But, sushi (product_id 1) gets 2x points, meaning each $1 spent = 20 points
-- 
-So, we use CASE WHEN to create conditional statements
+
+So, we use `CASE WHEN` to create conditional statements
 - If product_id = 1, then every $1 price multiply by 20 points
 - All other product_id that is not 1, multiply $1 by 10 points
 So, you can see the table below with new column, points.
@@ -216,7 +216,7 @@ So, you can see the table below with new column, points.
    )
 ```
  
-Using the table above, we SUM the price, match it to the product_id and SUM the total_points.
+Using the table above, we `SUM` the price, match it to the product_id and `SUM` the total_points.
 
 ```
   SELECT s.customer_id, SUM(p.points) AS total_points
@@ -241,7 +241,7 @@ Find out customer’s validity date (which is 6 days after join_date and inclusi
   )
 ```
 
-Then, use CASE WHEN to allocate points by dates and product_name.
+Then, use `CASE WHEN` to allocate points by dates and product_name.
 
 ```
   SELECT d.customer_id, s.order_date, d.join_date, 

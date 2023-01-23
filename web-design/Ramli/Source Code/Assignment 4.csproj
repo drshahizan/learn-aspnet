@@ -74,10 +74,15 @@
     <Content Include="Images\batik banner image.jpg" />
     <Content Include="Images\batikbannerimage1.jpg" />
     <Content Include="Images\BatikLogo.jpg" />
+    <Content Include="Images\chinesebatik.jpg" />
     <Content Include="Images\costumeimage1.jpg" />
     <Content Include="Images\costumesBatikKurta_t.jpg" />
     <Content Include="Images\costumesBatikKurung_t.jpg" />
     <Content Include="Images\costumesBatikSamfu_t.jpg" />
+    <Content Include="Images\indianbatik.jpg" />
+    <Content Include="Images\malaysianbatik.jpg" />
+    <Content Include="Images\modernbatik.jpg" />
+    <Content Include="Images\peranakanbatik.jpg" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-grid.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-grid.min.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
