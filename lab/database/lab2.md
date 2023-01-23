@@ -7,18 +7,18 @@ In this exercise you will:
 - Learn about many of the most powerful databinding controls, such as the GridView and DetailsView, which give you unprecedented control over the presentation of your data, allowing you to format it, change its layout, embed it in other ASP.NET controls, and so on.
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/dboCustomer.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/default.png"  height="300" /></br>
 <b>Figure 1:</b> Default.aspx
 </p>
 
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/dboCustomer.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/detailview.png"  height="200" /></br>
 <b>Figure 2:</b> DetailsViewPage.aspx
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/dboCustomer.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/griddetail.png"  height="200" /></br>
 <b>Figure 3:</b> GridandDetail.aspx
 </p>
 
