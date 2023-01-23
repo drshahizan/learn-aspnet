@@ -18,9 +18,10 @@ CREATE TABLE [dbo].[Customer] ( [CustomerId] INT IDENTITY (1, 1) NOT NULL,
    [FirstName] VARCHAR (50) NOT NULL, [LastName] VARCHAR (50) NOT NULL, 
    [CreditLimit] MONEY NOT NULL, PRIMARY KEY CLUSTERED ([CustomerId] ASC) );
 ```
-
-aa
-Figure 1: dbo.Customer.sql
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/dboCustomer.png"  height="200" /></br>
+<b>Figure 1:</b> dbo.Customer.sql
+</p>
 
 - set identity specification for customerID and make it a keyfield save table (customer.mdf)
 - edit SQL name from Table to Customer
@@ -28,7 +29,10 @@ Figure 1: dbo.Customer.sql
 - go over to Server Explorer and Refresh ... the Customer table should now appear under the table section
 
 Now enter data (right click on newly appearing Customer table / show table data)
-aa
-Figure 2: Customer Table
+
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/Customer.png"  height="200" /></br>
+<b>Figure 2:</b> Customer Table
+</p>
 
 Source code:💾
