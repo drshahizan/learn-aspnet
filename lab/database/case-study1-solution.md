@@ -198,7 +198,7 @@ Let’s breakdown the question.
 
 - Each $1 spent = 10 points.
 - But, sushi (product_id 1) gets 2x points, meaning each $1 spent = 20 points
-- 
+
 So, we use `CASE WHEN` to create conditional statements
 - If product_id = 1, then every $1 price multiply by 20 points
 - All other product_id that is not 1, multiply $1 by 10 points
