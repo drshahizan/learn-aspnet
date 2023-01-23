@@ -4,12 +4,12 @@
 
 Please follow these instructions:
 
-You must establish a database called CaseStudy1.
-Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, please click 💾. Figure 1.1 depicts the outcomes of the application.
+- You must establish a database called CaseStudy1.
+- Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, please click 💾. Figure 1.1 depicts the outcomes of the application.
 abc
 Figure 1.1: Cipta jadual
 
-The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
+- The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
 
 abc
 Figure 1.2: members table
@@ -131,8 +131,8 @@ WHERE rank = 1;
 7. Which item was purchased just before the customer became a member?
 Basically this is a reversed of Question #6. Create a CTE in order
 
-Create new column rank by partitioning customer_id by DESC order_date to find out the order_date just before the customer became member
-Filter order_date before join_date.
+- Create new column rank by partitioning customer_id by DESC order_date to find out the order_date just before the customer became member
+- Filter order_date before join_date.
 
 ```
 WITH prior_member_purchased_cte AS 
@@ -176,12 +176,12 @@ GROUP BY s.customer_id;
 
 Let’s breakdown the question.
 
-Each $1 spent = 10 points.
-But, sushi (product_id 1) gets 2x points, meaning each $1 spent = 20 points
+- Each $1 spent = 10 points.
+- But, sushi (product_id 1) gets 2x points, meaning each $1 spent = 20 points
+- 
 So, we use CASE WHEN to create conditional statements
-
-If product_id = 1, then every $1 price multiply by 20 points
-All other product_id that is not 1, multiply $1 by 10 points
+- If product_id = 1, then every $1 price multiply by 20 points
+- All other product_id that is not 1, multiply $1 by 10 points
 So, you can see the table below with new column, points.
 
 ```
