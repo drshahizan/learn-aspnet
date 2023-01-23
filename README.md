@@ -243,7 +243,7 @@ methods and tools.
 
 ## Styles and Master Pages
 - [Lab 1: Style sheets](https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/lab1.md)
-- [Lab 2: Themes & Skin]()
+- [Lab 2: Themes & Skin](https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/lab2.md)
 - [Lab 3: CSS Template]()
 - [Lab 4: Master page: Intro]()
 - [Lab 5: Master page E-learning]()
