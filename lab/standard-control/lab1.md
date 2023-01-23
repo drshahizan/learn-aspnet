@@ -1,4 +1,4 @@
-# Lab1: ASP.NET Fundamentals
+# Lab 1: ASP.NET Fundamentals
 
 ## Instructions
 
