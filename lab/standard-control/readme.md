@@ -1,7 +1,11 @@
-# Lab
+## Instructions
 
-1. Exercise 4.1:  AdRotator (page:97)
-2. Exercise 4.2: Calendar (page 105)
-3. Exercise 4.3: DropDownList (page 112)
-4. Exercise 4.4: Image (page 118)
-5. Exercise 4.5: ListBox(page 125)
+After completing this lab, you will be able to:
+- Create a Web site with Visual Studio
+- Create and link multiple pages in a site
+- Use ASP.NET server controls to interact with clients
+
+## Prerequisites
+- Before working on this lab, you must have:
+- Basic understanding of HTML
+- Familiarity with Web interfaces
