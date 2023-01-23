@@ -41,6 +41,10 @@ The information on this Github is part of the materials for the subject Programm
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
    - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
    - [Assignment 4: Web Design](https://github.com/drshahizan/learn-aspnet/tree/main/web-design)
+      - [Ainon](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ainon)
+      - [Catchy](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Catchy)
+      - [Nazariah](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Nazariah)
+      - [Ramli](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ramli)
 - [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
 - [Book](#book)
 - [Final exam](#final-exam)
@@ -213,12 +217,12 @@ methods and tools.
    - Lab 8.3: RequiredFieldValidator and CompareValidator controls (page 336)
    - Lab 8.4: RequiredFieldValidator control (page 339)
    - Lab 8.5: ValidationSummary control (page 343)
-## Standard Control
-- [ASP.NET Fundamentals]()
-- [Conditionals]()
-- [Pizza store]()
-- [JDT NBA team]()
-- [More controls]()
+## [Standard Control](https://github.com/drshahizan/learn-aspnet/tree/main/lab/standard-control)
+- [Lab 1: ASP.NET Fundamentals](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab1.md)
+- [Lab 2: Conditionals](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab2.md)
+- [Lab 3: Pizza store](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab3.md)
+- [Lab 4: JDT NBA team](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab4.md)
+- [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
 ## Database
 Exercise: SQL Server

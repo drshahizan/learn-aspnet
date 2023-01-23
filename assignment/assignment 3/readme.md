@@ -9,9 +9,11 @@
 
 You will do this assignment  related to the human resource (HR) database. This case study requires you to use SQL Server. This database has seven tables such as jobs, regions, countries, locations, dependents, employees, and departments. The following database diagram illustrates the HR database:
 
-<img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" />
-Figure 1.1: Database Schema
- 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" /></br>
+  <b>Figure 1.1:</b> Database Schema
+</p>
+
 #### The HR sample database has seven tables:
 
 1. The employees table stores the data of employees.
@@ -34,27 +36,28 @@ The following picture shows the table names and their records.
 | countries | 25 |
 | regions | 4 |
 
+
 📌 Please download the SQL script for creates the HR database structure 💾 and the script allows you to insert data into the tables💾.
 
 You are required to create a database named HR. After that, create a table as described. Then, enter the data (refer Figure 1.2 and 1.3).
 
+<p align="center">
+  <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" /></br>
+  <b>Figure 1.2:</b> Database CaseStudy2
+</p>
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" />
-
-Figure 1.2: Database CaseStudy2
-
-
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" />
-
-Figure 1.3: Table employees
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" /></br>
+<b>Figure 1.3:</b> Table employees
+</p>
 
 
 You are given the file CaseStudy2.sln to complete this case study. In this file, there is an image folder that contains the staff photo that will be used. Please refer to Figure 1.4. Please download the CaseStudy2.sln file 💾.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="200" />
-
-Figure 1.4: Solution Explorer
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20explorer.png" width="200" /></br>
+<b>Figure 1.4:</b> Solution Explorer
+</p>
 
 ## Task 1: SQL Question
 
@@ -62,9 +65,10 @@ Please create a file named frmSQL.aspx. This file will be used to answer SQL que
 
 1. Sort the salary data in the employees table's salary column from high to low. The values in this data must be unique.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="200" />
-
-Figure 1.5: Solution Q1
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="200" /></br>
+<b>Figure 1.5:</b> Solution Q1
+</p>
 
 2. Returns all rows in the employees table sorted by the first_name column. You must restrict to 5 data only.
 
@@ -101,30 +105,35 @@ ASP.NET provides a wide variety of rich controls that can be bound to data. Unde
 ### Task 2a: frmSearch1.aspx
 You are required to create a file named frmSearch1.aspx. Please perform activities related to Presentation control data. Make a search using the first_name field as text input. Utilize the employees table. The GridView control is used to display the execution's outcomes.  You need to ensure that column name is a combination of first_name and last_name. Column experience is based on hire_date data. Also please change the format for the hire_date and salary fields. 
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama1.png" width="450" />
-
-Figure 1.6: Search name
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama1.png" width="450" /></br>
+  <b>Figure 1.6:</b> Search name
+</p>
 
 ### Task 2b:  frmSearch2.aspx
 In this task, you are required to create a GridView control that allows users to edit or delete data. Apart from that, you are also allowed to select the desired data. Please refer to Figure 1.7.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="600" />
-
-Figure 1.7: Search name
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="600" /></br>
+  <b>Figure 1.7:</b> Search name
+</p>
+  
 You are required to update the employee_id data numbered 101. Please change the staff picture and increase the salary to 20,000. Please refer to Figure 1.8.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="600" />
-
-Figure 1.8: Update data
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="600" /></br>
+<b>Figure 1.8:</b> Update data
+</p>
 
 ### Task 2c:  frmDataBound.aspx
 You are required to create a staff directory by Department. Please use the DropDownList control to display the Department list. This list must be unique. When the name of the department has been selected, then the output results in the Gridview column. Please produce an interface like Figure 1.9 and Figure 1.10.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20Departments.png" width="180" />
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20Departments.png" width="180" /></br>
+<b>Figure 1.9:</b> List of Departments
+</p>
 
-Figure 1.9: List of Departments
-
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="450" />
-
-Figure 1.10: List of staff by Department
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="450" /></br>
+<b>Figure 1.10:</b> List of staff by Department
+</p>

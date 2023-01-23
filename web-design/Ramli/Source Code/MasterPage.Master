@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment_4.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batik Art</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+
+    <environment names="Staging, Production">
+        <link rel ="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+            asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+            asp-fallback-test-class="sr~only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+     <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        </environment>
+
+    <style type="text/css">
+
+    .rectangle{
+	width: 1349px;
+	height: 200px;
+	padding: 8px 8px 8px 8px;
+    background-color:darkslategray;
+    background-repeat:round;
+    background-image:url("batikmalaysia.jpg");
+    
+    }
+
+    
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <hr />
+        <div class="navbar navbar-inverse navbar-absolute-top">
+            <div class="container">
+                <div class="navbar-header"></div>
+                <button type="button" class="navbar-toggle" data-toggle="tabs" data-target=".navbar-tabs">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"></a>                    
+               <img src= "Images/BatikLogo.jpg" width="200" height="100"/>
+               </div>
+              
+           
+               <div class="nav-tabs tabs">
+              <ul class="nav nav-tabs">
+                    <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="Home" asp-action="About">About Batik</a></li>
+                    <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="Home" asp-action="Costumes">Costumes</a></li>
+                </ul>        
+            </div>
+        </div>
+               <div class="rectangle">  
+                  <p><center style="color:antiquewhite; font-size: 85px; font-style: italic">Batik The Unity Art</center></p>
+                  <p> <center style="color:antiquewhite; font-size:15px; font-style: italic">The Art that embraces in the traditional costumes of multiraces in Malaysia. 
+                      <br>A unique medium of expression as it uses cultural patterns of respective races. </br> </center></p>
+               </div> 
+        
+        <asp:ContentPlaceHolder ID="Summary" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="Main" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="Main1" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        <asp:ContentPlaceHolder ID="Main2" runat="server">
+        </asp:ContentPlaceHolder>
+
+       <hr />
+          <div>
+            <footer>
+                <p><center>@copyright 2023 by Batik Art.</center></p>
+            </footer>
+       </div>
+        
+        <environment names="Development">
+            <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+        </environment>
+
+        <environment names="Staging, Production">
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jquery">
+            </script>
+
+            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jquery && window.jquery.fn && window.jquery.fn.modal">
+            </script>
+
+            <script src="~/js/site.min.js" asp-append-version="true"></script>
+
+        </environment>
+  
+      
+    </form>
+</body>
+</html>
