@@ -13,3 +13,10 @@ We add a calendar control to the Web Form which will be used to select dates whi
 </p>
 
 [Source code: 💾](https://drive.google.com/file/d/1mmMpd013dEVU_SVqCL4l_BwjfIWkj6Vq/view?usp=share_link)
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
