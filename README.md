@@ -242,13 +242,13 @@ methods and tools.
 - [Lab 10: How to Bind Data From MySQL Database to GridView](https://www.c-sharpcorner.com/UploadFile/47548d/how-to-bind-data-from-mysql-database-to-gridview-in-Asp-Net/)
 
 ## Styles and Master Pages
-- [Style sheets]()
-- [Themes & Skin]()
-- [CSS Template]()
-- [Master page: Intro]()
-- [Master page E-learning]()
-- [Master page: brown shadow template]()
-- [Master page: ASP.NET Web Apps]()
+- [Lab 1: Style sheets]()
+- [Lab 2: Themes & Skin]()
+- [Lab 3: CSS Template]()
+- [Lab 4: Master page: Intro]()
+- [Lab 5: Master page E-learning]()
+- [Lab 6: Master page: brown shadow template]()
+- [Lab 7: Master page: ASP.NET Web Apps]()
 
 # Case Study
 - [Danny’s Diner (Question)](https://8weeksqlchallenge.com/case-study-1/)
