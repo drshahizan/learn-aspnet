@@ -9,7 +9,7 @@
             <asp:BoundField DataField="height_cm" HeaderText="Height (cm)" SortExpression="height_cm" />
             <asp:BoundField DataField="weight_kg" HeaderText="Weight (kg)" SortExpression="weight_kg" />
             <asp:BoundField DataField="dominant_foot" HeaderText="Dominant Foot" SortExpression="dominant_foot" />
-            <asp:BoundField DataField="estimated_value" HeaderText="Estimated Value" SortExpression="estimated_value" />
+            <asp:BoundField DataField="estimated_value" HeaderText="Estimated Value (usd)" SortExpression="estimated_value" DataFormatString="{0:#,##0}" />
         </Columns>
         <EditRowStyle BackColor="#999999" />
         <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
