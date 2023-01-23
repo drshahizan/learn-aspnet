@@ -253,6 +253,7 @@ methods and tools.
 # Case Study
 - [Danny’s Diner (Question)](https://8weeksqlchallenge.com/case-study-1/)
 - [Danny’s Diner (Solution)](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/case-study1-solution.md)
+- [DB source code](https://drive.google.com/file/d/1Qa77Mfy_X7VypoQQjFPpHSAq9pzmrwSE/view?usp=share_link)
 
 # Books
 
