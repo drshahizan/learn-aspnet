@@ -23,8 +23,6 @@ namespace WorldCupOnTheGo
         public Nullable<long> updated_by { get; set; }
         public string status { get; set; }
         public System.DateTime published_date { get; set; }
-    
-        public virtual tblUser tblUser { get; set; }
-        public virtual tblUser tblUser1 { get; set; }
+        public long match_id_id { get; set; }
     }
 }

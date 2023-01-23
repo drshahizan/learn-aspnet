@@ -23,10 +23,5 @@ namespace WorldCupOnTheGo
         public Nullable<long> created_by { get; set; }
         public Nullable<System.DateTime> updated_date { get; set; }
         public Nullable<long> updated_by { get; set; }
-    
-        public virtual tblUser tblUser { get; set; }
-        public virtual tblMatch tblMatch { get; set; }
-        public virtual tblPlayer tblPlayer { get; set; }
-        public virtual tblUser tblUser1 { get; set; }
     }
 }

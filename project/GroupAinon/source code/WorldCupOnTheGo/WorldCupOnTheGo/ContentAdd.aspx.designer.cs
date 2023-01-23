@@ -24,13 +24,13 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
-        /// txTitle control.
+        /// txtTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txTitle;
+        protected global::System.Web.UI.WebControls.TextBox txtTitle;
 
         /// <summary>
         /// txtContent control.
@@ -49,5 +49,14 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmit;
+
+        /// <summary>
+        /// btnContentList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnContentList;
     }
 }

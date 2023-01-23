@@ -9,7 +9,7 @@ CREATE TABLE [dbo].[tblUser] (
 CREATE TABLE [dbo].[tblTeam]
 (
 	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
-    [name] BIGINT NOT NULL, 
+    [name] NVARCHAR (MAX) NOT NULL, 
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
 	[updated_date] DATETIME NULL, 
@@ -18,7 +18,7 @@ CREATE TABLE [dbo].[tblTeam]
 CREATE TABLE [dbo].[tblPlayer]
 (
 	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
-    [name] BIGINT NOT NULL, 
+    [name] NVARCHAR (MAX) NOT NULL, 
     [jercy_no] INT NOT NULL, 
     [team_id] BIGINT NOT NULL, 
     [created_date] DATETIME NULL, 
@@ -62,7 +62,8 @@ CREATE TABLE [dbo].[tblPost]
 	[updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL,
     [status] NVARCHAR(50) NULL, 
-    [published_date] DATETIME NOT NULL
+    [published_date] DATETIME NOT NULL,
+	[match_id_id] BIGINT NOT NULL
 )
 
 

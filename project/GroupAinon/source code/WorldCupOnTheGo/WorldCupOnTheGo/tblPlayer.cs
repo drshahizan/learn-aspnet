@@ -14,25 +14,13 @@ namespace WorldCupOnTheGo
     
     public partial class tblPlayer
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public tblPlayer()
-        {
-            this.tblFoulsAndMisconducts = new HashSet<tblFoulsAndMisconduct>();
-        }
-    
         public long Id { get; set; }
-        public long name { get; set; }
+        public string name { get; set; }
         public int jercy_no { get; set; }
         public long team_id { get; set; }
         public Nullable<System.DateTime> created_date { get; set; }
         public Nullable<long> created_by { get; set; }
         public Nullable<System.DateTime> updated_date { get; set; }
         public Nullable<long> updated_by { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblFoulsAndMisconduct> tblFoulsAndMisconducts { get; set; }
-        public virtual tblUser tblUser { get; set; }
-        public virtual tblTeam tblTeam { get; set; }
-        public virtual tblUser tblUser1 { get; set; }
     }
 }

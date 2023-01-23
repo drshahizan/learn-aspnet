@@ -3,24 +3,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <section class="py-5 container">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Create new content</h1>
-                <div class="form-group">                    
-                    <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
-                </div>
-                <div class="form-group">                    
-                    <label for="exampleFormControlInput1">Title</label>
-                    <asp:TextBox ID="txTitle" CssClass="form-control" runat="server"></asp:TextBox>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Content</label>
-                    <asp:TextBox ID="txtContent" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
-                </div>                                
-                <div class="form-group">
-                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
-                </div>
+        <div class="card-body">
+            <h4>Add New Content</h4>
+            <div class="form-outline mb-4">
+                <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Title</label>
+                <asp:TextBox ID="txtTitle" CssClass="form-control" runat="server"></asp:TextBox>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Content</label>
+                <asp:TextBox ID="txtContent" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
+            </div>
+            <div class="mb-2">
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-success my-2" OnClick="btnSubmit_Click" />
+                <asp:Button ID="btnContentList" runat="server" CssClass="btn btn-primary my-2" Text="Go to content list" OnClick="btnContentList_Click" />
             </div>
         </div>
     </section>

@@ -14,12 +14,6 @@ namespace WorldCupOnTheGo
     
     public partial class tblMatch
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public tblMatch()
-        {
-            this.tblFoulsAndMisconducts = new HashSet<tblFoulsAndMisconduct>();
-        }
-    
         public long Id { get; set; }
         public long team_a_id { get; set; }
         public int team_a_score { get; set; }
@@ -30,12 +24,5 @@ namespace WorldCupOnTheGo
         public Nullable<long> created_by { get; set; }
         public Nullable<System.DateTime> updated_date { get; set; }
         public Nullable<long> updated_by { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblFoulsAndMisconduct> tblFoulsAndMisconducts { get; set; }
-        public virtual tblUser tblUser { get; set; }
-        public virtual tblTeam tblTeam { get; set; }
-        public virtual tblTeam tblTeam1 { get; set; }
-        public virtual tblUser tblUser1 { get; set; }
     }
 }

@@ -58,6 +58,7 @@
           <ScalarProperty Name="updated_by" ColumnName="updated_by" />
           <ScalarProperty Name="status" ColumnName="status" />
           <ScalarProperty Name="published_date" ColumnName="published_date" />
+          <ScalarProperty Name="match_id_id" ColumnName="match_id_id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

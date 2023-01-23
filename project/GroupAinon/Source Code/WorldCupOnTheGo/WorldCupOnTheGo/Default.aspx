@@ -17,8 +17,10 @@
                         <asp:Label ID="lblDisplayEmail" runat="server" Text=""></asp:Label>
                     </p>
                     <p>
-                        <asp:Button ID="btnGoToContentList" runat="server" CssClass="btn btn-primary my-2" Text="Go to content list" OnClick="btnGoToContentList_Click"/>
-                        <asp:Button ID="btnGoToContentAdd" runat="server" CssClass="btn btn-primary my-2" Text="Add new content" OnClick="btnGoToContentAdd_Click"/>
+                        <asp:Button ID="btnGoToContentList" runat="server" CssClass="btn btn-primary my-2" Text="Go to content list" OnClick="btnGoToContentList_Click" />
+                        <asp:Button ID="btnGoToContentAdd" runat="server" CssClass="btn btn-primary my-2" Text="Add new content" OnClick="btnGoToContentAdd_Click" />
+                        <asp:Button ID="btnGoToTeamList" runat="server" CssClass="btn btn-primary my-2" Text="Go to Team List" OnClick="btnGoToTeamList_Click" />
+                        <asp:Button ID="btnGoToMatchList" runat="server" CssClass="btn btn-primary my-2" Text="Go to Match List" OnClick="btnGoToMatchList_Click" />
                     </p>
                 </div>
             </div>
@@ -28,25 +30,29 @@
             <div class="container">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" />
-                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <asp:ListView ID="lvContent" runat="server">
+                        <ItemTemplate>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <title>Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c" />
+                                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                                    <div class="card-body">
+                                        <p class="card-text"><%# Eval("Title") %></p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                            </div>
+                                            <small class="text-muted">Created Date : <%# Eval("created_date") %></small>
+                                        </div>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col">
+                        </ItemTemplate>
+                    </asp:ListView>                    
+                    <%--<div class="col">
                         <div class="card shadow-sm">
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <title>Placeholder</title>
@@ -188,7 +194,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
                 </div>
             </div>
         </div>

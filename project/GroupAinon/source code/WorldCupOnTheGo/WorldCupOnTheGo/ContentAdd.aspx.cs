@@ -16,7 +16,7 @@ namespace WorldCupOnTheGo
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            var title = txTitle.Text;
+            var title = txtTitle.Text;
             var content = txtContent.Text;
             if(Global.Class.InsertContent(title, content, Convert.ToInt64(Session["userid"])))
             {
@@ -29,5 +29,9 @@ namespace WorldCupOnTheGo
                 lblMessage.Text = "Failed to create new content";
             }
         }
+        protected void btnContentList_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ContentList.aspx");
+        }        
     }
 }

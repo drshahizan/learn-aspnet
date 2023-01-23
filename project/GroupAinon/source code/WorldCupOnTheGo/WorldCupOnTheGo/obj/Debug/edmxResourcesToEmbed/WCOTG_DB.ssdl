@@ -34,7 +34,7 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="name" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
     <Property Name="jercy_no" Type="int" Nullable="false" />
     <Property Name="team_id" Type="bigint" Nullable="false" />
     <Property Name="created_date" Type="datetime" />
@@ -55,13 +55,14 @@
     <Property Name="updated_by" Type="bigint" />
     <Property Name="status" Type="nvarchar" MaxLength="50" />
     <Property Name="published_date" Type="datetime" Nullable="false" />
+    <Property Name="match_id_id" Type="bigint" Nullable="false" />
   </EntityType>
   <EntityType Name="tblTeam">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="name" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
     <Property Name="created_date" Type="datetime" />
     <Property Name="created_by" Type="bigint" />
     <Property Name="updated_date" Type="datetime" />

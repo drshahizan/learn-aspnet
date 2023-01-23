@@ -76,6 +76,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ContentDelete.aspx" />
+    <Content Include="ContentEdit.aspx" />
+    <Content Include="MatchDelete.aspx" />
+    <Content Include="MatchEdit.aspx" />
+    <Content Include="MatchList.aspx" />
+    <Content Include="PlayerAdd.aspx" />
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.ldf">
       <DependentUpon>Database.mdf</DependentUpon>
@@ -90,10 +96,15 @@
     <Content Include="ContentList.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="PlayerDelete.aspx" />
+    <Content Include="TeamAdd.aspx" />
+    <Content Include="TeamDelete.aspx" />
+    <Content Include="TeamEdit.aspx" />
+    <Content Include="TeamList.aspx" />
     <Content Include="WCOTG_DB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>WCOTG_DB.Context.cs</LastGenOutput>
       <DependentUpon>WCOTG_DB.edmx</DependentUpon>
+      <LastGenOutput>WCOTG_DB.Context.cs</LastGenOutput>
     </Content>
     <Content Include="WCOTG_DB.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -103,6 +114,48 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContentDelete.aspx.cs">
+      <DependentUpon>ContentDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentDelete.aspx.designer.cs">
+      <DependentUpon>ContentDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentEdit.aspx.cs">
+      <DependentUpon>ContentEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentEdit.aspx.designer.cs">
+      <DependentUpon>ContentEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MatchDelete.aspx.cs">
+      <DependentUpon>MatchDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MatchDelete.aspx.designer.cs">
+      <DependentUpon>MatchDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MatchEdit.aspx.cs">
+      <DependentUpon>MatchEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MatchEdit.aspx.designer.cs">
+      <DependentUpon>MatchEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MatchList.aspx.cs">
+      <DependentUpon>MatchList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MatchList.aspx.designer.cs">
+      <DependentUpon>MatchList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerAdd.aspx.cs">
+      <DependentUpon>PlayerAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayerAdd.aspx.designer.cs">
+      <DependentUpon>PlayerAdd.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ContentAdd.aspx.cs">
       <DependentUpon>ContentAdd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,6 +192,13 @@
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
+    <Compile Include="PlayerDelete.aspx.cs">
+      <DependentUpon>PlayerDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayerDelete.aspx.designer.cs">
+      <DependentUpon>PlayerDelete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tblFoulsAndMisconduct.cs">
       <DependentUpon>WCOTG_DB.tt</DependentUpon>
@@ -157,6 +217,34 @@
     </Compile>
     <Compile Include="tblUser.cs">
       <DependentUpon>WCOTG_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TeamAdd.aspx.cs">
+      <DependentUpon>TeamAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamAdd.aspx.designer.cs">
+      <DependentUpon>TeamAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamDelete.aspx.cs">
+      <DependentUpon>TeamDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamDelete.aspx.designer.cs">
+      <DependentUpon>TeamDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamEdit.aspx.cs">
+      <DependentUpon>TeamEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamEdit.aspx.designer.cs">
+      <DependentUpon>TeamEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeamList.aspx.cs">
+      <DependentUpon>TeamList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeamList.aspx.designer.cs">
+      <DependentUpon>TeamList.aspx</DependentUpon>
     </Compile>
     <Compile Include="WCOTG_DB.Context.cs">
       <AutoGen>True</AutoGen>

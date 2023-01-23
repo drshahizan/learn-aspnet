@@ -14,45 +14,9 @@ namespace WorldCupOnTheGo
     
     public partial class tblUser
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public tblUser()
-        {
-            this.tblFoulsAndMisconducts = new HashSet<tblFoulsAndMisconduct>();
-            this.tblFoulsAndMisconducts1 = new HashSet<tblFoulsAndMisconduct>();
-            this.tblMatches = new HashSet<tblMatch>();
-            this.tblMatches1 = new HashSet<tblMatch>();
-            this.tblPlayers = new HashSet<tblPlayer>();
-            this.tblPlayers1 = new HashSet<tblPlayer>();
-            this.tblPosts = new HashSet<tblPost>();
-            this.tblPosts1 = new HashSet<tblPost>();
-            this.tblTeams = new HashSet<tblTeam>();
-            this.tblTeams1 = new HashSet<tblTeam>();
-        }
-    
         public long Id { get; set; }
         public string email { get; set; }
         public string password { get; set; }
         public string role { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblFoulsAndMisconduct> tblFoulsAndMisconducts { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblFoulsAndMisconduct> tblFoulsAndMisconducts1 { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblMatch> tblMatches { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblMatch> tblMatches1 { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblPlayer> tblPlayers { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblPlayer> tblPlayers1 { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblPost> tblPosts { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblPost> tblPosts1 { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblTeam> tblTeams { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<tblTeam> tblTeams1 { get; set; }
     }
 }
