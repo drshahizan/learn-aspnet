@@ -7,7 +7,7 @@
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="PlayerListing" Width="1148px" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
-            <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
+             <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayerDetail.aspx?id={0}" DataTextField="Name" HeaderText="Name" SortExpression="name" />
             <asp:BoundField DataField="date_of_birth" HeaderText="Birthday" SortExpression="date_of_birth" DataFormatString="{0:dd/MM/yyyy}" />
             <asp:BoundField DataField="height_cm" HeaderText="Height (cm)" SortExpression="height_cm" />
             <asp:BoundField DataField="weight_kg" HeaderText="Weight (kg)" SortExpression="weight_kg" />
