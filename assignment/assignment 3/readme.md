@@ -65,9 +65,10 @@ Please create a file named frmSQL.aspx. This file will be used to answer SQL que
 
 1. Sort the salary data in the employees table's salary column from high to low. The values in this data must be unique.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="200" />
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Solution%20Q1.png" width="200" /></br>
 <b>Figure 1.5:</b> Solution Q1
+</p>
 
 2. Returns all rows in the employees table sorted by the first_name column. You must restrict to 5 data only.
 
@@ -104,30 +105,35 @@ ASP.NET provides a wide variety of rich controls that can be bound to data. Unde
 ### Task 2a: frmSearch1.aspx
 You are required to create a file named frmSearch1.aspx. Please perform activities related to Presentation control data. Make a search using the first_name field as text input. Utilize the employees table. The GridView control is used to display the execution's outcomes.  You need to ensure that column name is a combination of first_name and last_name. Column experience is based on hire_date data. Also please change the format for the hire_date and salary fields. 
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama1.png" width="450" />
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama1.png" width="450" /></br>
   <b>Figure 1.6:</b> Search name
+</p>
 
 ### Task 2b:  frmSearch2.aspx
 In this task, you are required to create a GridView control that allows users to edit or delete data. Apart from that, you are also allowed to select the desired data. Please refer to Figure 1.7.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="600" />
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Search%20nama2.png" width="600" /></br>
   <b>Figure 1.7:</b> Search name
-
+</p>
+  
 You are required to update the employee_id data numbered 101. Please change the staff picture and increase the salary to 20,000. Please refer to Figure 1.8.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="600" />
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Update%20data.png" width="600" /></br>
 <b>Figure 1.8:</b> Update data
+</p>
 
 ### Task 2c:  frmDataBound.aspx
 You are required to create a staff directory by Department. Please use the DropDownList control to display the Department list. This list must be unique. When the name of the department has been selected, then the output results in the Gridview column. Please produce an interface like Figure 1.9 and Figure 1.10.
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20Departments.png" width="180" />
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20Departments.png" width="180" /></br>
 <b>Figure 1.9:</b> List of Departments
+</p>
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="450" />
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/List%20staff%20dept.png" width="450" /></br>
 <b>Figure 1.10:</b> List of staff by Department
+</p>
