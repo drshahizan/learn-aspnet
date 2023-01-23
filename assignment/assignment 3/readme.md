@@ -9,9 +9,11 @@
 
 You will do this assignment  related to the human resource (HR) database. This case study requires you to use SQL Server. This database has seven tables such as jobs, regions, countries, locations, dependents, employees, and departments. The following database diagram illustrates the HR database:
 
-<img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" />
-Figure 1.1: Database Schema
- 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/drshahizan/learn-aspnet/main/image/SQL-Sample-Database-Schema.png" width="450" /></br>
+  <b>Figure 1.1:</b> Database Schema
+</p>
+
 #### The HR sample database has seven tables:
 
 1. The employees table stores the data of employees.
@@ -24,6 +26,7 @@ Figure 1.1: Database Schema
 
 The following picture shows the table names and their records.
 
+
 | Table | Rows |
 | --- | --- |
 | employees | 40 |
@@ -33,6 +36,7 @@ The following picture shows the table names and their records.
 | locations | 7 |
 | countries | 25 |
 | regions | 4 |
+ 
 
 📌 Please download the SQL script for creates the HR database structure 💾 and the script allows you to insert data into the tables💾.
 
