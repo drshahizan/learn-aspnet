@@ -239,7 +239,7 @@ methods and tools.
 - [Lab 9: Working with relational database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab9.md)
 
 ### MySQL
-- [Lab 10: How to Bind Data From MySQL Database to GridView]()
+- [Lab 10: How to Bind Data From MySQL Database to GridView](https://www.c-sharpcorner.com/UploadFile/47548d/how-to-bind-data-from-mysql-database-to-gridview-in-Asp-Net/)
 
 ## Styles and Master Pages
 - [Style sheets]()
