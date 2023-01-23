@@ -16,7 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/frmCS2.png"  height="200" /></br>
-<b>Figure 1:</b> frmCS2
+<b>Figure 2:</b> frmCS2
 </p>
 
 [Source code: 💾](https://drive.google.com/file/d/13liYFFY9OBHm2ujIgm79aTGBP6FNfdrR/view?usp=share_link)
