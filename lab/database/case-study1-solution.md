@@ -179,7 +179,7 @@ Then, pull table to show the last item ordered by customer before becoming membe
 
 8. What is the total items and amount spent for each member before they became a member?
 
-First, filter order_date before their join_date. Then, COUNT unique product_id and SUM the prices total spent before becoming member.
+First, filter order_date before their join_date. Then, `COUNT` unique product_id and SUM the prices total spent before becoming member.
 
 ```
   SELECT s.customer_id, COUNT(DISTINCT s.product_id) AS unique_menu_item, SUM(mm.price) AS total_sales
@@ -199,7 +199,7 @@ Let’s breakdown the question.
 - Each $1 spent = 10 points.
 - But, sushi (product_id 1) gets 2x points, meaning each $1 spent = 20 points
 - 
-So, we use CASE WHEN to create conditional statements
+So, we use `CASE WHEN` to create conditional statements
 - If product_id = 1, then every $1 price multiply by 20 points
 - All other product_id that is not 1, multiply $1 by 10 points
 So, you can see the table below with new column, points.
@@ -216,7 +216,7 @@ So, you can see the table below with new column, points.
    )
 ```
  
-Using the table above, we SUM the price, match it to the product_id and SUM the total_points.
+Using the table above, we `SUM` the price, match it to the product_id and `SUM` the total_points.
 
 ```
   SELECT s.customer_id, SUM(p.points) AS total_points
@@ -241,7 +241,7 @@ Find out customer’s validity date (which is 6 days after join_date and inclusi
   )
 ```
 
-Then, use CASE WHEN to allocate points by dates and product_name.
+Then, use `CASE WHEN` to allocate points by dates and product_name.
 
 ```
   SELECT d.customer_id, s.order_date, d.join_date, 
