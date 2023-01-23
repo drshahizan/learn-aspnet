@@ -217,12 +217,12 @@ methods and tools.
    - Lab 8.3: RequiredFieldValidator and CompareValidator controls (page 336)
    - Lab 8.4: RequiredFieldValidator control (page 339)
    - Lab 8.5: ValidationSummary control (page 343)
-## Standard Control
-- [ASP.NET Fundamentals](https://github.com/drshahizan/learn-aspnet/tree/main/lab/standard-control)
-- [Conditionals]()
-- [Pizza store]()
-- [JDT NBA team]()
-- [More controls]()
+## [Standard Control](https://github.com/drshahizan/learn-aspnet/tree/main/lab/standard-control)
+- [Lab 1: ASP.NET Fundamentals](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab1.md)
+- [Lab 2: Conditionals](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab2.md)
+- [Lab 3: Pizza store](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab3.md)
+- [Lab 4: JDT NBA team](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab4.md)
+- [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
 ## Database
 Exercise: SQL Server
