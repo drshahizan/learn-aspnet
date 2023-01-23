@@ -14,14 +14,14 @@ Don't forget to hit the :star: if you like this repo.
 Please follow these instructions:
 
 - You must establish a database called CaseStudy1.
-- Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, please click 💾. Figure 1.1 depicts the outcomes of the application.
+- Please then create three tables with the names members, menu, and sales. To obtain the SQL file needed to create the table, [please click 💾](https://drive.google.com/file/d/1yxcAMvYdLwKVTLoZDz5kVkwrsCAzroMy/view?usp=share_link). Figure 1.1 depicts the outcomes of the application.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs1.png"  height="300" /><br>
 <b>Figure 1.1: </b>Create table
 </p>
 
-- The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, please click 💾. The information entered matches Figures 2 to 4.
+- The following step is to input the data into the three newly constructed tables. To download the SQL file for data entry, [please click 💾](https://drive.google.com/file/d/1i4r6mSlJ9tQ8-JLYS7_MrBQOitW3eFSZ/view?usp=share_link). The information entered matches Figures 2 to 4.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs2.png"  height="100" /><br>
@@ -38,7 +38,7 @@ Please follow these instructions:
 <b>Figure 1.4: </b>Menu table
 </p>
 
-Please open the 📁 file to view the entire source code.
+Please open [the 📁 file](https://drive.google.com/file/d/17bWve0OR_V74sS_r3ZdCym39OZLF-3yW/view?usp=share_link) to view the entire source code.
 
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/images/cs5.png"  height="300" /><br>
