@@ -38,11 +38,10 @@ The following picture shows the table names and their records.
 
 You are required to create a database named HR. After that, create a table as described. Then, enter the data (refer Figure 1.2 and 1.3).
 
-
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" />
-
-Figure 1.2: Database CaseStudy2
-
+<p align="center">
+  <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" /></br>
+  <b>Figure 1.2: Database CaseStudy2</b>
+</p>
 
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" />
 
