@@ -10,26 +10,26 @@ Don't forget to hit the :star: if you like this repo.
 # Lab 2: Themes & Skin
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/frmCS1.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/Lab21.png"  height="150" /></br>
 <b>Figure 1:</b> Skin
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/frmCS1.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/Lab22.png"  height="120" /></br>
 <b>Figure 2:</b> Themes
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/frmCS1.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/Lab23.png"  height="140" /></br>
 <b>Figure 3:</b> Internal CSS
 </p>
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/frmCS1.png"  height="200" /></br>
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/images/Lab24.png"  height="140" /></br>
 <b>Figure 4:</b> External CSS
 </p>
 
-[Source code: 💾](https://drive.google.com/file/d/13liYFFY9OBHm2ujIgm79aTGBP6FNfdrR/view?usp=share_link)
+[Source code: 💾](https://drive.google.com/file/d/1Ew90gdBBydzMhSQxeATwegYghscMATgI/view?usp=share_link)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
