@@ -33,7 +33,7 @@ The information on this Github is part of the materials for the subject Programm
 - Lab
    - [Book: ASP Web Programming. NET Using VB and C#](#book)
    - [Standard Control](#standard-control)
-   - [Database](#database)
+   - [Database](#lab-database)
    - [Styles and Master Pages](#styles-and-master-pages)
 - [Case Study](#case-study)
 - Assignment
@@ -224,11 +224,11 @@ methods and tools.
 - [Lab 4: JDT NBA team](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab4.md)
 - [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
-## Database
+## Lab: Database
 [Exercise: SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
-- [Create Table](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab1.md)
-- [Data binding](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab2.md)
-- [Implementing CRUD in FormView](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab3.md)
+- [Lab 1: Create Table](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab1.md)
+- [Lab 2: Data binding](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab2.md)
+- [Lab 3: Implementing CRUD in FormView](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab3.md)
 
 Exercise: Access
 - [Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64]()
