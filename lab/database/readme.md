@@ -8,8 +8,8 @@
 
 ## Microsoft Access
 - [Lab 4: Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64File](./lab4.md)
-- [Lab 5: Data binding using an Access databasePage](./lab5.md)
-- [Lab 6: Filtering dataPage](./lab6.md)
-- [Lab 7: Data binding: Using a DropDownlist to filter dataPage](./lab7.md)
-- [Lab 8: Data binding: Using calender control to filter dataPage](./lab8.md)
-- [Lab 9: Working with relational databasePage](./lab9.md)
+- [Lab 5: Data binding using an Access database](./lab5.md)
+- [Lab 6: Filtering data](./lab6.md)
+- [Lab 7: Data binding: Using a DropDownlist to filter data](./lab7.md)
+- [Lab 8: Data binding: Using calender control to filter data](./lab8.md)
+- [Lab 9: Working with relational database](./lab9.md)
