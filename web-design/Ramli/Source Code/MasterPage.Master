@@ -23,12 +23,12 @@
     <style type="text/css">
 
     .rectangle{
-	width: 1666px;
-	height: 230px;
+	width: 1349px;
+	height: 200px;
 	padding: 8px 8px 8px 8px;
     background-color:darkslategray;
     background-repeat:round;
-    background-image:url("batikbannerimage1.jpg");
+    background-image:url("batikmalaysia.jpg");
     
     }
 
@@ -51,7 +51,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"></a>                    
-               <img src= "Images/BatikLogo.jpg" width="80" height="75"/>
+               <img src= "Images/BatikLogo.jpg" width="200" height="100"/>
                </div>
               
            
@@ -64,8 +64,9 @@
             </div>
         </div>
                <div class="rectangle">  
-                  <p><center style="color:antiquewhite; font-size: 75px; font-style: italic">Batik The Unity Art</center></p>
-                  <p> <center style="color:antiquewhite; font-size:15px; font-style: italic">The Art that embraces in the traditional costumes of multiraces in Malaysia. A unique medium of expression as it uses cultural patterns of respective races. </center></p>
+                  <p><center style="color:antiquewhite; font-size: 85px; font-style: italic">Batik The Unity Art</center></p>
+                  <p> <center style="color:antiquewhite; font-size:15px; font-style: italic">The Art that embraces in the traditional costumes of multiraces in Malaysia. 
+                      <br>A unique medium of expression as it uses cultural patterns of respective races. </br> </center></p>
                </div> 
         
         <asp:ContentPlaceHolder ID="Summary" runat="server">
@@ -83,7 +84,7 @@
        <hr />
           <div>
             <footer>
-                <p><center>@Created 2023 by Batik Art. All images are downloaded online copyright may reserved by owners. <br />Images used here are strictly for non-commercial purpose. </center></p>
+                <p><center>@copyright 2023 by Batik Art.</center></p>
             </footer>
        </div>
         
@@ -107,9 +108,7 @@
             <script src="~/js/site.min.js" asp-append-version="true"></script>
 
         </environment>
-
-        
-        
+  
       
     </form>
 </body>
