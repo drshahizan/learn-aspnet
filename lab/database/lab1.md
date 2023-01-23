@@ -45,3 +45,10 @@ Now enter data (right click on newly appearing Customer table / show table data)
 </p>
 
 [Source code:💾](https://drive.google.com/file/d/1eluWADfaz379wxmKAKNQq0tMS8d9i-su/view?usp=sharing)
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
