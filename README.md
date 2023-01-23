@@ -218,7 +218,7 @@ methods and tools.
    - Lab 8.4: RequiredFieldValidator control (page 339)
    - Lab 8.5: ValidationSummary control (page 343)
 ## Standard Control
-- [ASP.NET Fundamentals]()
+- [ASP.NET Fundamentals](https://github.com/drshahizan/learn-aspnet/tree/main/lab/standard-control)
 - [Conditionals]()
 - [Pizza store]()
 - [JDT NBA team]()
