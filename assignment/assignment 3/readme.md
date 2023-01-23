@@ -26,7 +26,6 @@ You will do this assignment  related to the human resource (HR) database. This c
 
 The following picture shows the table names and their records.
 
-
 | Table | Rows |
 | --- | --- |
 | employees | 40 |
@@ -36,7 +35,7 @@ The following picture shows the table names and their records.
 | locations | 7 |
 | countries | 25 |
 | regions | 4 |
- 
+
 
 📌 Please download the SQL script for creates the HR database structure 💾 and the script allows you to insert data into the tables💾.
 
@@ -44,13 +43,13 @@ You are required to create a database named HR. After that, create a table as de
 
 <p align="center">
   <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Database%20CaseStudy2.png" width="180" /></br>
-  <b>Figure 1.2: Database CaseStudy2</b>
+  <b>Figure 1.2:</b> Database CaseStudy2
 </p>
 
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" />
-
-Figure 1.3: Table employees
-
+<p align="center">
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/Table%20employees.png" width="450" /></br>
+<b>Figure 1.3:</b> Table employees
+</p>
 
 
 You are given the file CaseStudy2.sln to complete this case study. In this file, there is an image folder that contains the staff photo that will be used. Please refer to Figure 1.4. Please download the CaseStudy2.sln file 💾.
