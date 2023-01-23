@@ -238,8 +238,8 @@ methods and tools.
 - [Lab 8: Data binding: Using calender control to filter data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab8.md)
 - [Lab 9: Working with relational database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab9.md)
 
-### Exercise: MySQL
-- [How to Bind Data From MySQL Database to GridView]()
+### MySQL
+- [Lab 10: How to Bind Data From MySQL Database to GridView]()
 
 ## Styles and Master Pages
 - [Style sheets]()
