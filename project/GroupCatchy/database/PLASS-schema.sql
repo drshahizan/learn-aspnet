@@ -74,18 +74,18 @@ CREATE TABLE [dbo].[country] (
 );
 
 CREATE TABLE [dbo].[player] (
-  [id] INT IDENTITY (1, 1) NOT NULL,
-  [name] VARCHAR(100) NULL,
-  [date_of_birth] DATE NULL,
-  [height_cm] DECIMAL (10, 2) NULL,
-  [weight_kg] DECIMAL (10, 2) NULL,
-  [country_id] INT NULL,
-  [dominant_foot] NVARCHAR (10) NULL,
-  [estimated_value] DECIMAL (10, 2) NULL,
-  [created_at] DATETIME NULL,
-  [updated_at] DATETIME DEFAULT (getdate()) NULL,
-  PRIMARY KEY CLUSTERED ([id] ASC),
-  FOREIGN KEY ([country_id]) REFERENCES [dbo].[country] ([id])
+    [id]              INT             IDENTITY (1, 1) NOT NULL,
+    [Name]            VARCHAR (255)   NULL,
+    [date_of_birth]   DATE            NULL,
+    [height_cm]       DECIMAL (10, 2) NULL,
+    [weight_kg]       DECIMAL (10, 2) NULL,
+    [country_id]      INT             NULL,
+    [dominant_foot]   NVARCHAR (255)  NULL,
+    [estimated_value] DECIMAL (11)    NULL,
+    [created_at]      DATETIME        NULL,
+    [updated_at]      DATETIME        DEFAULT (getdate()) NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC),
+    FOREIGN KEY ([country_id]) REFERENCES [dbo].[country] ([id])
 );
 
 CREATE TABLE [team] (
