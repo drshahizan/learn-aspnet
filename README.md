@@ -251,7 +251,7 @@ methods and tools.
 - [Master page: ASP.NET Web Apps]()
 
 # Case Study
-- [Danny’s Diner (Question)]()
+- [Danny’s Diner (Question)](https://8weeksqlchallenge.com/case-study-1/)
 - [Danny’s Diner (Solution)]()
 
 # Books
