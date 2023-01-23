@@ -1,4 +1,4 @@
-# Create Table
+# Lab 1: Create Table
 
 Demonstrate how Visual Studio 2022 can be used to create a database by using SQL Server.
 
