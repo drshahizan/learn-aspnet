@@ -242,7 +242,7 @@ methods and tools.
 - [Lab 10: How to Bind Data From MySQL Database to GridView](https://www.c-sharpcorner.com/UploadFile/47548d/how-to-bind-data-from-mysql-database-to-gridview-in-Asp-Net/)
 
 ## Styles and Master Pages
-- [Lab 1: Style sheets]()
+- [Lab 1: Style sheets](https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/lab1.md)
 - [Lab 2: Themes & Skin]()
 - [Lab 3: CSS Template]()
 - [Lab 4: Master page: Intro]()
