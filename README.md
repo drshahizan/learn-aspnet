@@ -225,21 +225,21 @@ methods and tools.
 - [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
 ## Lab: Database
-### [Exercise: SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
+### [Microsoft SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
 - [Lab 1: Create Table](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab1.md)
 - [Lab 2: Data binding](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab2.md)
 - [Lab 3: Implementing CRUD in FormView](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab3.md)
 
-### Exercise: Access
-- [Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64]()
-- [Data binding using an Access database]()
-- [Filtering data]()
-- [Data binding: Using a DropDownlist to filter data]()
-- [Data binding: Using calender control to filter data]()
-- [Working with relational database]()
+### Microsoft Access
+- [Lab 4: Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab4.md)
+- [Lab 5: Data binding using an Access database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab5.md)
+- [Lab 6: Filtering data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab6.md)
+- [Lab 7: Data binding: Using a DropDownlist to filter data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab7.md)
+- [Lab 8: Data binding: Using calender control to filter data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab8.md)
+- [Lab 9: Working with relational database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab9.md)
 
-### Exercise: MySQL
-- [How to Bind Data From MySQL Database to GridView]()
+### MySQL
+- [Lab 10: How to Bind Data From MySQL Database to GridView](https://www.c-sharpcorner.com/UploadFile/47548d/how-to-bind-data-from-mysql-database-to-gridview-in-Asp-Net/)
 
 ## Styles and Master Pages
 - [Style sheets]()
@@ -251,8 +251,8 @@ methods and tools.
 - [Master page: ASP.NET Web Apps]()
 
 # Case Study
-- [Danny’s Diner (Question)]()
-- [Danny’s Diner (Solution)]()
+- [Danny’s Diner (Question)](https://8weeksqlchallenge.com/case-study-1/)
+- [Danny’s Diner (Solution)](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/case-study1-solution.md)
 
 # Books
 
