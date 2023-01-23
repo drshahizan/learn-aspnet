@@ -225,12 +225,12 @@ methods and tools.
 - [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
 ## Lab: Database
-### [Exercise: SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
+### [Microsoft SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
 - [Lab 1: Create Table](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab1.md)
 - [Lab 2: Data binding](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab2.md)
 - [Lab 3: Implementing CRUD in FormView](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab3.md)
 
-### Exercise: Access
+### Microsoft Access
 - [Lab 4: Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab4.md)
 - [Lab 5: Data binding using an Access database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab5.md)
 - [Lab 6: Filtering data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab6.md)
