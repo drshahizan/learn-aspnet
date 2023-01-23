@@ -48,7 +48,7 @@ Please open [the 📁 file](https://drive.google.com/file/d/17bWve0OR_V74sS_r3Zd
 ## Case Study Solutions
 
 1. What is the total amount each customer spent at the restaurant?
-We use the SUM and GROUP BY functions to find out total spent for each customer and JOIN function because customer_id is from sales table and price is from menu table.
+We use the `SUM` and `GROUP BY` functions to find out total spent for each customer and `JOIN` function because customer_id is from sales table and price is from menu table.
 
 ```
   SELECT s.customer_id, SUM(price) AS total_sales
@@ -78,7 +78,7 @@ We use the SUM and GROUP BY functions to find out total spent for each customer 
   )
 ```
 
-Subsequently, we GROUP BY the columns to show rank = 1 only.
+Subsequently, we `GROUP BY` the columns to show rank = 1 only.
 
 ```
   SELECT customer_id, product_name
@@ -151,7 +151,7 @@ Next, we filter the table by rank = 1 to show first item purchased by customer.
 7. Which item was purchased just before the customer became a member?
 Basically this is a reversed of Question #6. Create a CTE in order
 
-- Create new column rank by partitioning customer_id by DESC order_date to find out the order_date just before the customer became member
+- Create new column rank by partitioning customer_id by `DESC order_date` to find out the order_date just before the customer became member
 - Filter order_date before join_date.
 
 ```
