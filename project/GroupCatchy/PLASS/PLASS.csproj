@@ -154,8 +154,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-  <Content Include="App_Data\**\*.*" />
-  <Content Include="Assets\**\*.*" />
+    <Content Include="Assets\**\*.*" />
     <Content Include=".gitignore" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -227,6 +226,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="App_Themes\Skin\Main.skin" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
@@ -448,7 +448,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Content Include="App_Data\**\*.*" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
