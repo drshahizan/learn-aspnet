@@ -154,6 +154,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+  <Content Include="App_Data\**\*.*" />
+  <Content Include="Assets\**\*.*" />
     <Content Include=".gitignore" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
