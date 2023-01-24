@@ -33,6 +33,15 @@ namespace PLASS
         protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
+        /// rfvNama control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNama;
+
+        /// <summary>
         /// lblDob control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace PLASS
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDob;
+
+        /// <summary>
+        /// rfvDob control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDob;
 
         /// <summary>
         /// lblHeight control.
@@ -69,6 +87,15 @@ namespace PLASS
         protected global::System.Web.UI.WebControls.TextBox txtHeight;
 
         /// <summary>
+        /// rfvHeight control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvHeight;
+
+        /// <summary>
         /// lblWeight control.
         /// </summary>
         /// <remarks>
@@ -85,6 +112,15 @@ namespace PLASS
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtWeight;
+
+        /// <summary>
+        /// rfvWeight control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvWeight;
 
         /// <summary>
         /// lblCountry control.
@@ -148,6 +184,15 @@ namespace PLASS
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEstimatedValue;
+
+        /// <summary>
+        /// rfvEstimatedValue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvEstimatedValue;
 
         /// <summary>
         /// lblMessage control.

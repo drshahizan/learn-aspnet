@@ -12,7 +12,7 @@
                     <asp:BoundField DataField="height_cm" HeaderText="Height (cm):" SortExpression="height_cm" ControlStyle-CssClass="form-control" />
                     <asp:BoundField DataField="weight_kg" HeaderText="Weight (kh):" SortExpression="weight_kg" ControlStyle-CssClass="form-control" />
                     <asp:BoundField DataField="dominant_foot" HeaderText="Dominant Foot:" SortExpression="dominant_foot" ControlStyle-CssClass="form-control" />
-                    <asp:BoundField DataField="estimated_value" DataFormatString="{0:#,##0}" HeaderText="Estimated Value:" SortExpression="estimated_value" ControlStyle-CssClass="form-control" />
+                    <asp:BoundField DataField="estimated_value" DataFormatString="{0:#,##0}" HeaderText="Estimated Value:" SortExpression= "estimated_value" ControlStyle-CssClass="form-control" />
                     <asp:TemplateField HeaderText="Country Name:">
                         <ItemTemplate>
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("country_name") %>'></asp:Label>
