@@ -42,6 +42,15 @@ namespace PLASS
         protected global::System.Web.UI.WebControls.TextBox txtTitle;
 
         /// <summary>
+        /// rfvTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTitle;
+
+        /// <summary>
         /// txtDate control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace PLASS
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDate;
+
+        /// <summary>
+        /// rfvDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDate;
 
         /// <summary>
         /// txtGoal control.
@@ -60,6 +78,15 @@ namespace PLASS
         protected global::System.Web.UI.WebControls.TextBox txtGoal;
 
         /// <summary>
+        /// rfvGoal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvGoal;
+
+        /// <summary>
         /// txtAssist control.
         /// </summary>
         /// <remarks>
@@ -67,6 +94,15 @@ namespace PLASS
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtAssist;
+
+        /// <summary>
+        /// rfvAssist control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvAssist;
 
         /// <summary>
         /// txtYellowCard control.
@@ -130,6 +166,15 @@ namespace PLASS
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList rbCaptain;
+
+        /// <summary>
+        /// rfvCaptain control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCaptain;
 
         /// <summary>
         /// ddTeam control.
