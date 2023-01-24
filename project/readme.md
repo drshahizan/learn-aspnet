@@ -30,3 +30,10 @@ HTML, CSS, JavaScript, ASP.NET, MS SQL Server.
 # PROJECT THEME
 The project theme is FIFA World Cup. The title of your project must be related to the
 specified project theme such as World Cup News, accommodation & ticket reservation etc.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
