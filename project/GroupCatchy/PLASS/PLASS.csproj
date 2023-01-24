@@ -154,6 +154,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Stylesheet\Main.css" />
     <Content Include="Assets\**\*.*" />
     <Content Include=".gitignore" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -190,12 +191,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="frmAddMatch.aspx" />
-    <Content Include="frmAddPlayer.aspx" />
-    <Content Include="frmCountryListing.aspx" />
-    <Content Include="frmPlayerEdit.aspx" />
-    <Content Include="frmPlayerListing.aspx" />
-    <Content Include="frmPlayerDetail.aspx" />
+    <Content Include="frmMatch_Create.aspx" />
+    <Content Include="frmPlayer_Create.aspx" />
+    <Content Include="frmCountry_List.aspx" />
+    <Content Include="frmPlayer_Edit.aspx" />
+    <Content Include="frmPlayer_List.aspx" />
+    <Content Include="frmPlayer_Detail.aspx" />
+    <Content Include="frmPlayer_Search.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -377,47 +379,54 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmAddMatch.aspx.cs">
-      <DependentUpon>frmAddMatch.aspx</DependentUpon>
+    <Compile Include="frmMatch_Create.aspx.cs">
+      <DependentUpon>frmMatch_Create.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmAddMatch.aspx.designer.cs">
-      <DependentUpon>frmAddMatch.aspx</DependentUpon>
+    <Compile Include="frmMatch_Create.aspx.designer.cs">
+      <DependentUpon>frmMatch_Create.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmAddPlayer.aspx.cs">
-      <DependentUpon>frmAddPlayer.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Create.aspx.cs">
+      <DependentUpon>frmPlayer_Create.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmAddPlayer.aspx.designer.cs">
-      <DependentUpon>frmAddPlayer.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Create.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Create.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmCountryListing.aspx.cs">
-      <DependentUpon>frmCountryListing.aspx</DependentUpon>
+    <Compile Include="frmCountry_List.aspx.cs">
+      <DependentUpon>frmCountry_List.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmCountryListing.aspx.designer.cs">
-      <DependentUpon>frmCountryListing.aspx</DependentUpon>
+    <Compile Include="frmCountry_List.aspx.designer.cs">
+      <DependentUpon>frmCountry_List.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmPlayerEdit.aspx.cs">
-      <DependentUpon>frmPlayerEdit.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Edit.aspx.cs">
+      <DependentUpon>frmPlayer_Edit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmPlayerEdit.aspx.designer.cs">
-      <DependentUpon>frmPlayerEdit.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Edit.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Edit.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmPlayerListing.aspx.cs">
-      <DependentUpon>frmPlayerListing.aspx</DependentUpon>
+    <Compile Include="frmPlayer_List.aspx.cs">
+      <DependentUpon>frmPlayer_List.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmPlayerListing.aspx.designer.cs">
-      <DependentUpon>frmPlayerListing.aspx</DependentUpon>
+    <Compile Include="frmPlayer_List.aspx.designer.cs">
+      <DependentUpon>frmPlayer_List.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmPlayerDetail.aspx.cs">
-      <DependentUpon>frmPlayerDetail.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Detail.aspx.cs">
+      <DependentUpon>frmPlayer_Detail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmPlayerDetail.aspx.designer.cs">
-      <DependentUpon>frmPlayerDetail.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Detail.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer_Search.aspx.cs">
+      <DependentUpon>frmPlayer_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayer_Search.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Search.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

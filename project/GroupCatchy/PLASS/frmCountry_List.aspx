@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Country Listing" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmCountryListing.aspx.cs" Inherits="PLASS.frmCountry" %>
+﻿<%@ Page Title="Country Listing" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmCountry_List.aspx.cs" Inherits="PLASS.frmCountry" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Country List:</h1>
+    <h1>Country List</h1>
      <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Left" CssClass="mb-3">
             <br />
             Search country by name:
@@ -12,7 +12,7 @@
         <asp:GridView  ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="CountryListing" Height="100%" Width="100%" AllowPaging="True" AllowSorting="True" PageSize="20" HorizontalAlign="Center" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
-            <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayerListing.aspx?id={0}" DataTextField="name" HeaderText="Name" SortExpression="name" />
+            <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayer_List.aspx?id={0}" DataTextField="name" HeaderText="Name" SortExpression="name" />
            
             <asp:CheckBoxField DataField="fifaQualified" HeaderText="Fifa Qualified" SortExpression="fifaQualified" ItemStyle-Width="20" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" >
 <HeaderStyle  HorizontalAlign="Center"></HeaderStyle>

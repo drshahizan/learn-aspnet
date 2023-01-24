@@ -47,11 +47,14 @@ namespace PLASS
 
                         trans.Commit();
                         lblErrorMessage.Text = "Success";
+                        lblErrorMessage.ForeColor = System.Drawing.Color.Green;
+
                     }
                     catch (Exception ex)
                     {
                         trans.Rollback();
                         lblErrorMessage.Text = ex.Message;
+                        lblErrorMessage.ForeColor = System.Drawing.Color.Red;
                         // Log error
                     }
                 }

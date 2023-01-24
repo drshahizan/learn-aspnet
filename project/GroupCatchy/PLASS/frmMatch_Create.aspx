@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmAddMatch.aspx.cs" Inherits="PLASS.frmAddMatch" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmMatch_Create.aspx.cs" Inherits="PLASS.frmAddMatch" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container w-50">
-           <div class="row my-4 p-4 shadow-lg rounded-4">
-               <h1 class="mb-4">Add Match</h1>
+    <div class="container ">
+           <div class="row p-3 rounded-4">
+               <h1 class="mb-4">Create Match</h1>
                <div class="col-md-12">
                    <label>Player</label>
                    <asp:DropDownList CssClass="form-control" ID="ddPLayer" runat="server" DataSourceID="PlayerList" DataTextField="Name" DataValueField="id"></asp:DropDownList>
@@ -54,7 +54,7 @@
                 <asp:DropDownList CssClass="form-control" ID="ddTeam" runat="server" DataSourceID="TeamList" DataTextField="name" DataValueField="id"></asp:DropDownList>
                 <asp:SqlDataSource ID="TeamList" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [id], [name] FROM [team]"></asp:SqlDataSource>
             </div>
-               <asp:Label ID="lblErrorMessage" runat="server" ></asp:Label>
+               <asp:Label ID="lblErrorMessage" runat="server" Font-Bold="True"></asp:Label>
                <asp:Button CssClass="btn btn-primary mt-4" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
         </div>
     </div>

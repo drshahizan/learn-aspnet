@@ -1,20 +1,20 @@
-﻿<%@ Page Title="Player Detail" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayerDetail.aspx.cs" Inherits="PLASS.frmPlayerDetail" %>
+﻿<%@ Page Title="Player Detail" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayer_Detail.aspx.cs" Inherits="PLASS.frmPlayerDetail" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="d-flex justify-content-center">
-        <div class="shadow rounded p-3">
-            <h1 class="text-center mb-3">
+    <div class="d-flex justify-content-start">
+        <div class="rounded p-3">
+            <h1 class=" mb-3">
                Player Detail
             </h1>
-            <asp:DetailsView ID="DetailsView1" runat="server" Height="100%" Width="500px" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="playerDetail" BorderColor="White" BorderWidth="0px" HorizontalAlign="Center">
+            <asp:DetailsView ID="DetailsView1" runat="server" Height="100%" Width="100%" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="playerDetail" BorderColor="White" BorderWidth="0px" HorizontalAlign="Left" CellPadding="10">
                 <Fields>
-                    <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" ControlStyle-CssClass="form-control" />
-                    <asp:BoundField DataField="date_of_birth" DataFormatString="{0:dd/MM/yyyy}" HeaderText="Birthday" SortExpression="date_of_birth" ControlStyle-CssClass="form-control" />
-                    <asp:BoundField DataField="height_cm" HeaderText="Height (cm)" SortExpression="height_cm" ControlStyle-CssClass="form-control" />
-                    <asp:BoundField DataField="weight_kg" HeaderText="Weight (kh)" SortExpression="weight_kg" ControlStyle-CssClass="form-control" />
-                    <asp:BoundField DataField="dominant_foot" HeaderText="Dominant Foot" SortExpression="dominant_foot" ControlStyle-CssClass="form-control" />
-                    <asp:BoundField DataField="estimated_value" DataFormatString="{0:#,##0}" HeaderText="Estimated Value" SortExpression="estimated_value" ControlStyle-CssClass="form-control" />
-                    <asp:TemplateField HeaderText="Country Name">
+                    <asp:BoundField DataField="name" HeaderText="Name:" SortExpression="name" ControlStyle-CssClass="form-control" />
+                    <asp:BoundField DataField="date_of_birth" DataFormatString="{0:dd/MM/yyyy}" HeaderText="Birthday:" SortExpression="date_of_birth" ControlStyle-CssClass="form-control" />
+                    <asp:BoundField DataField="height_cm" HeaderText="Height (cm):" SortExpression="height_cm" ControlStyle-CssClass="form-control" />
+                    <asp:BoundField DataField="weight_kg" HeaderText="Weight (kh):" SortExpression="weight_kg" ControlStyle-CssClass="form-control" />
+                    <asp:BoundField DataField="dominant_foot" HeaderText="Dominant Foot:" SortExpression="dominant_foot" ControlStyle-CssClass="form-control" />
+                    <asp:BoundField DataField="estimated_value" DataFormatString="{0:#,##0}" HeaderText="Estimated Value:" SortExpression="estimated_value" ControlStyle-CssClass="form-control" />
+                    <asp:TemplateField HeaderText="Country Name:">
                         <ItemTemplate>
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("country_name") %>'></asp:Label>
                         </ItemTemplate>

@@ -70,13 +70,16 @@
         </nav>
         <div class="d-flex justify-content-center">
             <div class="container  mt-5">
-                <div class="row flex-nowrap shadow-sm">
-                    <div class="col-md-2 bg-dark py-5 rounded text-center">
-                        <a class="nav-link text-light mb-3" aria-current="page" href="frmCountryListing.aspx">Search Player by Country</a>
-                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmAddPlayer.aspx">Create Player</a>
+                <div class="row flex-nowrap">
+                    <div class="col-md-2 bg-dark py-5 rounded text-center shadow">
+                        <a class="nav-link text-light mb-3" aria-current="page" href="frmCountry_List.aspx">Search Country</a>
+                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Search.aspx">Search Player</a>
+                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Create.aspx">Create Player</a> 
+                        <a class="nav-link text-light  mb-3" aria-current="page" href="frmMatch_Create.aspx">Create Match</a>
+                        
                        
                     </div>
-                    <div class="col-md-10 shadow-sm ms-5 py-3 rounded">
+                    <div class="col-md-10 shadow ms-5 py-3 rounded">
                         <div class="container-fluid py-3">
                             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                             </asp:ContentPlaceHolder>

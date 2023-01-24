@@ -7,7 +7,7 @@ namespace PLASS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("~/frmCountryListing.aspx", false);
+            Response.Redirect("frmCountry_List.aspx", false);
         }
 
 
