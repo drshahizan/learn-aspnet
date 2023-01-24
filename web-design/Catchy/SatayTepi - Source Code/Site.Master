@@ -83,10 +83,14 @@
             <footer class="mt-5">
                 <p>&copy; <%: DateTime.Now.Year %> - SatayTepi @ All Right Reserved.</p>
                 <p>Assignment 4: </p>
-                <p>Muhammad Zunnur bin Mohd Suhaimi (SX180425CSJS04) <br />
-NUR SYAHMIR RAFIQ BIN RAHIM (SX171517CSJF04) <br />
-WAN ATRISYIA BINTI A'ABIDIN (SX180875CSJS04) <br />
-4. MUHAMMAD AKMAL BIN MOHD RAZALI (SX180407CSJS04)
+                <p>
+                    1. Muhammad Zunnur bin Mohd Suhaimi (SX180425CSJS04)
+                    <br />
+                    2. NUR SYAHMIR RAFIQ BIN RAHIM (SX171517CSJF04)
+                    <br />
+                    3. WAN ATRISYIA BINTI A'ABIDIN (SX180875CSJS04)
+                    <br />
+                    4. MUHAMMAD AKMAL BIN MOHD RAZALI (SX180407CSJS04)
 
                 </p>
             </footer>
