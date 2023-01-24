@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="Country Listing" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmCountryListing.aspx.cs" Inherits="PLASS.frmCountry" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <h1 class="text-center">Country List:</h1>
-     <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Center" CssClass="mb-3">
+    <h1>Country List:</h1>
+     <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Left" CssClass="mb-3">
             <br />
             Search country by name:
                 <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
             <asp:Button ID="btnSearch" runat="server" Text="Filter" />
             <br />
         </asp:Panel>
-    <div class="container w-50 shadow pt-2 pb-4 rounded rounded-2">
+    <div class="container shadow pt-2 pb-4 rounded rounded-2">
         <asp:GridView  ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="CountryListing" Height="100%" Width="100%" AllowPaging="True" AllowSorting="True" PageSize="20" HorizontalAlign="Center" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" />
         <Columns>

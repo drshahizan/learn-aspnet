@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="Create Player" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmAddPlayer.aspx.cs" Inherits="PLASS.frmAddPlayer" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-start">
         <div class="w-50 row shadow-lg p-3 rounded g-3">
-            <h1 class="text-center mb-5">Create Player</h1>
+            <h1 class="mb-5">Create Player</h1>
             <div class="col-md-6">
                 <asp:Label ID="lblName" runat="server" Text="Name"></asp:Label>
                 <asp:TextBox CssClass="form-control" ID="txtName" runat="server"></asp:TextBox>

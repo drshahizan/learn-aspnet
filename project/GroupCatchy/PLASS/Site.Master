@@ -72,7 +72,7 @@
             <div class="container  mt-5">
                 <div class="row flex-nowrap shadow-sm">
                     <div class="col-md-2 bg-dark py-5 rounded text-center">
-                        <a class="nav-link text-light mb-3" aria-current="page" href="frmCountryListing.aspx">Search Country</a>
+                        <a class="nav-link text-light mb-3" aria-current="page" href="frmCountryListing.aspx">Search Player by Country</a>
                          <a class="nav-link text-light  mb-3" aria-current="page" href="frmAddPlayer.aspx">Create Player</a>
                        
                     </div>
