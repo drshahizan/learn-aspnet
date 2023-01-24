@@ -1,37 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
-    <EntitySetMapping Name="tblFoulsAndMisconducts">
-      <EntityTypeMapping TypeName="DatabaseModel.tblFoulsAndMisconduct">
-        <MappingFragment StoreEntitySet="tblFoulsAndMisconduct">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="card_color" ColumnName="card_color" />
-          <ScalarProperty Name="action_taken_datetime" ColumnName="action_taken_datetime" />
-          <ScalarProperty Name="player_id" ColumnName="player_id" />
-          <ScalarProperty Name="match_id" ColumnName="match_id" />
-          <ScalarProperty Name="created_date" ColumnName="created_date" />
-          <ScalarProperty Name="created_by" ColumnName="created_by" />
-          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
-          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="tblMatches">
-      <EntityTypeMapping TypeName="DatabaseModel.tblMatch">
-        <MappingFragment StoreEntitySet="tblMatch">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="team_a_id" ColumnName="team_a_id" />
-          <ScalarProperty Name="team_a_score" ColumnName="team_a_score" />
-          <ScalarProperty Name="team_b_id" ColumnName="team_b_id" />
-          <ScalarProperty Name="team_b_score" ColumnName="team_b_score" />
-          <ScalarProperty Name="match_datetime" ColumnName="match_datetime" />
-          <ScalarProperty Name="created_date" ColumnName="created_date" />
-          <ScalarProperty Name="created_by" ColumnName="created_by" />
-          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
-          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="tblPlayers">
       <EntityTypeMapping TypeName="DatabaseModel.tblPlayer">
         <MappingFragment StoreEntitySet="tblPlayer">
@@ -82,6 +51,33 @@
           <ScalarProperty Name="email" ColumnName="email" />
           <ScalarProperty Name="password" ColumnName="password" />
           <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMatches">
+      <EntityTypeMapping TypeName="DatabaseModel.tblMatch">
+        <MappingFragment StoreEntitySet="tblMatch">
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="match_datetime" ColumnName="match_datetime" />
+          <ScalarProperty Name="team_b_score" ColumnName="team_b_score" />
+          <ScalarProperty Name="team_b" ColumnName="team_b" />
+          <ScalarProperty Name="team_a_score" ColumnName="team_a_score" />
+          <ScalarProperty Name="team_a" ColumnName="team_a" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAudits">
+      <EntityTypeMapping TypeName="DatabaseModel.tblAudit">
+        <MappingFragment StoreEntitySet="tblAudit">
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="Ip_Address" ColumnName="Ip_Address" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -15,6 +15,11 @@ namespace WorldCupOnTheGo
         {
             if (!IsPostBack)
             {
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
                 lvTeam.DataSource = WCOTG_DB.tblTeams.ToList();
                 lvTeam.DataBind();
             }                

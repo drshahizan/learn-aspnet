@@ -25,11 +25,11 @@ namespace WorldCupOnTheGo
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<tblFoulsAndMisconduct> tblFoulsAndMisconducts { get; set; }
-        public virtual DbSet<tblMatch> tblMatches { get; set; }
         public virtual DbSet<tblPlayer> tblPlayers { get; set; }
         public virtual DbSet<tblPost> tblPosts { get; set; }
         public virtual DbSet<tblTeam> tblTeams { get; set; }
         public virtual DbSet<tblUser> tblUsers { get; set; }
+        public virtual DbSet<tblMatch> tblMatches { get; set; }
+        public virtual DbSet<tblAudit> tblAudits { get; set; }
     }
 }

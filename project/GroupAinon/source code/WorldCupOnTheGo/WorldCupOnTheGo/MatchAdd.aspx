@@ -4,13 +4,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="py-5 container">
         <div class="card-body">
-            <h4>Add New Match</h4>
+            <h4>Add New Match Result</h4>
             <div class="form-outline mb-4">
                 <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
             </div>
             <div class="form-outline mb-4">
                 <label for="exampleFormControlInput1">Team A</label>
-                <asp:TextBox ID="txtTeamA" CssClass="form-control" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlTeamA" runat="server" CssClass="form-control"></asp:DropDownList>
             </div>
             <div class="form-outline mb-4">
                 <label for="exampleFormControlInput1">Team A Score</label>
@@ -18,14 +18,14 @@
             </div>
             <div class="form-outline mb-4">
                 <label for="exampleFormControlInput1">Team B</label>
-                <asp:TextBox ID="txtTeamB" CssClass="form-control" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlTeamB" runat="server" CssClass="form-control"></asp:DropDownList>
             </div>
             <div class="form-outline mb-4">
                 <label for="exampleFormControlInput1">Team B Score</label>
                 <asp:TextBox ID="txtTeamBScore" TextMode="Number" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
             <div class="form-outline mb-4">
-                <label for="exampleFormControlInput1">Match DateTime</label>
+                <label for="exampleFormControlInput1">Match Date</label>
                 <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="DateChange"></asp:Calendar>
                 <asp:TextBox ID="txtMatchDateTime" CssClass="form-control" runat="server" TextMode="DateTime"></asp:TextBox>
             </div>

@@ -9,11 +9,16 @@ namespace WorldCupOnTheGo
 {
     public partial class TeamAdd : System.Web.UI.Page
     {
+        //read db instance and set as WCOTG_DB
+        static DatabaseEntities WCOTG_DB = new DatabaseEntities();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
             }
         }
 

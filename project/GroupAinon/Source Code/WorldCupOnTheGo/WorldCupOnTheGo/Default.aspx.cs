@@ -21,6 +21,7 @@ namespace WorldCupOnTheGo
                     btnGoToContentList.Visible = false;
                     btnGoToMatchList.Visible = false;
                     btnGoToTeamList.Visible = false;
+                    btnGoAuditList.Visible = false;
                 }
                 else
                 {
@@ -28,8 +29,9 @@ namespace WorldCupOnTheGo
                     btnGoToContentList.Visible = true;
                     btnGoToMatchList.Visible = true;
                     btnGoToTeamList.Visible = true;
+                    btnGoAuditList.Visible = true;
                 }
-                lvContent.DataSource = WCOTG_DB.tblPosts.ToList();
+                lvContent.DataSource = Global.Class.GetContent();
                 lvContent.DataBind();
             }
                 
@@ -66,6 +68,11 @@ namespace WorldCupOnTheGo
                     Response.Redirect("ContentView.aspx?id=" + lnkbtn.CommandArgument.ToString());
                     break;
             }
+        }
+
+        protected void btnGoAuditList_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AuditList.aspx");
         }
     }
 }

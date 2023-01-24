@@ -24,13 +24,13 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
-        /// txtTeamA control.
+        /// ddlTeamA control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTeamA;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTeamA;
 
         /// <summary>
         /// txtTeamAScore control.
@@ -42,13 +42,13 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.TextBox txtTeamAScore;
 
         /// <summary>
-        /// txtTeamB control.
+        /// ddlTeamB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTeamB;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTeamB;
 
         /// <summary>
         /// txtTeamBScore control.

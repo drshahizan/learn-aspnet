@@ -5,28 +5,24 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="DatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="tblFoulsAndMisconduct">
+        <EntityType Name="tblAudit">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="card_color" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="action_taken_datetime" Type="datetime" Nullable="false" />
-          <Property Name="player_id" Type="bigint" Nullable="false" />
-          <Property Name="match_id" Type="bigint" Nullable="false" />
+          <Property Name="Ip_Address" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Action" Type="nvarchar(max)" Nullable="false" />
           <Property Name="created_date" Type="datetime" />
           <Property Name="created_by" Type="bigint" />
-          <Property Name="updated_date" Type="datetime" />
-          <Property Name="updated_by" Type="bigint" />
         </EntityType>
         <EntityType Name="tblMatch">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="team_a_id" Type="bigint" Nullable="false" />
+          <Property Name="team_a" Type="varchar(max)" Nullable="false" />
           <Property Name="team_a_score" Type="int" Nullable="false" />
-          <Property Name="team_b_id" Type="bigint" Nullable="false" />
+          <Property Name="team_b" Type="varchar(max)" Nullable="false" />
           <Property Name="team_b_score" Type="int" />
           <Property Name="match_datetime" Type="datetime" />
           <Property Name="created_date" Type="datetime" />
@@ -84,7 +80,7 @@
           <Property Name="role" Type="nvarchar(max)" Nullable="false" />
         </EntityType>
         <EntityContainer Name="DatabaseModelStoreContainer">
-          <EntitySet Name="tblFoulsAndMisconduct" EntityType="Self.tblFoulsAndMisconduct" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblAudit" EntityType="Self.tblAudit" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblMatch" EntityType="Self.tblMatch" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblPlayer" EntityType="Self.tblPlayer" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblPost" EntityType="Self.tblPost" Schema="dbo" store:Type="Tables" />
@@ -95,35 +91,6 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="tblFoulsAndMisconduct">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="card_color" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="action_taken_datetime" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="player_id" Type="Int64" Nullable="false" />
-          <Property Name="match_id" Type="Int64" Nullable="false" />
-          <Property Name="created_date" Type="DateTime" Precision="3" />
-          <Property Name="created_by" Type="Int64" />
-          <Property Name="updated_date" Type="DateTime" Precision="3" />
-          <Property Name="updated_by" Type="Int64" />
-        </EntityType>
-        <EntityType Name="tblMatch">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="team_a_id" Type="Int64" Nullable="false" />
-          <Property Name="team_a_score" Type="Int32" Nullable="false" />
-          <Property Name="team_b_id" Type="Int64" Nullable="false" />
-          <Property Name="team_b_score" Type="Int32" />
-          <Property Name="match_datetime" Type="DateTime" Precision="3" />
-          <Property Name="created_date" Type="DateTime" Precision="3" />
-          <Property Name="created_by" Type="Int64" />
-          <Property Name="updated_date" Type="DateTime" Precision="3" />
-          <Property Name="updated_by" Type="Int64" />
-        </EntityType>
         <EntityType Name="tblPlayer">
           <Key>
             <PropertyRef Name="Id" />
@@ -174,50 +141,44 @@
           <Property Name="role" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
         <EntityContainer Name="DatabaseEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="tblFoulsAndMisconducts" EntityType="Self.tblFoulsAndMisconduct" />
-          <EntitySet Name="tblMatches" EntityType="Self.tblMatch" />
           <EntitySet Name="tblPlayers" EntityType="Self.tblPlayer" />
           <EntitySet Name="tblPosts" EntityType="Self.tblPost" />
           <EntitySet Name="tblTeams" EntityType="Self.tblTeam" />
           <EntitySet Name="tblUsers" EntityType="Self.tblUser" />
+          <EntitySet Name="tblMatches" EntityType="DatabaseModel.tblMatch" />
+          <EntitySet Name="tblAudits" EntityType="DatabaseModel.tblAudit" />
         </EntityContainer>
+        <EntityType Name="tblMatch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="team_a" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="team_a_score" Type="Int32" Nullable="false" />
+          <Property Name="team_b" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="team_b_score" Type="Int32" />
+          <Property Name="match_datetime" Type="DateTime" Precision="3" />
+          <Property Name="created_date" Type="DateTime" Precision="3" />
+          <Property Name="created_by" Type="Int64" />
+          <Property Name="updated_date" Type="DateTime" Precision="3" />
+          <Property Name="updated_by" Type="Int64" />
+        </EntityType>
+        <EntityType Name="tblAudit">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ip_Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Action" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="created_date" Type="DateTime" Precision="3" />
+          <Property Name="created_by" Type="Int64" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
-          <EntitySetMapping Name="tblFoulsAndMisconducts">
-            <EntityTypeMapping TypeName="DatabaseModel.tblFoulsAndMisconduct">
-              <MappingFragment StoreEntitySet="tblFoulsAndMisconduct">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="card_color" ColumnName="card_color" />
-                <ScalarProperty Name="action_taken_datetime" ColumnName="action_taken_datetime" />
-                <ScalarProperty Name="player_id" ColumnName="player_id" />
-                <ScalarProperty Name="match_id" ColumnName="match_id" />
-                <ScalarProperty Name="created_date" ColumnName="created_date" />
-                <ScalarProperty Name="created_by" ColumnName="created_by" />
-                <ScalarProperty Name="updated_date" ColumnName="updated_date" />
-                <ScalarProperty Name="updated_by" ColumnName="updated_by" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="tblMatches">
-            <EntityTypeMapping TypeName="DatabaseModel.tblMatch">
-              <MappingFragment StoreEntitySet="tblMatch">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="team_a_id" ColumnName="team_a_id" />
-                <ScalarProperty Name="team_a_score" ColumnName="team_a_score" />
-                <ScalarProperty Name="team_b_id" ColumnName="team_b_id" />
-                <ScalarProperty Name="team_b_score" ColumnName="team_b_score" />
-                <ScalarProperty Name="match_datetime" ColumnName="match_datetime" />
-                <ScalarProperty Name="created_date" ColumnName="created_date" />
-                <ScalarProperty Name="created_by" ColumnName="created_by" />
-                <ScalarProperty Name="updated_date" ColumnName="updated_date" />
-                <ScalarProperty Name="updated_by" ColumnName="updated_by" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="tblPlayers">
             <EntityTypeMapping TypeName="DatabaseModel.tblPlayer">
               <MappingFragment StoreEntitySet="tblPlayer">
@@ -268,6 +229,33 @@
                 <ScalarProperty Name="email" ColumnName="email" />
                 <ScalarProperty Name="password" ColumnName="password" />
                 <ScalarProperty Name="role" ColumnName="role" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblMatches">
+            <EntityTypeMapping TypeName="DatabaseModel.tblMatch">
+              <MappingFragment StoreEntitySet="tblMatch">
+                <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+                <ScalarProperty Name="updated_date" ColumnName="updated_date" />
+                <ScalarProperty Name="created_by" ColumnName="created_by" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="match_datetime" ColumnName="match_datetime" />
+                <ScalarProperty Name="team_b_score" ColumnName="team_b_score" />
+                <ScalarProperty Name="team_b" ColumnName="team_b" />
+                <ScalarProperty Name="team_a_score" ColumnName="team_a_score" />
+                <ScalarProperty Name="team_a" ColumnName="team_a" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblAudits">
+            <EntityTypeMapping TypeName="DatabaseModel.tblAudit">
+              <MappingFragment StoreEntitySet="tblAudit">
+                <ScalarProperty Name="created_by" ColumnName="created_by" />
+                <ScalarProperty Name="created_date" ColumnName="created_date" />
+                <ScalarProperty Name="Action" ColumnName="Action" />
+                <ScalarProperty Name="Ip_Address" ColumnName="Ip_Address" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

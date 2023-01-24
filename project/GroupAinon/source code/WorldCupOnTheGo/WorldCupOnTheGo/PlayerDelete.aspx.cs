@@ -13,6 +13,11 @@ namespace WorldCupOnTheGo
         {   
             if (!IsPostBack)
             {
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
                 lblMessage.Text = "Are you sure you want to delete this player?";
                 var Id = Request.QueryString["Id"];
                 if(Id == null)

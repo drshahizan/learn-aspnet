@@ -20,6 +20,7 @@
                         <asp:Button ID="btnGoToContentList" runat="server" CssClass="btn btn-primary my-2" Text="Go to content list" OnClick="btnGoToContentList_Click" />
                         <asp:Button ID="btnGoToTeamList" runat="server" CssClass="btn btn-primary my-2" Text="Go to Team List" OnClick="btnGoToTeamList_Click" />
                         <asp:Button ID="btnGoToMatchList" runat="server" CssClass="btn btn-primary my-2" Text="Go to Match List" OnClick="btnGoToMatchList_Click" />
+                        <asp:Button ID="btnGoAuditList" runat="server" CssClass="btn btn-primary my-2" Text="Go to Audit List" OnClick="btnGoAuditList_Click" />
                     </p>
                 </div>
             </div>

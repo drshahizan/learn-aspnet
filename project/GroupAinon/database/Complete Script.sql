@@ -30,9 +30,9 @@ CREATE TABLE [dbo].[tblPlayer]
 CREATE TABLE [dbo].[tblMatch]
 (
 	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
-    [team_a_id] BIGINT NOT NULL, 
+    [team_a] NVARCHAR (MAX) NOT NULL, 
     [team_a_score] INT NOT NULL, 
-    [team_b_id] BIGINT NOT NULL, 
+    [team_b] NVARCHAR (MAX) NOT NULL, 
     [team_b_score] INT NULL, 
     [match_datetime] DATETIME NULL, 
     [created_date] DATETIME NULL, 
@@ -40,17 +40,13 @@ CREATE TABLE [dbo].[tblMatch]
 	[updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL
 )
-CREATE TABLE [dbo].[tblFoulsAndMisconduct]
+CREATE TABLE [dbo].[tblAudit]
 (
 	[Id] BIGINT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
-    [card_color] NVARCHAR(MAX) NOT NULL, 
-    [action_taken_datetime] DATETIME NOT NULL, 
-    [player_id] BIGINT NOT NULL, 
-    [match_id] BIGINT NOT NULL, 
+    [Ip_Address] NVARCHAR(MAX) NOT NULL, 
+    [Action] NVARCHAR(MAX) NOT NULL, 
     [created_date] DATETIME NULL, 
-    [created_by] BIGINT NULL,
-	[updated_date] DATETIME NULL, 
-    [updated_by] BIGINT NULL
+    [created_by] BIGINT NULL
 )
 CREATE TABLE [dbo].[tblPost]
 (

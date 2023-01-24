@@ -14,6 +14,11 @@ namespace WorldCupOnTheGo
         {
             if (!IsPostBack)
             {
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
                 var Id = Request.QueryString["Id"];
                 var Team = Global.Class.GetTeam(Convert.ToInt64(Id));
                 var test = Global.Class.GetPlayersInTeam(Convert.ToInt64(Id)); ;

@@ -12,6 +12,12 @@ namespace WorldCupOnTheGo
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack) {
+
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
                 lblMessage.Text = "Are your sure you want to delete this record?";
                 var Id = Request.QueryString["Id"];
                 var Post = Global.Class.GetPost(Convert.ToInt64(Id));

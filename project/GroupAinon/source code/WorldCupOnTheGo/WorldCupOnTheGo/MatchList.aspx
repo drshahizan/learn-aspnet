@@ -16,7 +16,8 @@
                                     <td id="Td2" runat="server">Team A (Score)</td>
                                     <td id="Td3" runat="server">Team B</td>
                                     <td id="Td4" runat="server">Team B (Score)</td>
-                                    <td id="Td5" runat="server">Match datetime</td>
+                                    <td id="Td5" runat="server">Match date</td>
+                                    <td id="Td6" runat="server">Action</td>
                                 </tr>
                                 <asp:PlaceHolder runat="server" ID="groupPlaceHolder1"></asp:PlaceHolder>
                             </table>
@@ -29,19 +30,19 @@
                         </GroupTemplate>
                         <ItemTemplate>
                             <td>
-                                <asp:Label ID="lblName" runat="server" Text='<%# Eval("team_a_name") %>'></asp:Label>
+                                <asp:Label ID="lblName" runat="server" Text='<%# Eval("team_a") %>'></asp:Label>
                             </td>
                             <td>
                                 <asp:Label ID="Label1" runat="server" Text='<%# Eval("team_a_score") %>'></asp:Label>
                             </td>
                             <td>
-                                <asp:Label ID="Label2" runat="server" Text='<%# Eval("team_b_name") %>'></asp:Label>
+                                <asp:Label ID="Label2" runat="server" Text='<%# Eval("team_b") %>'></asp:Label>
                             </td>
                             <td>
                                 <asp:Label ID="Label3" runat="server" Text='<%# Eval("team_b_score") %>'></asp:Label>
                             </td>
                             <td>
-                                <asp:Label ID="Label4" runat="server" Text='<%# Eval("match_datetime") %>'></asp:Label>
+                                <asp:Label ID="Label4" runat="server" Text='<%# ((DateTime)Eval("match_datetime")).ToString("dd/MM/yyyy")  %>'></asp:Label>
                             </td>
                             <td>
                                 <asp:LinkButton ID="EditMatch" runat="server" OnClick="ManageMatch_Click" CommandArgument='<%#Eval("Id")%>' CommandName="EditLink">Edit</asp:LinkButton>

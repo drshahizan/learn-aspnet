@@ -13,7 +13,10 @@ namespace WorldCupOnTheGo
         {
             if (!IsPostBack)
             {
-
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
             }
         }
 
@@ -22,7 +25,7 @@ namespace WorldCupOnTheGo
             var title = txtTitle.Text;
             var content = txtContent.Text;
 
-            if(Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"])))
+            if (Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"])))
             {
                 //successfully created
                 lblMessage.Text = "Record creaated successfully";
@@ -36,6 +39,6 @@ namespace WorldCupOnTheGo
         protected void btnContentList_Click(object sender, EventArgs e)
         {
             Response.Redirect("ContentList.aspx");
-        }        
+        }
     }
 }

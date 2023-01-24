@@ -51,6 +51,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.Button btnGoToMatchList;
 
         /// <summary>
+        /// btnGoAuditList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnGoAuditList;
+
+        /// <summary>
         /// lvContent control.
         /// </summary>
         /// <remarks>

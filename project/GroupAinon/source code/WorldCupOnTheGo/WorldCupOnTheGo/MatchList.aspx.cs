@@ -15,7 +15,12 @@ namespace WorldCupOnTheGo
         {
             if (!IsPostBack)
             {
-                lvMatch.DataSource = WCOTG_DB.tblMatches.ToList();
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
+                lvMatch.DataSource = Global.Class.GetMatch();
                 lvMatch.DataBind();
             }
         }

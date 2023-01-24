@@ -15,9 +15,9 @@ namespace WorldCupOnTheGo
     public partial class tblMatch
     {
         public long Id { get; set; }
-        public long team_a_id { get; set; }
+        public string team_a { get; set; }
         public int team_a_score { get; set; }
-        public long team_b_id { get; set; }
+        public string team_b { get; set; }
         public Nullable<int> team_b_score { get; set; }
         public Nullable<System.DateTime> match_datetime { get; set; }
         public Nullable<System.DateTime> created_date { get; set; }
