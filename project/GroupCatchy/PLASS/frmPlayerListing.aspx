@@ -4,7 +4,7 @@
         <h1 class="mb-3">Player Listing</h1>
     <asp:Button CssClass="btn btn-primary my-4 ms-3" ID="btnCreate" runat="server" Text="Create" OnClick="btnCreate_Click" />
     </div>
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="PlayerListing" Width="1148px" CellPadding="4" ForeColor="#333333" GridLines="None">
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="PlayerListing" Width="100%" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
              <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayerDetail.aspx?id={0}" DataTextField="Name" HeaderText="Name" SortExpression="name" />
