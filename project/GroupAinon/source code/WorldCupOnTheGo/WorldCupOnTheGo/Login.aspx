@@ -20,12 +20,7 @@
                             <h6>Admin</h6>
                             Email: <strong>admin@worldcuponthego.my</strong><br />Pass: <strong>password</strong>
                         </p>
-                        <hr />
-                        <p class="text-caption mb-0"> 
-                            <h6>Subscriber</h6>                            
-                            Email: <strong>subscriber@worldcuponthego.my</strong><br />Pass: <strong>password</strong>
-
-                        </p>
+                        <hr />                        
                     </div><!----><!---->
                 </div>
             </div>

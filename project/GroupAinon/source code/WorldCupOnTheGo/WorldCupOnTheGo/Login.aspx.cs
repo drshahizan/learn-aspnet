@@ -14,11 +14,15 @@ namespace WorldCupOnTheGo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["email"] != null)
+            if (!IsPostBack)
             {
-                //user already logged in, redirect to default page
-                Response.Redirect("default.aspx");
-            }            
+                if (Session["email"] != null)
+                {
+                    //user already logged in, redirect to default page
+                    Response.Redirect("default.aspx");
+                }
+            }
+                         
         }
 
         public void btnSignIn_Click(object sender, EventArgs e)

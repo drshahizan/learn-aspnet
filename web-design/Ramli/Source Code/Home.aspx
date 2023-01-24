@@ -4,13 +4,8 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="Summary" runat="server">
      <div class="container body-content">
-          <div class="container">
-            <div class="row">  
-                <div class="col-12">(Summary of why batik is the unity art with background image)
-
-                </div>
-                </div>
-              </div>
+          <div class="container">         
+                </div>       
          </div>
 </asp:Content>
 

@@ -23,7 +23,7 @@
     <style type="text/css">
 
     .rectangle{
-	width: 1349px;
+	width: 1360px;
 	height: 200px;
 	padding: 8px 8px 8px 8px;
     background-color:darkslategray;
@@ -57,9 +57,14 @@
            
                <div class="nav-tabs tabs">
               <ul class="nav nav-tabs">
-                    <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="Home" asp-action="About">About Batik</a></li>
+                    <li style="color: #FF0066; font-size: 23px;"><a href="home.aspx" class="current" runat="server"><span>Home</span></a></li>
+                    <li style="color: #FF0066; font-size: 23px;"><a href="about.aspx" class="current" runat="server"><span>About Batik</span></a></li>
+                    <li style="color: #FF0066; font-size: 23px;"><a href="costumes.aspx" class="current" runat="server"><span>Costumes</span></a></li>
+
+                  <!-- old 
+                    <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="About" asp-action="About">About Batik</a></li>
                     <li style="color: #FF0066; font-size: 23px;"><a asp-area="" asp-controller="Home" asp-action="Costumes">Costumes</a></li>
+                    -->
                 </ul>        
             </div>
         </div>
@@ -84,7 +89,7 @@
        <hr />
           <div>
             <footer>
-                <p><center>@copyright 2023 by Batik Art.</center></p>
+                <p><center>Created 2023 by Batik Art. All images downloaded from Google and may have reserved copyright. Images used are strictly for non-commercial purpose.</center></p>
             </footer>
        </div>
         

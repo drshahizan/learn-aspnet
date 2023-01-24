@@ -97,6 +97,58 @@ namespace WorldCupOnTheGo.Global
             }
 
         }
+        public static bool UpdateTeam(tblTeam Team, string name, long updatedBy)
+        {
+            try
+            {
+                
+                //update record to model
+                Team.name = name;
+                Team.updated_date = DateTime.Now;
+                Team.updated_by = updatedBy;
+                
+                //store record to database
+                WCOTG_DB.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+        }
+        public static bool DeleteTeam(tblTeam Team)
+        {
+            try
+            {
+
+                WCOTG_DB.tblTeams.Remove(Team);
+                //store record to database
+                WCOTG_DB.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+        }
+        public static bool DeletePlayer(tblPlayer Player)
+        {
+            try
+            {
+
+                WCOTG_DB.tblPlayers.Remove(Player);
+                //store record to database
+                WCOTG_DB.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+        }
         public static bool InsertTeam(string name, long createdby)
         {
             try
@@ -122,12 +174,65 @@ namespace WorldCupOnTheGo.Global
             }
 
         }
+        public static bool InsertPlayer(string name, int jercy_no, long teamId, long createdby)
+        {
+            try
+            {
+                //insert record to model
+                var team = new tblPlayer
+                {
+                    name = name,
+                    jercy_no = jercy_no,
+                    created_date = DateTime.Now,
+                    created_by = createdby,
+                    team_id = teamId
+                };
+
+                //bind record to table post
+                WCOTG_DB.tblPlayers.Add(team);
+
+                //store record to database
+                WCOTG_DB.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+        }
         public static tblTeam GetTeam(long Id)
         {
             try
             {
                 //get team
                 return WCOTG_DB.tblTeams.Where(d => d.Id == Id).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+        }
+        public static List<tblPlayer> GetPlayersInTeam(long Id)
+        {
+            try
+            {
+                //get team
+                return WCOTG_DB.tblPlayers.Where(d => d.team_id == Id).ToList();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+        }
+        public static tblPlayer GetPlayer(long Id)
+        {
+            try
+            {
+                //get team
+                return WCOTG_DB.tblPlayers.Where(d => d.Id == Id).FirstOrDefault();
             }
             catch (Exception ex)
             {
