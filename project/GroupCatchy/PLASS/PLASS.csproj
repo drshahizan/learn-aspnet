@@ -170,10 +170,6 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="App_Data\PLASS-scheme.mdf" />
-    <Content Include="App_Data\PLASS-scheme_log.ldf">
-      <DependentUpon>PLASS-scheme.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -193,6 +189,12 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="frmAddMatch.aspx" />
+    <Content Include="frmAddPlayer.aspx" />
+    <Content Include="frmCountryListing.aspx" />
+    <Content Include="frmPlayerEdit.aspx" />
+    <Content Include="frmPlayerListing.aspx" />
+    <Content Include="frmPlayerDetail.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -373,6 +375,48 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmAddMatch.aspx.cs">
+      <DependentUpon>frmAddMatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAddMatch.aspx.designer.cs">
+      <DependentUpon>frmAddMatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPlayer.aspx.cs">
+      <DependentUpon>frmAddPlayer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAddPlayer.aspx.designer.cs">
+      <DependentUpon>frmAddPlayer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCountryListing.aspx.cs">
+      <DependentUpon>frmCountryListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCountryListing.aspx.designer.cs">
+      <DependentUpon>frmCountryListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayerEdit.aspx.cs">
+      <DependentUpon>frmPlayerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayerEdit.aspx.designer.cs">
+      <DependentUpon>frmPlayerEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayerListing.aspx.cs">
+      <DependentUpon>frmPlayerListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayerListing.aspx.designer.cs">
+      <DependentUpon>frmPlayerListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayerDetail.aspx.cs">
+      <DependentUpon>frmPlayerDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayerDetail.aspx.designer.cs">
+      <DependentUpon>frmPlayerDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -401,7 +445,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
