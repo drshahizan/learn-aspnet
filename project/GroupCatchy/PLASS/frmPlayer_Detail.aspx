@@ -3,8 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="d-flex justify-content-start">
         <div class="rounded p-3">
-            <h1 class=" mb-3">
-               Player Detail
+            <h1 class=" mb-3">Player Detail
             </h1>
             <asp:DetailsView ID="DetailsView1" runat="server" Height="100%" Width="100%" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="playerDetail" BorderColor="White" BorderWidth="0px" HorizontalAlign="Left" CellPadding="10">
                 <Fields>
@@ -19,14 +18,14 @@
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("country_name") %>'></asp:Label>
                         </ItemTemplate>
                         <EditItemTemplate>
-                            <asp:DropDownList CssClass="form-control" ID="ddCountry" runat="server"  DataSourceID="CountryList" DataTextField="name" DataValueField="id">
+                            <asp:DropDownList CssClass="form-control" ID="ddCountry" runat="server" DataSourceID="CountryList" DataTextField="name" DataValueField="id">
                             </asp:DropDownList>
                             <asp:SqlDataSource ID="CountryList" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [id], [name] FROM [country]"></asp:SqlDataSource>
                         </EditItemTemplate>
                     </asp:TemplateField>
-                    
-                    <asp:CommandField ShowEditButton="True" ControlStyle-CssClass="btn btn-primary mt-3" >
-<ControlStyle CssClass="btn btn-primary mt-3"></ControlStyle>
+
+                    <asp:CommandField ShowEditButton="True" ControlStyle-CssClass="btn btn-primary mt-3">
+                        <ControlStyle CssClass="btn btn-primary mt-3"></ControlStyle>
                     </asp:CommandField>
                 </Fields>
             </asp:DetailsView>
@@ -76,6 +75,32 @@ ORDER BY
             </asp:SqlDataSource>
 
         </div>
+    </div>
+    <hr />
+    <h1 class="mb-3">Match History</h1>
+    <div class="d-flex justify-content-start">
+        
+        <div class="overflow-scroll">
+            <asp:GridView ID="GridView1" Width="1200px" runat="server" AutoGenerateColumns="False" DataSourceID="MatchList" BorderColor="White" CellPadding="4" ForeColor="#333333">
+            <Columns>
+                <asp:BoundField DataField="title" HeaderText="Title" SortExpression="title" />
+                <asp:BoundField DataField="date" HeaderText="Date" SortExpression="date" DataFormatString="{0:dd/MM/yyyy}"/>
+                <asp:BoundField DataField="number_of_goal" HeaderText="Goals" SortExpression="number_of_goal" />
+                <asp:BoundField DataField="number_of_assist" HeaderText="Assists" SortExpression="number_of_assist" />
+                <asp:BoundField DataField="number_of_yellow_card" HeaderText="Yellow Card" SortExpression="number_of_yellow_card" />
+                <asp:BoundField DataField="number_of_red_card" HeaderText="Red Card" SortExpression="number_of_red_card" />
+                <asp:BoundField DataField="jersey_number" HeaderText="Jersey Number" SortExpression="jersey_number" />
+                <asp:BoundField DataField="name" HeaderText="Position" SortExpression="name" />
+                <asp:BoundField DataField="category" HeaderText="Category" SortExpression="category" />
+                <asp:BoundField DataField="team_name" HeaderText="Team" SortExpression="team_name" />
+            </Columns>
+        </asp:GridView>
+        </div>
+        <asp:SqlDataSource ID="MatchList" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT match.title, match.date, match.number_of_goal, match.number_of_assist, match.number_of_yellow_card, match.number_of_red_card, match.jersey_number, position.name, position.category, team.name AS team_name FROM match LEFT JOIN player_has_match ON match.id = player_has_match.match_id LEFT JOIN team ON match.team_id = team.id LEFT JOIN position ON match.position_id = position.id LEFT JOIN player ON player.id = player_has_match.player_id WHERE (player_has_match.player_id = @player_id)">
+            <SelectParameters>
+                <asp:QueryStringParameter Name="player_id" QueryStringField="id" />
+            </SelectParameters>
+        </asp:SqlDataSource>
     </div>
 
 
