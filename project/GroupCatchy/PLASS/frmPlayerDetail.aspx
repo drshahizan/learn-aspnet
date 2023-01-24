@@ -1,9 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayerDetail.aspx.cs" Inherits="PLASS.frmPlayerDetail" %>
+﻿<%@ Page Title="Player Detail" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayerDetail.aspx.cs" Inherits="PLASS.frmPlayerDetail" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="d-flex justify-content-center">
         <div class="shadow rounded p-3">
-            <h1 class="text-center mb-3">Edit player</h1>
+            <h1 class="text-center mb-3">
+               Player Detail
+            </h1>
             <asp:DetailsView ID="DetailsView1" runat="server" Height="100%" Width="500px" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="playerDetail" BorderColor="White" BorderWidth="0px" HorizontalAlign="Center">
                 <Fields>
                     <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" ControlStyle-CssClass="form-control" />
@@ -72,6 +74,7 @@ ORDER BY
                     <asp:ControlParameter ControlID="DetailsView1$ddCountry" Name="country_id" Type="Int32" />
                 </UpdateParameters>
             </asp:SqlDataSource>
+
         </div>
     </div>
 
