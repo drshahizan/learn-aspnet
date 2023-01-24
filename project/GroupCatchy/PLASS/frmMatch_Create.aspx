@@ -45,7 +45,9 @@
             </div>
             <div class="col-md-4">
                 <label>Jersey Number</label>
-                <asp:TextBox CssClass="form-control" ID="txtJerseyNumber" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:TextBox CssClass="form-control" ID="txtJerseyNumber" runat="server" TextMode="Number" value="1"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfvJerseyNumber" runat="server" ErrorMessage="Please enter correct value" MaximumValue="30" MinimumValue="1" Font-Italic="True" ControlToValidate="txtJerseyNumber" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
+
             </div>
             <div class="col-md-4">
                 <label>Is captain?</label>
