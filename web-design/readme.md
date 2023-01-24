@@ -24,3 +24,10 @@ Examples of websites that you can referred:
 3. [Cultured Society Website](https://www.behance.net/gallery/116697291/Cultured-Society-Website-(Anchor-Link-Project)/modules/665409291)
 4. [Malaysian Food Culture](https://www.behance.net/gallery/110721813/Malaysian-Food-Culture-Digital-Editorial)
 5. [BOOS - Kadazan Language Learning](https://www.behance.net/gallery/123080573/BOOS-Mobile-App-Design)
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
