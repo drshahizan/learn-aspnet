@@ -1,13 +1,13 @@
-﻿<%@ Page Title="Player Listing" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayerListing.aspx.cs" Inherits="PLASS.frmPlayer" %>
+﻿<%@ Page Title="Player Listing" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayer_List.aspx.cs" Inherits="PLASS.frmPlayer" Theme="Skin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="d-flex align-items-center">
         <h1 class="mb-3">Player Listing</h1>
     <asp:Button CssClass="btn btn-primary my-4 ms-3" ID="btnCreate" runat="server" Text="Create" OnClick="btnCreate_Click" />
     </div>
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="PlayerListing" Width="1148px" CellPadding="4" ForeColor="#333333" GridLines="None">
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="PlayerListing" Width="100%" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
-             <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayerDetail.aspx?id={0}" DataTextField="Name" HeaderText="Name" SortExpression="name" />
+             <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayer_Detail.aspx?id={0}" DataTextField="Name" HeaderText="Name" SortExpression="name" />
             <asp:BoundField DataField="date_of_birth" HeaderText="Birthday" SortExpression="date_of_birth" DataFormatString="{0:dd/MM/yyyy}" />
             <asp:BoundField DataField="height_cm" HeaderText="Height (cm)" SortExpression="height_cm" />
             <asp:BoundField DataField="weight_kg" HeaderText="Weight (kg)" SortExpression="weight_kg" />

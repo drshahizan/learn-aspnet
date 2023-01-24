@@ -1,10 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayerDetail.aspx.cs" Inherits="PLASS.frmPlayerDetail" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmPlayer_Edit.aspx.cs" Inherits="PLASS.frmPlayerEdit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="d-flex justify-content-center">
         <div class="shadow rounded p-3">
-            <h1 class="text-center mb-3">Edit player</h1>
-            <asp:DetailsView ID="DetailsView1" runat="server" Height="100%" Width="500px" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="playerDetail" BorderColor="White" BorderWidth="0px" HorizontalAlign="Center">
+            <h1 class="text-center mb-3">
+               Player Detail
+            </h1>
+            <asp:DetailsView ID="DetailsView1" runat="server" Height="100%" Width="500px" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="playerDetail" BorderColor="White" BorderWidth="0px" HorizontalAlign="Center" DefaultMode="Edit">
                 <Fields>
                     <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" ControlStyle-CssClass="form-control" />
                     <asp:BoundField DataField="date_of_birth" DataFormatString="{0:dd/MM/yyyy}" HeaderText="Birthday" SortExpression="date_of_birth" ControlStyle-CssClass="form-control" />
@@ -72,8 +73,7 @@ ORDER BY
                     <asp:ControlParameter ControlID="DetailsView1$ddCountry" Name="country_id" Type="Int32" />
                 </UpdateParameters>
             </asp:SqlDataSource>
+
         </div>
     </div>
-
-
 </asp:Content>

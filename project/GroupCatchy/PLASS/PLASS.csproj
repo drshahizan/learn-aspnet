@@ -154,6 +154,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Stylesheet\Main.css" />
+    <Content Include="Assets\**\*.*" />
     <Content Include=".gitignore" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -170,10 +172,6 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="App_Data\PLASS-scheme.mdf" />
-    <Content Include="App_Data\PLASS-scheme_log.ldf">
-      <DependentUpon>PLASS-scheme.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -193,6 +191,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="frmMatch_Create.aspx" />
+    <Content Include="frmPlayer_Create.aspx" />
+    <Content Include="frmCountry_List.aspx" />
+    <Content Include="frmPlayer_Edit.aspx" />
+    <Content Include="frmPlayer_List.aspx" />
+    <Content Include="frmPlayer_Detail.aspx" />
+    <Content Include="frmPlayer_Search.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -223,6 +228,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="App_Themes\Skin\Main.skin" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
@@ -373,6 +379,55 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmMatch_Create.aspx.cs">
+      <DependentUpon>frmMatch_Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmMatch_Create.aspx.designer.cs">
+      <DependentUpon>frmMatch_Create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer_Create.aspx.cs">
+      <DependentUpon>frmPlayer_Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayer_Create.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCountry_List.aspx.cs">
+      <DependentUpon>frmCountry_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCountry_List.aspx.designer.cs">
+      <DependentUpon>frmCountry_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer_Edit.aspx.cs">
+      <DependentUpon>frmPlayer_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayer_Edit.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer_List.aspx.cs">
+      <DependentUpon>frmPlayer_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayer_List.aspx.designer.cs">
+      <DependentUpon>frmPlayer_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer_Detail.aspx.cs">
+      <DependentUpon>frmPlayer_Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayer_Detail.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer_Search.aspx.cs">
+      <DependentUpon>frmPlayer_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPlayer_Search.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Search.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -401,7 +456,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="App_Data\**\*.*" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.map" />

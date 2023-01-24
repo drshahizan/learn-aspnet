@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row g-3">
         <div class="col-md-6">
-            <div class="card" >
+            <div class="card">
                 <img src="https://1.bp.blogspot.com/-yzSBDrh1ajU/Xbj75LFsvVI/AAAAAAAAUlQ/rIJE_EcPYlYlvfHbKpdILIm9raWcWTjNgCLcBGAsYHQ/s1600/SATAY%2BWAKAF%2BBHARU%2BHJH%2BMEK%2BYAM%2B%25283%2529.JPG" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Satay Tepi Kajang</h5>
@@ -29,7 +29,7 @@ Peachtree City, GA 30269
             </div>
         </div>
         <div class="col-md-6">
-            <div class="card" >
+            <div class="card">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDe4jyTYfabxS3Lg_41x4SFa8KStLaJJPEQ&usqp=CAU" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Satay Tepi Petaling Jaya</h5>

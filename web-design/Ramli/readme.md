@@ -41,3 +41,17 @@ Malaysian batik has developed its own characteristic over the years.To appreciat
 <p> Costumes</p>
 <img width="352" alt="Costumes1" src="https://user-images.githubusercontent.com/122657444/212835180-2f6c9ee5-6f48-4783-8773-b828acf1d8c7.png">
 
+## Source Code
+![image](https://user-images.githubusercontent.com/122657444/214202434-0edff2a5-39a6-4070-9739-1f81c055f8d4.png)
+
+## Web Design
+
+# Home
+![image](https://user-images.githubusercontent.com/122657444/214211647-2b4da933-949f-4f94-ba94-a260a5d3810c.png)
+
+# About
+![image](https://user-images.githubusercontent.com/122657444/214211724-058eea34-140c-4c24-9d61-b6e55144065b.png)
+
+# Costumes
+![image](https://user-images.githubusercontent.com/122657444/214211795-810cd68f-0f5d-4953-a5af-a6a289715fef.png)
+
