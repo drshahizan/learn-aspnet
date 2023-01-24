@@ -48,34 +48,46 @@
                         <%--<li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="~/Pages/Country_listing.aspx">Search Player</a>
                         </li>--%>
-                      
                     </ul>
-                  <asp:LoginView runat="server" ViewStateMode="Disabled">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <div class="d-flex ">
                                 <a class="btn mx-1" runat="server" href="~/Account/Register">Register</a>
                                 <a class="btn btn-primary mx-1" runat="server" href="~/Account/Login">Log in</a>
                             </div>
-                          
+
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <div class="d-flex">
-                                <a  class="btn mx-1" runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a>
-                                 <asp:LoginStatus CssClass="btn btn-outline-danger" runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                <a class="btn mx-1" runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a>
+                                <asp:LoginStatus CssClass="btn btn-outline-danger" runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
                             </div>
-                           
+
                         </LoggedInTemplate>
                     </asp:LoginView>
                 </div>
             </div>
         </nav>
-        <div class="container mt-5">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr class="mt-5" />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Player Scouting System (PLASS)</p>
-            </footer>
+        <div class="d-flex justify-content-center">
+            <div class="container  mt-5">
+                <div class="row flex-nowrap shadow-sm">
+                    <div class="col-md-2 bg-dark py-5 rounded text-center">
+                        <a class="nav-link text-light mb-3" aria-current="page" href="frmCountryListing.aspx">Search Country</a>
+                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmAddPlayer.aspx">Create Player</a>
+                       
+                    </div>
+                    <div class="col-md-10 shadow-sm ms-5 py-3 rounded">
+                        <div class="container-fluid py-3">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-5" />
+                <footer>
+                    <p>&copy; <%: DateTime.Now.Year %> - Player Scouting System (PLASS)</p>
+                </footer>
+            </div>
         </div>
     </form>
 </body>
