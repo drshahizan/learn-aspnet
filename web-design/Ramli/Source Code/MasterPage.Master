@@ -23,7 +23,7 @@
     <style type="text/css">
 
     .rectangle{
-	width: 1349px;
+	width: 1360px;
 	height: 200px;
 	padding: 8px 8px 8px 8px;
     background-color:darkslategray;
@@ -89,7 +89,7 @@
        <hr />
           <div>
             <footer>
-                <p><center>cCreated 2023 by Batik Art. All images downloaded from Google and may have reserved copyright. Images used are strictly for non-commercial purpose.</center></p>
+                <p><center>Created 2023 by Batik Art. All images downloaded from Google and may have reserved copyright. Images used are strictly for non-commercial purpose.</center></p>
             </footer>
        </div>
         
