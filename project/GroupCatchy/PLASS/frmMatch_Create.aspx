@@ -28,6 +28,7 @@
             <div class="col-md-3">
                 <label>Yellow Card</label>
                 <asp:TextBox CssClass="form-control" ID="txtYellowCard" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Maximum is 2" MaximumValue="2" MinimumValue="0" ControlToValidate="txtYellowCard" CssClass="text-danger"></asp:RangeValidator>
             </div>
             <div class="col-md-3">
                 <label>Red Card</label>

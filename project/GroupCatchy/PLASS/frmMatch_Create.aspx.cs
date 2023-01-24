@@ -13,6 +13,11 @@ namespace PLASS
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
 
+            if (!Page.IsValid)
+            {
+
+            }
+
             using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\aspnet-PLASS-20230117081004.mdf;Initial Catalog=aspnet-PLASS-20230117081004;Integrated Security=True;"))
             {
                 con.Open();
@@ -37,10 +42,10 @@ namespace PLASS
                         int mainTableId = Convert.ToInt32(insertMainTableCommand.ExecuteScalar());
 
                         // Insert data into pivot table
-                        string insertPivotTableQuery = "INSERT INTO player_has_match (match_id, player_id) VALUES (@match_id, @player_id);";
+                        string insertPivotTableQuery = "INSERT INTO player_has_match (player_id, match_id) VALUES (@player_id, @match_id);";
                         SqlCommand insertPivotTableCommand = new SqlCommand(insertPivotTableQuery, con, trans);
                         insertPivotTableCommand.Parameters.AddWithValue("@match_id", mainTableId);
-                        insertPivotTableCommand.Parameters.AddWithValue("@player_id", ddTeam.SelectedValue);
+                        insertPivotTableCommand.Parameters.AddWithValue("@player_id", ddPLayer.SelectedValue);
                         // Add parameters for other columns
                         insertPivotTableCommand.ExecuteNonQuery();
 
