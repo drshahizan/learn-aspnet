@@ -97,6 +97,7 @@ CREATE TABLE [team] (
 CREATE TABLE [position] (
   [id] INT IDENTITY (1, 1) NOT NULL,
   [name] nvarchar(255),
+  [category] NVARCHAR (50)  NULL,
   PRIMARY KEY CLUSTERED ([id] ASC)
 );
 
