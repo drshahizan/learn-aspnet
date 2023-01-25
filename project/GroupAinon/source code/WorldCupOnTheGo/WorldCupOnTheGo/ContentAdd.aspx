@@ -11,12 +11,14 @@
                 <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Title</label>
+                <label for="exampleFormControlInput1">Title</label><span style="color: red">*</span>
                 <asp:TextBox ID="txtTitle" CssClass="form-control" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="reqTitle" runat="server" ErrorMessage="Required" ControlToValidate="txtTitle" Text="Required Field" ForeColor="Red"></asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Content</label>
+                <label for="exampleFormControlTextarea1">Content</label><span style="color: red">*</span>
                 <asp:TextBox ID="txtContent" CssClass="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="reqContent" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="txtContent" Text="Required field" ForeColor="Red"></asp:RequiredFieldValidator>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Image</label>
