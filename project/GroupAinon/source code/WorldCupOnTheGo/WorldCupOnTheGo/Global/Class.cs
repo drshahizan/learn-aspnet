@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
+using LinqKit;
+using System.Reflection;
 using System.Web;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
 namespace WorldCupOnTheGo.Global
 {
@@ -198,27 +202,59 @@ namespace WorldCupOnTheGo.Global
             }
             return ret;
         }
-        public static List<tblPost> GetContent()
+        public static List<tblPost> GetContent(string searchText)
         {
             var ret = new List<ListItem>();
-            var model = WCOTG_DB.tblPosts.ToList();
+            var model = WCOTG_DB.tblPosts.Where(d=>d.Id!=0);
+            if (searchText != "")
+            {
+                model = model.Where(d => d.content.Contains(searchText) || d.title.Contains(searchText));
+            }
+            
             InsertLog("Get content");
-            return model;
+            return model.ToList();
         }
-        public static List<tblMatch> GetMatch()
+        public static List<tblMatch> GetMatch(string searchText)
         {
             var ret = new List<ListItem>();
-            var model = WCOTG_DB.tblMatches.ToList();
+            var model = WCOTG_DB.tblMatches.Where(d => d.Id != 0);
+            if (searchText != "")
+            {
+                model = model.Where(d => d.team_a.Contains(searchText) || d.team_b.Contains(searchText));
+            }
             InsertLog("Get match");
 
-            return model;
+            return model.ToList();
         }
-        public static List<tblAudit> GetAudit()
+        public static List<tblAudit> GetAudit(string SortExpression, SortDirection direction, string textSearch)
         {
             var ret = new List<ListItem>();
-            var model = WCOTG_DB.tblAudits.ToList();
-            InsertLog("Get audit");
-            return model;
+            var IsAscending = false;
+            if (direction == SortDirection.Ascending) IsAscending = true; //get sort direction
+            if (SortExpression == null) SortExpression = "Id"; //to sort id by default
+
+            var model = WCOTG_DB.tblAudits.AsExpandable().Where(d=>d.Id!=0);
+
+            //apply filters
+            if (textSearch != "") model = model.Where(d => d.Ip_Address.Contains(textSearch) || d.Action.Contains(textSearch)); 
+
+
+            IQueryable<tblAudit> orderedItems;
+
+            Type entityType = typeof(tblAudit);
+            PropertyInfo p = entityType.GetProperty(SortExpression);
+
+            if (IsAscending)
+            {
+                orderedItems = model.OrderBy(SortExpression);
+            }
+            else
+            {
+                orderedItems = model.OrderByDescending(SortExpression);
+            }
+
+            //InsertLog("Get audit");
+            return orderedItems.ToList();
         }
 
         public static bool InsertMatch(string teamA, string teamAScore, string teamB, string teamBScore, string matchDate, long createdby)

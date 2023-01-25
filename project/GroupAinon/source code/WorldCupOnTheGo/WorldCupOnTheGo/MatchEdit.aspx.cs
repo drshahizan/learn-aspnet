@@ -19,7 +19,7 @@ namespace WorldCupOnTheGo
             {
                 if (Session["email"] == null)
                 {
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("NoPermission.aspx");
                 }
 
                 var Id = Request.QueryString["Id"];

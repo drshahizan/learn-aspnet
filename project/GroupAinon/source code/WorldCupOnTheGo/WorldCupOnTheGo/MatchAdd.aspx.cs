@@ -15,7 +15,11 @@ namespace WorldCupOnTheGo
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
-            {                
+            {
+                if (Session["email"] == null)
+                {
+                    Response.Redirect("NoPermission.aspx");
+                }
                 ddlTeamA.DataSource = Global.Class.GetTeamDDL();
                 ddlTeamB.DataSource = Global.Class.GetTeamDDL();
                 ddlTeamA.DataBind();

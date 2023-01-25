@@ -15,7 +15,7 @@ namespace WorldCupOnTheGo
             {
                 if (Session["email"] == null)
                 {
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("NoPermission.aspx");
                 }
 
                 lblMessage.Text = "Are you sure you want to delete this player?";

@@ -15,6 +15,15 @@ namespace WorldCupOnTheGo
     {
 
         /// <summary>
+        /// txtSearch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSearch;
+
+        /// <summary>
         /// lblDisplayEmail control.
         /// </summary>
         /// <remarks>
@@ -24,40 +33,40 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.Label lblDisplayEmail;
 
         /// <summary>
-        /// btnGoToContentList control.
+        /// lbGoToContentList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGoToContentList;
+        protected global::System.Web.UI.WebControls.LinkButton lbGoToContentList;
 
         /// <summary>
-        /// btnGoToTeamList control.
+        /// lbGoToTeamList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGoToTeamList;
+        protected global::System.Web.UI.WebControls.LinkButton lbGoToTeamList;
 
         /// <summary>
-        /// btnGoToMatchList control.
+        /// lbGoToMatchList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGoToMatchList;
+        protected global::System.Web.UI.WebControls.LinkButton lbGoToMatchList;
 
         /// <summary>
-        /// btnGoAuditList control.
+        /// lbGoAuditList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGoAuditList;
+        protected global::System.Web.UI.WebControls.LinkButton lbGoAuditList;
 
         /// <summary>
         /// lvContent control.
@@ -67,5 +76,14 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListView lvContent;
+
+        /// <summary>
+        /// lvMatches control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lvMatches;
     }
 }

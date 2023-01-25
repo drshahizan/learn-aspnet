@@ -13,46 +13,62 @@ namespace WorldCupOnTheGo
         static DatabaseEntities WCOTG_DB = new DatabaseEntities();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            var searchText = "";
+            if (txtSearch.Text != null || txtSearch.Text.Length > 0)
             {
+                searchText = txtSearch.Text;
+            }
+            if (!IsPostBack)
+            {                                   
                 if (Session["email"] == null)
                 {
                     lblDisplayEmail.Text = "";
-                    btnGoToContentList.Visible = false;
-                    btnGoToMatchList.Visible = false;
-                    btnGoToTeamList.Visible = false;
-                    btnGoAuditList.Visible = false;
+                    lbGoToContentList.Visible = false;
+                    lbGoToMatchList.Visible = false;
+                    lbGoToTeamList.Visible = false;
+                    lbGoAuditList.Visible = false;
                 }
                 else
                 {
                     lblDisplayEmail.Text = "Hello " + Session["email"];
-                    btnGoToContentList.Visible = true;
-                    btnGoToMatchList.Visible = true;
-                    btnGoToTeamList.Visible = true;
-                    btnGoAuditList.Visible = true;
+                    lbGoToContentList.Visible = true;
+                    lbGoToMatchList.Visible = true;
+                    lbGoToTeamList.Visible = true;
+                    lbGoAuditList.Visible = true;
                 }
-                lvContent.DataSource = Global.Class.GetContent();
+                lvContent.DataSource = Global.Class.GetContent(searchText);
                 lvContent.DataBind();
+
+                lvMatches.DataSource = Global.Class.GetMatch(searchText);
+                lvMatches.DataBind();
             }
-                
+            else
+            {
+                lvContent.DataSource = Global.Class.GetContent(searchText);
+                lvContent.DataBind();
+
+                lvMatches.DataSource = Global.Class.GetMatch(searchText);
+                lvMatches.DataBind();
+            }
+
         }
 
-        protected void btnGoToContentList_Click(object sender, EventArgs e)
+        protected void lbGoToContentList_Click(object sender, EventArgs e)
         {
             Response.Redirect("ContentList.aspx");
         }
 
-        protected void btnGoToContentAdd_Click(object sender, EventArgs e)
+        protected void lbGoToContentAdd_Click(object sender, EventArgs e)
         {
             Response.Redirect("ContentAdd.aspx");
         }
 
-        protected void btnGoToTeamList_Click(object sender, EventArgs e)
+        protected void lbGoToTeamList_Click(object sender, EventArgs e)
         {
             Response.Redirect("TeamList.aspx");
         }
 
-        protected void btnGoToMatchList_Click(object sender, EventArgs e)
+        protected void lbGoToMatchList_Click(object sender, EventArgs e)
         {
             Response.Redirect("MatchList.aspx");
         }
@@ -70,7 +86,7 @@ namespace WorldCupOnTheGo
             }
         }
 
-        protected void btnGoAuditList_Click(object sender, EventArgs e)
+        protected void lbGoAuditList_Click(object sender, EventArgs e)
         {
             Response.Redirect("AuditList.aspx");
         }

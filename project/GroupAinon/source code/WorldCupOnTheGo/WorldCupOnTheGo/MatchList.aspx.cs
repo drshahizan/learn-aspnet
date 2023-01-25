@@ -17,10 +17,10 @@ namespace WorldCupOnTheGo
             {
                 if (Session["email"] == null)
                 {
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("NoPermission.aspx");
                 }
 
-                lvMatch.DataSource = Global.Class.GetMatch();
+                lvMatch.DataSource = Global.Class.GetMatch("");
                 lvMatch.DataBind();
             }
         }

@@ -179,3 +179,7 @@ C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\Wor
 C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.SqlServer.dll
 C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.xml
 C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\EntityFramework.SqlServer.xml
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\LinqKit.Core.dll
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\LinqKit.dll
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\LinqKit.xml
+C:\Users\sobery\Documents\GitHub\learn-aspnet\project\GroupAinon\source code\WorldCupOnTheGo\WorldCupOnTheGo\bin\LinqKit.Core.xml

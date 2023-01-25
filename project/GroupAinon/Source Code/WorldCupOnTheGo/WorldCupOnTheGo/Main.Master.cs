@@ -13,25 +13,25 @@ namespace WorldCupOnTheGo
         {
             if (Session["email"] == null)
             {
-                btnLogin.Visible = true;
-                btnLogout.Visible = false;
+                lbLogin.Visible = true;
+                lbLogout.Visible = false;
             }
             else
             {
-                btnLogin.Visible = false;
-                btnLogout.Visible = true; 
+                lbLogin.Visible = false;
+                lbLogout.Visible = true; 
             }
         }
 
-        protected void btnLogout_Click(object sender, EventArgs e)
+        protected void lbLogin_Click(object sender, EventArgs e)
         {
-            Session.Clear();
-            Session.Abandon();
             Response.Redirect("Login.aspx");
         }
 
-        protected void btnLogin_Click(object sender, EventArgs e)
+        protected void lbLogout_Click(object sender, EventArgs e)
         {
+            Session.Clear();
+            Session.Abandon();
             Response.Redirect("Login.aspx");
         }
     }

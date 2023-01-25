@@ -15,7 +15,7 @@ namespace WorldCupOnTheGo
 
                 if (Session["email"] == null)
                 {
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("NoPermission.aspx");
                 }
 
                 lblMessage.Text = "Are your sure you want to delete this record?";

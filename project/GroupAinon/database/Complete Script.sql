@@ -66,7 +66,7 @@ CREATE TABLE [dbo].[tblPost]
 
 --SEED user record
 INSERT INTO tblUser
-VALUES ('admin@worldcuponthego.my', 'password', 'admin');
+VALUES ('admin@worldcuponthego.my', 'BbcEZrEm', 'admin');
 INSERT INTO tblUser
-VALUES ('subscriber@worldcuponthego.my', 'password', 'subscriber');
+VALUES ('subscriber@worldcuponthego.my', 'BbcEZrEm', 'subscriber');
 
