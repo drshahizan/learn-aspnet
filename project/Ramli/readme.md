@@ -8,7 +8,7 @@
 
 ## Summary of the Project
 
-  After a month-long tournament,  2022 FIFA Men's World Cup in Qatar has concluded with Argentina beating France, held aloft the hallowed FIFA World Cup trophy. A month has passed but the news of the World Cup, Cristiano Ronaldo vs Lionel Messi still occupies the news leads. 
+  After a month-long tournament,  2022 FIFA Men's World Cup in Qatar has concluded with Argentina beating France, held aloft the hallowed FIFA World Cup trophy. A month has passed now but the news of the World Cup, Cristiano Ronaldo vs Lionel Messi still occupies the news leads. 
 
   During the tournaments, we were updated by all the latest news and results of World Cup 2022, but for those who just started following and watching the World Cup, few know the history of FIFA World Cup, i.e., when was the inaugural world cup, which countries were the champion, runner up, third place in the particular tournament? etc. 
 
