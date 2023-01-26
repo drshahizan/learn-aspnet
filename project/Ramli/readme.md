@@ -18,6 +18,6 @@
 
 ## Tasks 
 1. Web Design for User Page,  Admin Page together with User Verification capabilities
-2. Database Table diagram (minimum 5 tables), database Structures, scripts to insert data into the tables & Pictures 
+2. Database Table diagram (minimum 5 tables), database Structures, scripts to insert data into the tables & Pictures - Neoh
 3. Database Connection - Data Manipulation capabilities, Sorting & Searching capabilities
 4. ERD, Use Case Diagram, Activity Diagram, powerpoint presentation slides, final report
