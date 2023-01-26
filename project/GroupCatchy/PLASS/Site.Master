@@ -73,11 +73,12 @@
                 <div class="row flex-nowrap">
                     <div class="col-md-2 bg-dark py-5 rounded text-center shadow">
                         <a class="nav-link text-light mb-3" aria-current="page" href="frmCountry_List.aspx">Search Country</a>
-                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Search.aspx">Search Player</a>
-                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Create.aspx">Create Player</a> 
+                        <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Search.aspx">Search Player</a>
+                        <%if (Context.User.IsInRole("Admin"))
+                            {  %>
+                        <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Create.aspx">Create Player</a>
                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmMatch_Create.aspx">Create Match</a>
-                        
-                       
+                        <% } %>
                     </div>
                     <div class="col-md-10 shadow ms-5 py-3 rounded">
                         <div class="container-fluid py-3">
