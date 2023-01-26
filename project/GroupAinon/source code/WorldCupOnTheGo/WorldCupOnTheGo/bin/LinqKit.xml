@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LinqKit</name>
+    </assembly>
+    <members>
+        <member name="T:LinqKit.Extensions">
+            <summary>
+            Refer to http://www.albahari.com/nutshell/linqkit.html and http://tomasp.net/blog/linq-expand.aspx for more information.
+            </summary>
+        </member>
+        <member name="M:LinqKit.Extensions.AsExpandable``1(System.Linq.IQueryable{``0})">
+            <summary>
+            LinqKit: Returns wrapper that automatically expands expressions using a default QueryOptimizer.
+            </summary>
+        </member>
+        <member name="M:LinqKit.Extensions.AsExpandable``1(System.Linq.IQueryable{``0},System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression})">
+            <summary>
+            LinqKit: Returns wrapper that automatically expands expressions using a custom QueryOptimizer.
+            </summary>
+        </member>
+        <member name="T:LinqKit.ExpandableQuery`1">
+            <summary>
+            An IQueryable wrapper that allows us to visit the query's expression tree just before LINQ to SQL gets to it.
+            This is based on the excellent work of Tomas Petricek: http://tomasp.net/blog/linq-expand.aspx
+            </summary>
+        </member>
+        <member name="M:LinqKit.ExpandableQuery`1.GetEnumerator">
+            <summary> IQueryable enumeration </summary>
+        </member>
+        <member name="M:LinqKit.ExpandableQuery`1.ToString">
+            <summary>
+            IQueryable string presentation.
+            </summary>
+        </member>
+        <member name="M:LinqKit.ExpandableQuery`1.GetAsyncEnumerator">
+            <summary> Enumerator for async-await </summary>
+        </member>
+        <member name="T:LinqKit.ExpandableDbAsyncEnumerator`1">
+            <summary>Class for async-await style list enumeration support (e.g. .ToListAsync())</summary>
+        </member>
+        <member name="M:LinqKit.ExpandableDbAsyncEnumerator`1.#ctor(System.Collections.Generic.IEnumerator{`0})">
+            <summary>Class for async-await style list enumeration support (e.g. .ToListAsync())</summary>
+        </member>
+        <member name="M:LinqKit.ExpandableDbAsyncEnumerator`1.Dispose">
+            <summary>Dispose, .NET using-pattern</summary>
+        </member>
+        <member name="M:LinqKit.ExpandableDbAsyncEnumerator`1.MoveNextAsync(System.Threading.CancellationToken)">
+            <summary>Enumerator-pattern: MoveNextAsync</summary>
+        </member>
+        <member name="P:LinqKit.ExpandableDbAsyncEnumerator`1.Current">
+            <summary>Enumerator-pattern: Current item</summary>
+        </member>
+        <member name="T:LinqKit.ExtensionsEF">
+            <summary>
+            <seealso cref="T:LinqKit.Extensions"/>
+            </summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.AsExpandableEF``1(System.Linq.IQueryable{``0})">
+            <summary>
+            LinqKit: Returns wrapper that automatically expands expressions using a default QueryOptimizer.
+            </summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.AsExpandableEF``1(System.Linq.IQueryable{``0},System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression})">
+            <summary>
+            LinqKit: Returns wrapper that automatically expands expressions using a custom QueryOptimizer.
+            </summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``0)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``3(System.Linq.Expressions.Expression{System.Func{``0,``1,``2}},``0,``1)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3}},``0,``1,``2)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4}},``0,``1,``2,``3)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5}},``0,``1,``2,``3,``4)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``7(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6}},``0,``1,``2,``3,``4,``5)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``8(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7}},``0,``1,``2,``3,``4,``5,``6)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``9(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8}},``0,``1,``2,``3,``4,``5,``6,``7)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``10(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9}},``0,``1,``2,``3,``4,``5,``6,``7,``8)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``11(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``12(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``13(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``14(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``15(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``16(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+        <member name="M:LinqKit.ExtensionsEF.InvokeEF``17(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16}},``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15)">
+            <summary>LinqKit: Compile and invoke</summary>
+        </member>
+    </members>
+</doc>

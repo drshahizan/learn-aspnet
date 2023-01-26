@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblPlayer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="jercy_no" Type="Int32" Nullable="false" />
+    <Property Name="team_id" Type="Int64" Nullable="false" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="created_by" Type="Int64" />
+    <Property Name="updated_date" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblPost">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="created_by" Type="Int64" />
+    <Property Name="updated_date" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Int64" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="published_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="match_id_id" Type="Int64" Nullable="false" />
+    <Property Name="file_path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblTeam">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="created_by" Type="Int64" />
+    <Property Name="updated_date" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="role" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblPlayers" EntityType="Self.tblPlayer" />
+    <EntitySet Name="tblPosts" EntityType="Self.tblPost" />
+    <EntitySet Name="tblTeams" EntityType="Self.tblTeam" />
+    <EntitySet Name="tblUsers" EntityType="Self.tblUser" />
+    <EntitySet Name="tblMatches" EntityType="DatabaseModel.tblMatch" />
+    <EntitySet Name="tblAudits" EntityType="DatabaseModel.tblAudit" />
+  </EntityContainer>
+  <EntityType Name="tblMatch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="team_a" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="team_a_score" Type="Int32" Nullable="false" />
+    <Property Name="team_b" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="team_b_score" Type="Int32" />
+    <Property Name="match_datetime" Type="DateTime" Precision="3" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="created_by" Type="Int64" />
+    <Property Name="updated_date" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblAudit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ip_Address" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Action" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="3" />
+    <Property Name="created_by" Type="Int64" />
+  </EntityType>
+</Schema>

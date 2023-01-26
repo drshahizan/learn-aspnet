@@ -7,6 +7,8 @@
 
 Don't forget to hit the :star: if you like this repo.
 
+# [Markah](https://github.com/drshahizan/learn-aspnet/blob/main/image/markahASP.pdf)
+
 # About Us
 The information on this Github is part of the materials for the subject Programming Technique 3 (SCSJ3253). This course introduces the fundamentals of web development using ASP.NET, with the aim to develop a database (SQL Server) driven website. The course will provide students with conceptual and practical understanding of website design and development and encourages the integration of good interface design with effective system functionality. An introduction is provided to AJAX (Asynchronous Javascript with XML)
 
@@ -31,7 +33,7 @@ The information on this Github is part of the materials for the subject Programm
 - Lab
    - [Book: ASP Web Programming. NET Using VB and C#](#book)
    - [Standard Control](#standard-control)
-   - [Database](#database)
+   - [Database](#lab-database)
    - [Styles and Master Pages](#styles-and-master-pages)
 - [Case Study](#case-study)
 - Assignment
@@ -39,6 +41,10 @@ The information on this Github is part of the materials for the subject Programm
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
    - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
    - [Assignment 4: Web Design](https://github.com/drshahizan/learn-aspnet/tree/main/web-design)
+      - [Ainon](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ainon)
+      - [Catchy](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Catchy)
+      - [Nazariah](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Nazariah)
+      - [Ramli](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ramli)
 - [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
 - [Book](#book)
 - [Final exam](#final-exam)
@@ -211,42 +217,43 @@ methods and tools.
    - Lab 8.3: RequiredFieldValidator and CompareValidator controls (page 336)
    - Lab 8.4: RequiredFieldValidator control (page 339)
    - Lab 8.5: ValidationSummary control (page 343)
-## Standard Control
-- [ASP.NET Fundamentals]()
-- [Conditionals]()
-- [Pizza store]()
-- [JDT NBA team]()
-- [More controls]()
+## [Standard Control](https://github.com/drshahizan/learn-aspnet/tree/main/lab/standard-control)
+- [Lab 1: ASP.NET Fundamentals](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab1.md)
+- [Lab 2: Conditionals](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab2.md)
+- [Lab 3: Pizza store](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab3.md)
+- [Lab 4: JDT NBA team](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab4.md)
+- [Lab 5: More controls](https://github.com/drshahizan/learn-aspnet/blob/main/lab/standard-control/lab5.md)
 
-## Database
-Exercise: SQL Server
-- [Create Table]()
-- [Data binding]()
-- [Implementing CRUD in FormView]()
+## Lab: Database
+### [Microsoft SQL Server](https://github.com/drshahizan/learn-aspnet/tree/main/lab/database)
+- [Lab 1: Create Table](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab1.md)
+- [Lab 2: Data binding](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab2.md)
+- [Lab 3: Implementing CRUD in FormView](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab3.md)
 
-Exercise: Access
-- [Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64]()
-- [Data binding using an Access database]()
-- [Filtering data]()
-- [Data binding: Using a DropDownlist to filter data]()
-- [Data binding: Using calender control to filter data]()
-- [Working with relational database]()
+### Microsoft Access
+- [Lab 4: Microsoft Access Database Engine 2016 Redistributable: AccessDatabaseEngine_X64](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab4.md)
+- [Lab 5: Data binding using an Access database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab5.md)
+- [Lab 6: Filtering data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab6.md)
+- [Lab 7: Data binding: Using a DropDownlist to filter data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab7.md)
+- [Lab 8: Data binding: Using calender control to filter data](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab8.md)
+- [Lab 9: Working with relational database](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/lab9.md)
 
-Exercise: MySQL
-- [How to Bind Data From MySQL Database to GridView]()
+### MySQL
+- [Lab 10: How to Bind Data From MySQL Database to GridView](https://www.c-sharpcorner.com/UploadFile/47548d/how-to-bind-data-from-mysql-database-to-gridview-in-Asp-Net/)
 
 ## Styles and Master Pages
-- [Style sheets]()
-- [Themes & Skin]()
-- [CSS Template]()
-- [Master page: Intro]()
-- [Master page E-learning]()
-- [Master page: brown shadow template]()
-- [Master page: ASP.NET Web Apps]()
+- [Lab 1: Style sheets](https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/lab1.md)
+- [Lab 2: Themes & Skin](https://github.com/drshahizan/learn-aspnet/blob/main/lab/styles/lab2.md)
+- [Lab 3: CSS Template]()
+- [Lab 4: Master page: Intro]()
+- [Lab 5: Master page E-learning]()
+- [Lab 6: Master page: brown shadow template]()
+- [Lab 7: Master page: ASP.NET Web Apps]()
 
 # Case Study
-- [Danny’s Diner (Question)]()
-- [Danny’s Diner (Solution)]()
+- [Danny’s Diner (Question)](https://8weeksqlchallenge.com/case-study-1/)
+- [Danny’s Diner (Solution)](https://github.com/drshahizan/learn-aspnet/blob/main/lab/database/case-study1-solution.md)
+- [DB source code](https://drive.google.com/file/d/1Qa77Mfy_X7VypoQQjFPpHSAq9pzmrwSE/view?usp=share_link)
 
 # Books
 
@@ -267,7 +274,7 @@ Exercise: MySQL
 - [Cover page](https://github.com/drshahizan/learn-aspnet/blob/main/image/tp3%20cover.jpg)
 
 ## Contribution 🛠️
-Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 

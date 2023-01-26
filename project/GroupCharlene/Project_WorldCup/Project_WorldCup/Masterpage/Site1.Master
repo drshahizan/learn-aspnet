@@ -33,7 +33,7 @@
                             <li class="nav-item"><a class="nav-link" href="../Homepage.aspx">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="../Group.aspx">Group</a></li>
                             <li class="nav-item"><a class="nav-link" href="../Players.aspx">List Players</a></li>
-                              <li class="nav-item"><a class="nav-link" href="contact.html">Login</a></li>
+                              <li class="nav-item"><a class="nav-link" href="../Admin/frmlogin.aspx">Login</a></li>
                            
                         </ul>
                     </div>
