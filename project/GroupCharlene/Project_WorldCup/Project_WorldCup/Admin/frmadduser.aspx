@@ -50,8 +50,8 @@
           
             <td>
                 <asp:DropDownList ID="DropDownList1" runat="server" Height="33px" Width="177px">
-                    <asp:ListItem>Admin</asp:ListItem>
-                    <asp:ListItem>User</asp:ListItem>
+                    <asp:ListItem Value="admin" Text="Admin"></asp:ListItem>
+                    <asp:ListItem Value="user" Text="User"></asp:ListItem>
                 </asp:DropDownList>
              </td>
         </tr>

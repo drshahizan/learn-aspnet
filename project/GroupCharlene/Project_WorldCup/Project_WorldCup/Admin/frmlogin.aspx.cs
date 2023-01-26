@@ -26,12 +26,22 @@ namespace Project_WorldCup.Admin
                 string pass = txtpw.Text;
                 con.Open();
                 string qry = "select * from loginID where UserName='" + uid + "' and Pwd='" + pass + "'";
+                string userType = "";
+
                 SqlCommand cmd = new SqlCommand(qry, con);
                 SqlDataReader sdr = cmd.ExecuteReader();
                 if (sdr.Read())
                 {
+                    userType = sdr.GetString(8);
                     Session["UserName"] = txtname.Text;
-                    Response.Redirect("Dashboard.aspx");
+
+                    if (userType == "admin")
+                    {
+                        Response.Redirect("Dashboard.aspx");
+                    } else
+                    {
+                        Response.Redirect("../User/frmnews.aspx");
+                    }
                 }
                 else
                 {
