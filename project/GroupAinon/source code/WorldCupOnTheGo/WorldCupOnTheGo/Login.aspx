@@ -48,7 +48,7 @@
                 <label for="floatingPassword">Password</label>
             </div>
 
-            <asp:Button ID="btnSignIn" CssClass="w-100 btn btn-lg btn-primary" runat="server" Text="Sign" OnClick="btnSignIn_Click" />
+            <asp:Button ID="btnSignIn" CssClass="w-100 btn btn-lg btn-primary" runat="server" Text="Sign In" OnClick="btnSignIn_Click" />
             <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
         </form>
     </main>

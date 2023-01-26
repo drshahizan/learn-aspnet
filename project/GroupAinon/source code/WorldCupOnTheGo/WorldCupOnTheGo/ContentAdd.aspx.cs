@@ -25,9 +25,10 @@ namespace WorldCupOnTheGo
             var title = txtTitle.Text;
             var content = txtContent.Text;
 
-            if (Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
+                Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record creaated successfully";
             }
             else
@@ -38,7 +39,9 @@ namespace WorldCupOnTheGo
         }
         protected void btnContentList_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ContentList.aspx");
+           
+                Response.Redirect("ContentList.aspx");
+
         }
     }
 }
