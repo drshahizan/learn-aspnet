@@ -32,7 +32,9 @@ namespace Project_WorldCup.Admin
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("UserName", txtName.Text);
             cmd.Parameters.AddWithValue("Pwd", txtPw.Text);
-            cmd.Parameters.AddWithValue("user_Role", DropDownList1.SelectedValue);
+			cmd.Parameters.AddWithValue("First_Name", txtFirstName.Text);
+			cmd.Parameters.AddWithValue("Last_Name", txtLastName.Text);
+			cmd.Parameters.AddWithValue("user_Role", DropDownList1.SelectedValue);
 
             con.Open();
 
