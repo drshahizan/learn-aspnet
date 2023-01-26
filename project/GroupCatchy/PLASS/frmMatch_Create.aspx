@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmMatch_Create.aspx.cs" Inherits="PLASS.frmAddMatch" %>
+﻿<%@ Page Title="Create Match" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="frmMatch_Create.aspx.cs" Inherits="PLASS.frmAddMatch" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container ">
