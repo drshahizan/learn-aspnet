@@ -11,7 +11,14 @@ namespace Project_WorldCup.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["UserName"] == null)
+            {
+                Response.Redirect("frmlogin.aspx");
+            }
+            else
+            {
+                // Do whatever you were going to do.
+            }
         }
     }
 }
