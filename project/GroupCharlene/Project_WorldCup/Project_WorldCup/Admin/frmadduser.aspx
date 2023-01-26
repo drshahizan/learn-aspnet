@@ -16,7 +16,7 @@
      <div class="table-responsive">
    <table class="table mg-b-0">
         <tr>
-            <td scope="row" class="auto-style2">Name</td>
+            <td scope="row" class="auto-style2">Username</td>
             
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="** Please insert your name" ControlToValidate="txtName">**</asp:RequiredFieldValidator>
             
@@ -31,7 +31,7 @@
         
             <td>
                 
-                <asp:TextBox ID="txtPw" runat="server" Height="33px" Width="170px"></asp:TextBox>
+                <asp:TextBox ID="txtPw" runat="server" Height="33px" Width="170px" TextMode="Password"></asp:TextBox>
                 
             </td>
         </tr>
@@ -41,7 +41,7 @@
            
             <td>
                 
-                <asp:TextBox ID="txtConfirmPw" runat="server" Height="33px" Width="170px"></asp:TextBox>
+                <asp:TextBox ID="txtConfirmPw" runat="server" Height="33px" Width="170px" TextMode="Password"></asp:TextBox>
                 
             </td>
         </tr>
