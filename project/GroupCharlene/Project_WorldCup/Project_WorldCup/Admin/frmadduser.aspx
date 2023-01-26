@@ -57,7 +57,7 @@
         </tr>
         <tr>
             <td class="auto-style2"></td>
-            <td> <asp:Button ID="btnSave" class="button" runat="server" Text="Save" Width="87px" /></td>
+            <td> <asp:Button ID="btnSave" class="button" runat="server" Text="Save" Width="87px" OnClick="btnSave_Click" /></td>
             <td>
                
                 
@@ -66,4 +66,7 @@
     </table>
          </div>
        </div>
+       <div style="margin-left: auto; margin-right: auto; text-align: center;">
+            <asp:Label ID="statusLbl" runat="server" ForeColor="#CC0000"></asp:Label>
+        </div>
 </asp:Content>

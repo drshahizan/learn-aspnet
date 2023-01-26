@@ -45,7 +45,7 @@
               <a href="frmadduser.aspx" class="nav-link"><i class="typcn typcn-user-add-outline"></i> Add User</a>
             </li>
             <li class="nav-item">
-              <a href="#" runat="server" class="nav-link" onserverclick="btnLogout_Click"><i class="ion-log-out"></i> Logout</a>
+              <a href="#" runat="server" class="nav-link" onserverclick="btnLogout_Click" CausesValidation="False"><i class="ion-log-out"></i> Logout</a>
             </li>
           
           </ul>
