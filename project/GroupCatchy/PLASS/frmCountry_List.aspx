@@ -9,10 +9,19 @@
             <br />
         </asp:Panel>
     <div class="container shadow pt-2 pb-4 rounded rounded-2">
-        <asp:GridView  ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="CountryListing" Height="100%" Width="100%" AllowPaging="True" AllowSorting="True" PageSize="20" HorizontalAlign="Center" CellPadding="4" ForeColor="#333333" GridLines="None">
+        <asp:GridView  ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="CountryListing" Height="100%" Width="100%" AllowPaging="True" AllowSorting="True" PageSize="20" HorizontalAlign="Center" CellPadding="3" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:HyperLinkField  DataNavigateUrlFields="id" DataNavigateUrlFormatString="~/frmPlayer_List.aspx?id={0}" DataTextField="name" HeaderText="Name" SortExpression="name" />
+           
+            <asp:TemplateField HeaderText="Flag">
+                <EditItemTemplate>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                </EditItemTemplate>
+                <ItemTemplate>
+                    <asp:Image ID="Image1" runat="server" ImageUrl='<%# "~/Assets/countries_flag/" + Eval("code").ToString().ToLower() + ".svg" %>'/>
+                </ItemTemplate>
+            </asp:TemplateField>
            
             <asp:CheckBoxField DataField="fifaQualified" HeaderText="Fifa Qualified" SortExpression="fifaQualified" ItemStyle-Width="20" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" >
 <HeaderStyle  HorizontalAlign="Center"></HeaderStyle>

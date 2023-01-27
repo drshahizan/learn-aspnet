@@ -13,7 +13,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <br /><br />
-        <table class="center">
+        <table class="center" style="margin-left: auto; margin-right: auto; text-align: center;">
             <tr>
                 <td colspan="3">
                     <img alt="fifa_Admin_logo"  src="../img/logo_fifa_admin.png" />
@@ -53,11 +53,13 @@
             <tr>
                 <td></td>
                 <td>
-                    <asp:Button ID="btnLogin" class="button" runat="server" Text="Login" /></td>
+                    <asp:Button ID="btnLogin" class="button" runat="server" Text="Login" OnClick="btnLogin_Click" /></td>
                 <td></td>
             </tr>
-        </table>
-  
-    
+        </table>  
+        <br />
+        <div style="margin-left: auto; margin-right: auto; text-align: center;">
+            <asp:Label ID="invLbl" runat="server" ForeColor="#CC0000"></asp:Label>
+        </div>
         <br />
 </asp:Content>

@@ -13,5 +13,11 @@ namespace Project_WorldCup.Admin
         {
 
         }
-    }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Response.Redirect("frmlogin.aspx");
+        }
+}
 }

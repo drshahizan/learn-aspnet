@@ -194,7 +194,7 @@
     <Content Include="frmMatch_Create.aspx" />
     <Content Include="frmPlayer_Create.aspx" />
     <Content Include="frmCountry_List.aspx" />
-    <Content Include="frmPlayer_Edit.aspx" />
+    <Content Include="frmPlayer_Detail_Guest.aspx" />
     <Content Include="frmPlayer_List.aspx" />
     <Content Include="frmPlayer_Detail.aspx" />
     <Content Include="frmPlayer_Search.aspx" />
@@ -400,12 +400,12 @@
     <Compile Include="frmCountry_List.aspx.designer.cs">
       <DependentUpon>frmCountry_List.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmPlayer_Edit.aspx.cs">
-      <DependentUpon>frmPlayer_Edit.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Detail_Guest.aspx.cs">
+      <DependentUpon>frmPlayer_Detail_Guest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmPlayer_Edit.aspx.designer.cs">
-      <DependentUpon>frmPlayer_Edit.aspx</DependentUpon>
+    <Compile Include="frmPlayer_Detail_Guest.aspx.designer.cs">
+      <DependentUpon>frmPlayer_Detail_Guest.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmPlayer_List.aspx.cs">
       <DependentUpon>frmPlayer_List.aspx</DependentUpon>
