@@ -14,7 +14,14 @@ namespace Project_WorldCup.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["UserName"] == null)
+            {
+                Response.Redirect("../Admin/frmlogin.aspx");
+            }
+            else if (Session["UserRole"].Equals("admin"))
+            {
+                Response.Redirect("../Admin/Dashboard.aspx");
+            }
         }
 
         protected void btnSave_Click(object sender, EventArgs e)

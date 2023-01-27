@@ -34,6 +34,7 @@ namespace Project_WorldCup.Admin
                 {
                     userType = sdr.GetString(5);
                     Session["UserName"] = txtname.Text;
+                    Session["UserRole"] = userType;
 
                     if (userType == "admin")
                     {

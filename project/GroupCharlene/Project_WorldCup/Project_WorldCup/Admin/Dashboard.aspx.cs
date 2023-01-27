@@ -15,9 +15,9 @@ namespace Project_WorldCup.Admin
             {
                 Response.Redirect("frmlogin.aspx");
             }
-            else
+            else if (Session["UserRole"].Equals("user"))
             {
-                // Do whatever you were going to do.
+                Response.Redirect("../User/frmnews.aspx");
             }
         }
     }
