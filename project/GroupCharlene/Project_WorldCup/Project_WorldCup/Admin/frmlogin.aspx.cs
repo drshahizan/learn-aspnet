@@ -32,7 +32,7 @@ namespace Project_WorldCup.Admin
                 SqlDataReader sdr = cmd.ExecuteReader();
                 if (sdr.Read())
                 {
-                    userType = sdr.GetString(8);
+                    userType = sdr.GetString(5);
                     Session["UserName"] = txtname.Text;
 
                     if (userType == "admin")
