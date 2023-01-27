@@ -11,9 +11,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="container">
-         <br />
-    <h3>Manage News Football</h3>
-    <br />
+     <br />
+     <h3>Manage News Football</h3>
+     <br />
     <asp:Panel ID="Panel2" runat="server" CssClass="collapsePanelHeader" Height="30px">
         <div style="padding: 5px; cursor: pointer; vertical-align: middle; background-color: #6c51d7; height: 100%;">
             <div style="float: left; color: #fff; font-weight: bold; font-size: 15px; padding-left: 20px;">Add News</div>
@@ -50,7 +50,8 @@
         ExpandedImage="~/img/collapse.png"
         CollapsedImage="~/Img/expand.png"
         SuppressPostBack="true" />
-         <br />
+    <br />
+
     <asp:Panel ID="Panel3" runat="server" CssClass="collapsePanelHeader" Height="30px">
         <div style="padding: 5px; cursor: pointer; vertical-align: middle; background-color: #6c51d7; height: 100%;">
             <div style="float: left; color: #fff; font-weight: bold; font-size: 15px; padding-left: 20px;">Edit Existing News</div>
