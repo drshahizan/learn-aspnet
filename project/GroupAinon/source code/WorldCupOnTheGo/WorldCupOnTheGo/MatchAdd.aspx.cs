@@ -20,6 +20,7 @@ namespace WorldCupOnTheGo
                 {
                     Response.Redirect("NoPermission.aspx");
                 }
+
                 ddlTeamA.DataSource = Global.Class.GetTeamDDL();
                 ddlTeamB.DataSource = Global.Class.GetTeamDDL();
                 ddlTeamA.DataBind();
@@ -40,10 +41,11 @@ namespace WorldCupOnTheGo
             var teamBScore = txtTeamBScore.Text;
             var matchDate = txtMatchDateTime.Text;
 
-            if (Global.Class.InsertMatch(teamA, teamAScore, teamB, teamBScore, matchDate, Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
-                lblMessage.Text = "Record creaated successfully";
+                Global.Class.InsertMatch(teamA, teamAScore, teamB, teamBScore, matchDate, Convert.ToInt64(Session["userid"]));
+                lblMessage.Text = "Record created successfully";
                 //Response.Redirect("TeamList.aspx");
             }
             else

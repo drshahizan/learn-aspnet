@@ -33,6 +33,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.DropDownList ddlTeamA;
 
         /// <summary>
+        /// reqTeamA control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqTeamA;
+
+        /// <summary>
         /// txtTeamAScore control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTeamAScore;
+
+        /// <summary>
+        /// reqTeamAScore control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqTeamAScore;
 
         /// <summary>
         /// ddlTeamB control.
@@ -51,6 +69,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.DropDownList ddlTeamB;
 
         /// <summary>
+        /// reqTeamB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqTeamB;
+
+        /// <summary>
         /// txtTeamBScore control.
         /// </summary>
         /// <remarks>
@@ -58,6 +85,15 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTeamBScore;
+
+        /// <summary>
+        /// reqTeamBScore control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqTeamBScore;
 
         /// <summary>
         /// Calendar1 control.
@@ -76,6 +112,15 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMatchDateTime;
+
+        /// <summary>
+        /// reqCalendar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqCalendar;
 
         /// <summary>
         /// btnSubmit control.
