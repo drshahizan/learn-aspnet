@@ -28,8 +28,9 @@ namespace WorldCupOnTheGo
             if (IsValid)
             {
                 //successfully created
-                Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record creaated successfully";
+                Global.Class.InsertContent(title, content, fuImage, Convert.ToInt64(Session["userid"]));
+                Response.Redirect("ContentList.aspx");
             }
             else
             {

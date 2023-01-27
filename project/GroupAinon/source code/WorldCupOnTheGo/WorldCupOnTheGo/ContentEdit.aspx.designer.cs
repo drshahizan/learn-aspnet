@@ -33,6 +33,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.TextBox txtTitle;
 
         /// <summary>
+        /// reqEditTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqEditTitle;
+
+        /// <summary>
         /// txtContent control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtContent;
+
+        /// <summary>
+        /// reqEditContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqEditContent;
 
         /// <summary>
         /// imCurrentImage control.

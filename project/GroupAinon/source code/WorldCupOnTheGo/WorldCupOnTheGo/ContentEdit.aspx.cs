@@ -44,10 +44,12 @@ namespace WorldCupOnTheGo
             var Id = Request.QueryString["Id"];
             var Post = Global.Class.GetPost(Convert.ToInt64(Id));
 
-            if (Global.Class.UpdateContent(Post, title, content, fuImage, Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
+                Global.Class.UpdateContent(Post, title, content, fuImage, Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record updated successfully";
+                Response.Redirect("ContentList.aspx");
             }
             else
             {
