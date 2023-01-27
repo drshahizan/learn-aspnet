@@ -10,7 +10,6 @@
                 <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                 <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" InsertVisible="False" ReadOnly="True" />
                 <asp:BoundField DataField="UserName" HeaderText="Username" SortExpression="UserName" />
-                <asp:BoundField DataField="Pwd" HeaderText="Password" SortExpression="Pwd" />
                  <asp:BoundField DataField="First_Name" HeaderText="First Name" SortExpression="First_Name" />
                 <asp:BoundField DataField="Last_Name" HeaderText="Last Name" SortExpression="Last_Name" />
                 <asp:BoundField DataField="user_Role" HeaderText="User Role" SortExpression="user_Role" />
@@ -25,31 +24,31 @@
             <SortedDescendingCellStyle BackColor="#D8D8F0" />
             <SortedDescendingHeaderStyle BackColor="#3E3277" />
         </asp:GridView>
-        <asp:SqlDataSource ID="displayUsersDS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [loginID]" ConflictDetection="CompareAllValues" DeleteCommand="DELETE FROM [loginID] WHERE [Id] = @original_Id AND (([UserName] = @original_UserName) OR ([UserName] IS NULL AND @original_UserName IS NULL)) AND (([Pwd] = @original_Pwd) OR ([Pwd] IS NULL AND @original_Pwd IS NULL)) AND (([First_Name] = @original_First_Name) OR ([First_Name] IS NULL AND @original_First_Name IS NULL)) AND (([Last_Name] = @original_Last_Name) OR ([Last_Name] IS NULL AND @original_Last_Name IS NULL)) AND (([user_Role] = @original_user_Role) OR ([user_Role] IS NULL AND @original_user_Role IS NULL))" InsertCommand="INSERT INTO [loginID] ([UserName], [Pwd], [First_Name], [Last_Name], [user_Role]) VALUES (@UserName, @Pwd, @First_Name, @Last_Name, @user_Role)" OldValuesParameterFormatString="original_{0}" UpdateCommand="UPDATE [loginID] SET [UserName] = @UserName, [Pwd] = @Pwd, [First_Name] = @First_Name, [Last_Name] = @Last_Name, [user_Role] = @user_Role WHERE [Id] = @original_Id AND (([UserName] = @original_UserName) OR ([UserName] IS NULL AND @original_UserName IS NULL)) AND (([Pwd] = @original_Pwd) OR ([Pwd] IS NULL AND @original_Pwd IS NULL)) AND (([First_Name] = @original_First_Name) OR ([First_Name] IS NULL AND @original_First_Name IS NULL)) AND (([Last_Name] = @original_Last_Name) OR ([Last_Name] IS NULL AND @original_Last_Name IS NULL)) AND (([user_Role] = @original_user_Role) OR ([user_Role] IS NULL AND @original_user_Role IS NULL))">
+        <asp:SqlDataSource ID="displayUsersDS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [loginID]" ConflictDetection="CompareAllValues" DeleteCommand="DELETE FROM [loginID] WHERE [Id] = @original_Id AND (([UserName] = @original_UserName) OR ([UserName] IS NULL AND @original_UserName IS NULL))  AND (([First_Name] = @original_First_Name) OR ([First_Name] IS NULL AND @original_First_Name IS NULL)) AND (([Last_Name] = @original_Last_Name) OR ([Last_Name] IS NULL AND @original_Last_Name IS NULL)) AND (([user_Role] = @original_user_Role) OR ([user_Role] IS NULL AND @original_user_Role IS NULL))" InsertCommand="INSERT INTO [loginID] ([UserName], [Pwd], [First_Name], [Last_Name], [user_Role]) VALUES (@UserName, @Pwd, @First_Name, @Last_Name, @user_Role)" OldValuesParameterFormatString="original_{0}" UpdateCommand="UPDATE [loginID] SET [UserName] = @UserName, [First_Name] = @First_Name, [Last_Name] = @Last_Name, [user_Role] = @user_Role WHERE [Id] = @original_Id AND (([UserName] = @original_UserName) OR ([UserName] IS NULL AND @original_UserName IS NULL)) AND (([First_Name] = @original_First_Name) OR ([First_Name] IS NULL AND @original_First_Name IS NULL)) AND (([Last_Name] = @original_Last_Name) OR ([Last_Name] IS NULL AND @original_Last_Name IS NULL)) AND (([user_Role] = @original_user_Role) OR ([user_Role] IS NULL AND @original_user_Role IS NULL))">
             <DeleteParameters>
                 <asp:Parameter Name="original_Id" Type="Int32" />
                 <asp:Parameter Name="original_UserName" Type="String" />
-                <asp:Parameter Name="original_Pwd" Type="String" />
+             
                 <asp:Parameter Name="original_First_Name" Type="String" />
                 <asp:Parameter Name="original_Last_Name" Type="String" />
                 <asp:Parameter Name="original_user_Role" Type="String" />
             </DeleteParameters>
             <InsertParameters>
                 <asp:Parameter Name="UserName" Type="String" />
-                <asp:Parameter Name="Pwd" Type="String" />
+                
                 <asp:Parameter Name="First_Name" Type="String" />
                 <asp:Parameter Name="Last_Name" Type="String" />
                 <asp:Parameter Name="user_Role" Type="String" />
             </InsertParameters>
             <UpdateParameters>
                 <asp:Parameter Name="UserName" Type="String" />
-                <asp:Parameter Name="Pwd" Type="String" />
+               
                 <asp:Parameter Name="First_Name" Type="String" />
                 <asp:Parameter Name="Last_Name" Type="String" />
                 <asp:Parameter Name="user_Role" Type="String" />
                 <asp:Parameter Name="original_Id" Type="Int32" />
                 <asp:Parameter Name="original_UserName" Type="String" />
-                <asp:Parameter Name="original_Pwd" Type="String" />
+             
                 <asp:Parameter Name="original_First_Name" Type="String" />
                 <asp:Parameter Name="original_Last_Name" Type="String" />
                 <asp:Parameter Name="original_user_Role" Type="String" />
