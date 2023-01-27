@@ -9,8 +9,9 @@
                 <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
             </div>
             <div class="form-outline mb-4">
-                <label for="exampleFormControlInput1">Team Name</label>
+                <label for="exampleFormControlInput1">Team Name</label><span style="color: red">*</span>
                 <asp:TextBox ID="txtName" CssClass="form-control" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="reqEditName" runat="server" ErrorMessage="required" EnableClientScript="False" ControlToValidate="txtName" Text="*Required field" ForeColor="Red"></asp:RequiredFieldValidator>
             </div>
             <div class="mb-2">
                 <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-success my-2" OnClick="btnSubmit_Click" />

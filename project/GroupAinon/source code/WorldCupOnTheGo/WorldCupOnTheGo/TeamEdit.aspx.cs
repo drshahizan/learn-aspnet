@@ -38,9 +38,10 @@ namespace WorldCupOnTheGo
             var Id = Request.QueryString["Id"];
             var Team = Global.Class.GetTeam(Convert.ToInt64(Id));
 
-            if (Global.Class.UpdateTeam(Team, name, Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
+                Global.Class.UpdateTeam(Team, name, Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record updated successfully";
             }
             else

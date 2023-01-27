@@ -25,9 +25,10 @@ namespace WorldCupOnTheGo
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             var name = txtName.Text;
-            if (Global.Class.InsertTeam(name, Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
+                Global.Class.InsertTeam(name, Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record creaated successfully";
                 Response.Redirect("TeamList.aspx");
             }
