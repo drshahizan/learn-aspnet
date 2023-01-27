@@ -10,12 +10,13 @@
                     <center>
                         <asp:Image ID="imgFile" runat="server" Width="500" />
                     </center>
-                    <asp:Label ID="lblTitle" runat="server" CssClass="fw-light" Text=""></asp:Label>
+                    <asp:Label ID="lblTitle" runat="server" Text="" Font-Bold="True" Font-Size="20pt"></asp:Label>
                 </div>
             </div>
         </section>
+      
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="col-lg-8 col-md-10 mx-auto my-3">
                 <asp:Label ID="lblContent" runat="server" Text=""></asp:Label>
                 <hr>
 

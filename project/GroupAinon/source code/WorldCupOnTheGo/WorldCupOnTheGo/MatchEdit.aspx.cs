@@ -64,9 +64,10 @@ namespace WorldCupOnTheGo
             var Id = Request.QueryString["Id"];
             var model = Global.Class.GetMatch(Convert.ToInt64(Id));
 
-            if (Global.Class.UpdateMatch(model, teamA, teamAScore, teamB, teamBScore, matchDate, Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
+                Global.Class.UpdateMatch(model, teamA, teamAScore, teamB, teamBScore, matchDate, Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record creaated successfully";
                 Response.Redirect("MatchList.aspx");
             }
