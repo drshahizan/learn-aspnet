@@ -101,6 +101,16 @@
     <Content Include="img\news\Id_7.jpg" />
     <Content Include="img\news\Id_8.jpg" />
     <Content Include="img\news\Id_9.jpg" />
+    <Content Include="img\player\Angel.jpg" />
+    <Content Include="img\player\default.jfif" />
+    <Content Include="img\player\Franco.jpg" />
+    <Content Include="img\player\Marcos.jpg" />
+    <Content Include="img\player\M_Al_Burayk.jpg" />
+    <Content Include="img\player\M_Al_Owais.jpg" />
+    <Content Include="img\player\M_Kanno.jpg" />
+    <Content Include="img\player\Paulo.jpg" />
+    <Content Include="img\player\Salman.jpg" />
+    <Content Include="img\player\Yasir.jpg" />
     <Content Include="img\WorldCup_Result.jpg" />
     <Content Include="js\app-calendar-events.js" />
     <Content Include="js\app-calendar.js" />
@@ -6227,9 +6237,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\player\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
