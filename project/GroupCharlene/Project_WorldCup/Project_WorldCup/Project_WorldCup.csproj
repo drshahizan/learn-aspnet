@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -80,6 +83,8 @@
     <Content Include="App_Themes\Theme2\styles.css" />
     <Content Include="Group.aspx" />
     <Content Include="Homepage.aspx" />
+    <Content Include="img\expand.png" />
+    <Content Include="img\collapse.png" />
     <Content Include="img\banner1.png" />
     <Content Include="img\banner2.jpg" />
     <Content Include="img\banner3.png" />
