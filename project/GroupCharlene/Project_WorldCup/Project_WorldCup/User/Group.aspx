@@ -8,59 +8,24 @@
        <asp:Label ID="lblListGroup" runat="server" Text="List Group"></asp:Label>
        <br />
        <br />
-       &nbsp;<asp:DropDownList ID="DropDownList1" runat="server" Height="30px" Width="150px">
-           <asp:ListItem>A</asp:ListItem>
-           <asp:ListItem>B</asp:ListItem>
-           <asp:ListItem>C</asp:ListItem>
-           <asp:ListItem>D</asp:ListItem>
-           <asp:ListItem>E</asp:ListItem>
-           <asp:ListItem>F</asp:ListItem>
-           <asp:ListItem>G</asp:ListItem>
-           <asp:ListItem>H</asp:ListItem>
+       &nbsp;<asp:DropDownList ID="DropDownList1" runat="server" Height="30px" Width="150px" DataSourceID="groupDS" DataTextField="teamGroup" DataValueField="teamGroup">
        </asp:DropDownList>
+       <asp:SqlDataSource ID="groupDS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT DISTINCT [teamGroup] FROM [teamGroup]"></asp:SqlDataSource>
        <br />
        <br />
        <asp:Label ID="lblCountry" runat="server" Text="Country"></asp:Label>
        &nbsp;<br />
-&nbsp;<asp:DropDownList ID="DropDownList2" runat="server" Height="30px" Width="150px">
-           <asp:ListItem>Qatar</asp:ListItem>
-           <asp:ListItem>Ecuador</asp:ListItem>
-                    <asp:ListItem>Senegal</asp:ListItem>
-                    <asp:ListItem>Netherlands</asp:ListItem>
-                    <asp:ListItem>England</asp:ListItem>
-                    <asp:ListItem>Iran</asp:ListItem>
-                    <asp:ListItem>US</asp:ListItem>
-                    <asp:ListItem>Wales</asp:ListItem>
-                    <asp:ListItem>Argentina</asp:ListItem>
-                    <asp:ListItem>Saudi Arabia</asp:ListItem>
-                    <asp:ListItem>Mexico</asp:ListItem>
-                    <asp:ListItem>Poland</asp:ListItem>
-                    <asp:ListItem>France</asp:ListItem>
-                    <asp:ListItem>Australia</asp:ListItem>
-                    <asp:ListItem>Denmark</asp:ListItem>
-                    <asp:ListItem>Tunisia</asp:ListItem>
-                    <asp:ListItem>Spain</asp:ListItem>
-                    <asp:ListItem>Costa Rica</asp:ListItem>
-                    <asp:ListItem>Germany</asp:ListItem>
-                    <asp:ListItem>Japan</asp:ListItem>
-                    <asp:ListItem>Belgium</asp:ListItem>
-                    <asp:ListItem>Canada</asp:ListItem>
-                    <asp:ListItem>Morocco</asp:ListItem>
-                    <asp:ListItem>Croatia</asp:ListItem>
-                    <asp:ListItem>Brazil</asp:ListItem>
-                    <asp:ListItem>Serbia</asp:ListItem>
-                    <asp:ListItem>Switzerland</asp:ListItem>
-                    <asp:ListItem>Cameroon</asp:ListItem>
-                    <asp:ListItem>Portugal</asp:ListItem>
-                    <asp:ListItem>Ghana</asp:ListItem>
-                    <asp:ListItem>Uruguay</asp:ListItem>
-                    <asp:ListItem>South Korea</asp:ListItem>
-
+       &nbsp;<asp:DropDownList ID="DropDownList2" runat="server" Height="30px" Width="150px" DataSourceID="countryDS" DataTextField="countryName" DataValueField="countryName">
        </asp:DropDownList>
+       <asp:SqlDataSource ID="countryDS" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [countryName] FROM [country]"></asp:SqlDataSource>
 
-
-       &nbsp;<br />
        <br />
-       <asp:Button ID="btnSave" class="button"  runat ="server" Text="Save" />
+       <br />
+       <asp:Button ID="btnSave" class="button"  runat ="server" Text="Save" OnClick="btnSave_Click" />
+       <br />
+       <div style="margin-left: auto; margin-right: auto; text-align: center;">
+            <asp:Label ID="statusLbl" runat="server" ForeColor="#CC0000"></asp:Label>
+        </div>
+       <br />
     </div>
 </asp:Content>
