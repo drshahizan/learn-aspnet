@@ -7,7 +7,7 @@
         <asp:GridView ID="GridView1" runat="server" CellPadding="3" GridLines="Horizontal" Width="70%" AutoGenerateColumns="False" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" DataSourceID="displayUsersDS" HorizontalAlign="Center" AllowPaging="True" AllowSorting="True" DataKeyNames="Id">
             <AlternatingRowStyle BackColor="#F7F7F7" />
             <Columns>
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
                 <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" InsertVisible="False" ReadOnly="True" />
                 <asp:BoundField DataField="UserName" HeaderText="Username" SortExpression="UserName" />
                  <asp:BoundField DataField="First_Name" HeaderText="First Name" SortExpression="First_Name" />
