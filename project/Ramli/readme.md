@@ -23,5 +23,5 @@
 4. ERD, Use Case Diagram, Activity Diagram, powerpoint presentation slides, final report - Neoh
 
 <p align="center">
-<img src="https://github.com/drshahizan/learn-aspnet/blob/main/project/Ramli/img%20system/Home.jpg"  height="200" />
+<img src="https://github.com/drshahizan/learn-aspnet/blob/main/project/Ramli/img%20system/Home.jpg"/>
 </p>
