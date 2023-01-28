@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -80,6 +83,8 @@
     <Content Include="App_Themes\Theme2\styles.css" />
     <Content Include="Group.aspx" />
     <Content Include="Homepage.aspx" />
+    <Content Include="img\expand.png" />
+    <Content Include="img\collapse.png" />
     <Content Include="img\banner1.png" />
     <Content Include="img\banner2.jpg" />
     <Content Include="img\banner3.png" />
@@ -96,6 +101,20 @@
     <Content Include="img\news\Id_7.jpg" />
     <Content Include="img\news\Id_8.jpg" />
     <Content Include="img\news\Id_9.jpg" />
+    <Content Include="img\player\Andreas.jpg" />
+    <Content Include="img\player\Angel.jpg" />
+    <Content Include="img\player\default.jfif" />
+    <Content Include="img\player\Franco.jpg" />
+    <Content Include="img\player\Frederik.jpg" />
+    <Content Include="img\player\Kasper.jpg" />
+    <Content Include="img\player\Marcos.jpg" />
+    <Content Include="img\player\M_Al_Burayk.jpg" />
+    <Content Include="img\player\M_Al_Owais.jpg" />
+    <Content Include="img\player\M_Kanno.jpg" />
+    <Content Include="img\player\Paulo.jpg" />
+    <Content Include="img\player\Pierre.jpg" />
+    <Content Include="img\player\Salman.jpg" />
+    <Content Include="img\player\Yasir.jpg" />
     <Content Include="img\WorldCup_Result.jpg" />
     <Content Include="js\app-calendar-events.js" />
     <Content Include="js\app-calendar.js" />
@@ -6222,9 +6241,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\player\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

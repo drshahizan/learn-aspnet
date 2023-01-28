@@ -7,31 +7,41 @@
     <asp:DropDownList ID="ddlCountry" runat="server" Height="40px" Width="216px" DataSourceID="DSCountry" DataTextField="countryName" DataValueField="countryID" AutoPostBack="True">
     </asp:DropDownList>
      <asp:SqlDataSource ID="DSCountry" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT DISTINCT [countryID], [countryName] FROM [country]"></asp:SqlDataSource>
+
     <br />
 
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="DSPlayers" ForeColor="#333333" GridLines="None" HorizontalAlign="Center">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="DSPlayers" ForeColor="#333333" GridLines="None" HorizontalAlign="Center" AllowPaging="True" AllowSorting="True">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
+            <asp:CommandField ShowSelectButton="True" />
             <asp:BoundField DataField="fullName" HeaderText="Name" SortExpression="fullName" />
             <asp:BoundField DataField="teamCountry" HeaderText="Country" SortExpression="teamCountry" />
             <asp:BoundField DataField="position" HeaderText="Position" SortExpression="position" />
             <asp:BoundField DataField="jerseyNum" HeaderText="Jersey #" SortExpression="jerseyNum" />
             <asp:BoundField DataField="Club" HeaderText="Club" SortExpression="Club" />
+            <asp:TemplateField HeaderText="Photo">
+                       <ItemTemplate>   
+                           <asp:Image ID="Image1" runat="server" ImageUrl='<%# Bind("photo") %>' Width="50px" />
+                       </ItemTemplate> 
+             </asp:TemplateField>
         </Columns>
-        <EditRowStyle BackColor="#7C6F57" />
-        <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-        <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
-        <RowStyle BackColor="#E3EAEB" />
-        <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
-        <SortedAscendingCellStyle BackColor="#F8FAFA" />
-        <SortedAscendingHeaderStyle BackColor="#246B61" />
-        <SortedDescendingCellStyle BackColor="#D4DFE1" />
-        <SortedDescendingHeaderStyle BackColor="#15524A" />
+        <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+        <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+        <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+        <SortedAscendingCellStyle BackColor="#FDF5AC" />
+        <SortedAscendingHeaderStyle BackColor="#4D0000" />
+        <SortedDescendingCellStyle BackColor="#FCF6C0" />
+        <SortedDescendingHeaderStyle BackColor="#820000" />
      </asp:GridView>
-     <asp:SqlDataSource ID="DSPlayers" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [fullName], [teamCountry], [position], [Club], [jerseyNum] FROM [teamPlayer] WHERE ([teamCountry] = @teamCountry)">
+     <asp:SqlDataSource ID="DSPlayers" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT a.fullName, a.teamCountry, a.position, a.Club, a.jerseyNum, CASE
+    WHEN a.photo is null THEN 'img/player/default.jfif'
+    ELSE a.photo
+END AS photo
+         FROM teamPlayer a INNER JOIN country b on b.countryName = a.teamCountry WHERE (b.countryID = @teamCountry)">
          <SelectParameters>
-             <asp:ControlParameter ControlID="ddlCountry" Name="teamCountry" PropertyName="SelectedValue" Type="String" DefaultValue="Argentina" />
+             <asp:ControlParameter ControlID="ddlCountry" Name="teamCountry" PropertyName="SelectedValue" Type="String" />
          </SelectParameters>
      </asp:SqlDataSource>
 </asp:Content>

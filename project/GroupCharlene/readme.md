@@ -30,3 +30,7 @@ All members will commit the results of the project using github provided by Dr. 
 2. Masrizal - Commit Database Design & Commit Picture of Players 
 3. Charlene - Commit Database Connection (SQL QUERY) Code for Display in Public User + Admin Page
 4. Ashikin - Commit Final Report
+
+### Task completed 
+1. User Manual - 28/1/2023
+2. Source Code Project - 28/01/2023
