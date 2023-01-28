@@ -22,6 +22,7 @@
 3. Database Connection - Data Manipulation capabilities, Sorting & Searching capabilities - Amira, Ramli
 4. ERD, Use Case Diagram, Activity Diagram, powerpoint presentation slides, final report - Neoh
 
+<h1>Home Page<h1>
 <p align="center">
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/project/Ramli/img%20system/Home.jpg"/>
 </p>
