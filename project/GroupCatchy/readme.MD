@@ -55,9 +55,9 @@ System must include:
      - [x] Lecturer name
      - [x] Team member info 
 - [x] Project overview
-- [ ] Tools & technology usage
-- [ ] System module
-- [ ] Module functionality
+- [x] Tools & technology usage
+- [x] System module
+- [x] Module functionality
 - [] Database design:
      - [x] ERD/Use Case/Activity Diagram
      - [ ] Authentication
