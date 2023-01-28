@@ -1,0 +1,9 @@
+﻿CREATE TABLE TopScorers( 
+	scorer_id INT IDENTITY(1,1) PRIMARY KEY,
+	name VARCHAR (100) DEFAULT NULL,
+	score INT NOT NULL,
+	year_id INT NOT NULL,
+	country_id CHAR (20) NOT NULL,
+	FOREIGN KEY (country_id) REFERENCES Countries (country_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (year_id) REFERENCES Match_year (year_id) ON DELETE CASCADE ON UPDATE CASCADE,
+);

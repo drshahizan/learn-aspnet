@@ -1,0 +1,54 @@
+CREATE TABLE Countries (
+	country_id CHAR (2) PRIMARY KEY,
+	country_name VARCHAR (40) DEFAULT NULL,
+	Photo_Path NVARCHAR (50)  NULL
+);
+
+CREATE TABLE Nationalities (
+	nationality_id INT PRIMARY KEY,
+	country_id CHAR (2) NOT NULL,
+	FOREIGN KEY (country_id) REFERENCES Countries (country_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Hosts ( 
+	hosts_id INT IDENTITY(1,1) PRIMARY KEY,
+	tournament_id CHAR (10)  NOT NULL,
+	country_id CHAR (2) NOT NULL,
+	FOREIGN KEY (tournament_id) REFERENCES Tournaments (tournament_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (country_id) REFERENCES Countries (country_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Match_year ( 
+	year_id INT PRIMARY KEY,
+	tournament_id CHAR (10)  NOT NULL,
+	FOREIGN KEY (tournament_id) REFERENCES Tournaments (tournament_id) 
+);
+
+CREATE TABLE Tournaments ( 
+	tournament_id CHAR (10) PRIMARY KEY,
+	year_id INT NOT NULL,
+	hosts_id INT NOT NULL,
+	FOREIGN KEY (year_id) REFERENCES Match_year (year_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (hosts_id) REFERENCES Hosts (hosts_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE TopScorers( 
+	scorer_id INT IDENTITY(1,1) PRIMARY KEY,
+	name VARCHAR (100) DEFAULT NULL,
+	score INT NOT NULL,
+	year_id INT NOT NULL,
+	country_id CHAR (10) NOT NULL,
+	FOREIGN KEY (country_id) REFERENCES Countries (country_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (year_id) REFERENCES Match_year (year_id) ON DELETE CASCADE ON UPDATE CASCADE,
+);
+
+CREATE TABLE winners( 
+	winners_id INT PRIMARY KEY,
+	year_id INT NOT NULL,
+	champion_country VARCHAR (40) NOT NULL,
+	runner_up_country VARCHAR (40) NOT NULL, 
+	third_place_country VARCHAR(40) NOT NULL,
+	goals INT DEFAULT NULL,
+	FOREIGN KEY (year_id) REFERENCES Match_year (year_id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+

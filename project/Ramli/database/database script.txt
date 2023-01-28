@@ -1,0 +1,193 @@
+/*Data for the table Countries */
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('AR','Argentina',N'Images/argentina.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('AT','Austria',N'Images/austria.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('BE','Belgium',N'Images/belgium.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('BR','Brazil',N'Images/brazil.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('CL','Chile',N'Images/chile.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('CZ','Czech',N'Images/croatia.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('CH','Switzerland',N'Images/switzerland.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('DE','Germany',N'Images/germany.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('HR','Croatia',N'Images/croatia.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('HU','Hungary',N'Images/hungary.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('EN','England',N'Images/england.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('FR','France',N'Images/france.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('IT','Italy',N'Images/italy.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('JP','Japan',N'Images/japan.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('KR','Korea',N'Images/south-korea.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('MX','Mexico',N'Images/mexico.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('NL','Netherlands',N'Images/netherlands.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('PL','Poland',N'Images/poland.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('PT','Portugal',N'Images/portugal.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('QA','Qatar',N'Images/qatar.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('RU','Russia',N'Images/russia.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('ES','Spain',N'Images/spain.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('SE','Sweden',N'Images/sweden.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('TR','Turkey',N'Images/turkey.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('US','United States',N'Images/united-states.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('UY','Uruguay',N'Images/uruguay.png');
+INSERT INTO Countries(country_id,country_name,Photo_Path) VALUES ('ZA','South Africa',N'Images/south-africa.png');
+
+
+/*Data for the table Nationalities */
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (54,'AR');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (43,'AT');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (32,'BE');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (55,'BR');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (56,'CL');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (420,'CZ');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (41,'CH');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (49,'DE');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (385,'HR');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (36,'HU');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (44,'EN');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (33,'FR');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (39,'IT');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (81,'JP');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (82,'KR');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (52,'MX');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (31,'NL');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (48,'PL');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (351,'PT');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (974,'QA');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (7,'RU');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (34,'ES');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (46,'SE');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (90,'TR');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (1,'US');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (598,'UY');
+INSERT INTO Nationalities(nationality_id, country_id) VALUES (27,'ZA');
+
+
+/*Data for the table Hosts */
+SET IDENTITY_INSERT Hosts ON;
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (1,'T1','UY');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (2,'T2','IT');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (3,'T3','FR');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (4,'T4','BR');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (5,'T5','CH');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (6,'T6','SE');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (7,'T7','CL');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (8,'T8','EN');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (9,'T9','MX');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (10,'T10','DE');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (11,'T11','AR');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (12,'T12','ES');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (13,'T13','MX');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (14,'T14','IT');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (15,'T15','US');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (16,'T16','FR');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (17,'T17','KR');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (17,'T17','JP');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (18,'T18','DE');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (19,'T19','ZA');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (20,'T20','BR');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (21,'T21','RU');
+INSERT INTO Hosts(hosts_id, tournament_id, country_id) VALUES (22,'T22','QA');
+
+SET IDENTITY_INSERT Hosts OFF;  
+
+
+
+/*Data for the table Match_year */
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1930,'T1');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1934,'T2');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1938,'T3');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1950,'T4');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1954,'T5');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1958,'T6');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1962,'T7');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1966,'T8');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1970,'T9');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1974,'T10');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1978,'T11');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1982,'T12');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1986,'T13');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1990,'T14');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1994,'T15');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (1998,'T16');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2002,'T17');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2002,'T17');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2006,'T18');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2010,'T19');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2014,'T20');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2018,'T21');
+INSERT INTO Match_year(year_id, tournament_id) VALUES (2022,'T22');
+
+
+/*Data for the table Tournaments */
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T1',1930,1);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T2',1934,2);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T3',1938,3);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T4',1950,4);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T5',1954,5);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T6',1958,6);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T7',1962,7);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T8',1966,8);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T9',1970,9);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T10',1974,10);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T11',1978,11);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T12',1982,12);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T13',1986,9);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T14',1990,2);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T15',1994,15);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T16',1998,3);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T17',2002,17);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T17',2002,17);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T18',2006,10);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T19',2010,19);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T20',2014,4);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T21',2018,21);
+INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T22',2022,22);
+
+
+/*Data for the table TopScorers */
+SET IDENTITY_INSERT [dbo].[TopScorers] ON
+
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (1, N'Guillermo Stábile',8,1930,'AR');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (2, N'Leônidas',7,1938,'BR');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (3, N'Ademir',8,1950,'BR');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (4, N'Sándor Kocsis',11,1954,'HU');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (5, N'Just Fontaine',13,1958,'FR');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (6, N'Eusébio',9,1966,'PT');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [countryy_id]) VALUES (7, N'Gerd Müller',10,1970,'DE');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (8, N'Grzegorz Lato',7,1974,'PL');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (9, N'Paolo Rossi',6, 1982,'IT');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (10, N'Gary Lineker',6, 1986,'EN');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (11, N'Salvatore Schillaci',6, 1990,'IT');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (12, N'Oleg Salenko',6, 1994,'RU');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (12, N'Davor Šuker',6, 1998,'HR');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (12, N'Ronaldo',8, 2002,'BR');
+
+
+SET IDENTITY_INSERT [dbo].[TopScorers] OFF
+
+/*Data for the table winners */
+
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (1,1930,'Uruguay','Argentina','United States',70);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (2,1934,'Italy','Czech','Germany',70);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (3,1938,'Italy','Hungary','Brazil',84);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (4,1950,'Uruguay','Brazil','Sweden',88);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (5,1954,'Germany','Hungary','Austria',140);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (6,1958,'Brazil','Sweden','France',126);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (7,1962,'Brazil','Czech','Chile',89);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (8,1966,'England','Germany','Portugal',89);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (9,1970,'Brazil','Italy','Germany',95);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (10,1974,'Germany','Netherlands','Poland',97);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (11,1978,'Argentina','Netherlands','Brazil',102);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (12,1982,'Italy','Germany','Poland',146);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (13,1986,'Argentina','Germany','France',132);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (14,1990,'Germany','Argentina','Italy',115);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (15,1994,'Brazil','Italy','Sweden',141);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (16,1998,'France','Brazil','Croatia',171);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (17,2002,'Brazil','Germany','Turkey',161);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (17,2002,'Brazil','Germany','Turkey',161);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (18,2006,'Italy','France','Germany',147);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (19,2010,'Spain','Netherlands','Germany',145);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (20,2014,'Germany','Argentina','Netherlands',171);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (21,2018,'France','Croatia','Belgium',169);
+INSERT INTO winners(winners_id, year_id, champion_country, runner_up_country, third_place_country, goals) VALUES (22,2022,'Argentina','France','Croatia',172);
+
+
+
+
+
