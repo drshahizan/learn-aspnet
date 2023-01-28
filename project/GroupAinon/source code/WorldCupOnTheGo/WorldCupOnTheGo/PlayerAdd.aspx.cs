@@ -56,9 +56,10 @@ namespace WorldCupOnTheGo
             var jercy_no = Convert.ToInt32(txtJercyNo.Text);
             var Id = Request.QueryString["Id"];
 
-            if (Global.Class.InsertPlayer(name, jercy_no, Convert.ToInt32(Id), Convert.ToInt64(Session["userid"])))
+            if (IsValid)
             {
                 //successfully created
+                Global.Class.InsertPlayer(name, jercy_no, Convert.ToInt32(Id), Convert.ToInt64(Session["userid"]));
                 lblMessage.Text = "Record creaated successfully";
 
                 //redirect

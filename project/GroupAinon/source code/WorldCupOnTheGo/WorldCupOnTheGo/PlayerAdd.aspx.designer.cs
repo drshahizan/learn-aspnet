@@ -33,6 +33,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
+        /// ValidationSummary1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
+
+        /// <summary>
         /// txtName control.
         /// </summary>
         /// <remarks>
@@ -42,6 +51,15 @@ namespace WorldCupOnTheGo
         protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
+        /// reqPlayerName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqPlayerName;
+
+        /// <summary>
         /// txtJercyNo control.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,15 @@ namespace WorldCupOnTheGo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtJercyNo;
+
+        /// <summary>
+        /// reqJerseyNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqJerseyNo;
 
         /// <summary>
         /// btnAddPlayer control.

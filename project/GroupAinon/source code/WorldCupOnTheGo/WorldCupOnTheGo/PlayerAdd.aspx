@@ -19,13 +19,19 @@
                         <div class="card-body">
                             <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="form1Example1">Name</label>
+
+                                <asp:ValidationSummary ID="ValidationSummary1" runat="server" EnableClientScript="False" HeaderText="Please insert the required field" ForeColor="Red" ValidationGroup="playerList" />
+
+
+                                <label class="form-label" for="form1Example1">Name</label><span style="color:red">*</span>
                                 <asp:TextBox ID="txtName" runat="server" CssClass="form-control"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="reqPlayerName" runat="server" ErrorMessage="RequiredFieldValidator" EnableClientScript="False" ControlToValidate="txtName" Text="*Required field" ForeColor="Red" ValidationGroup="playerList"></asp:RequiredFieldValidator>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="form1Example2">Jercy No</label>
+                                <label class="form-label" for="form1Example2">Jersey No</label><span style="color:red">*</span>
                                 <asp:TextBox ID="txtJercyNo" runat="server" CssClass="form-control" TextMode="Number"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="reqJerseyNo" runat="server" ErrorMessage="RequiredFieldValidator" EnableClientScript="False" ControlToValidate="txtJercyNo" Text="*Required field" ForeColor="Red" ValidationGroup="playerList"></asp:RequiredFieldValidator>
                             </div>
                             <div class="d-flex justify-content-center mb-2">
                                 <asp:Button ID="btnAddPlayer" runat="server" CssClass="btn btn-primary" OnClick="btnAddPlayer_Click" Text="Add Player" />
