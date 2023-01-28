@@ -52,9 +52,17 @@ namespace WorldCupOnTheGo
 
         protected void btnAddPlayer_Click(object sender, EventArgs e)
         {
+
             var name = txtName.Text;
-            var jercy_no = Convert.ToInt32(txtJercyNo.Text);
             var Id = Request.QueryString["Id"];
+
+            int jercy_no;
+            bool result = int.TryParse(txtJercyNo.Text, out jercy_no);
+            if (!result)
+            {
+                return; //something has gone wrong
+                        //OK, continue using val
+            }
 
             if (IsValid)
             {
