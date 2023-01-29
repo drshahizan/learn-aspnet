@@ -72,14 +72,6 @@ System must include:
 - [x] Images
 - [x] Table of contents
 
-### 5. Presentation Material
-- [ ] Slide presentation
-  - [ ] Project title
-  - [ ] Team member info
-- [ ] Video presentation
-  - [ ] Every member involved
-  - [ ] Duration: 15 - 30 minutes
-
 ### 6. Submission
 - [ ] Combine all folders and folders in one folder
 - [ ] Zip the folder
