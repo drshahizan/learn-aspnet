@@ -73,9 +73,9 @@ System must include:
 - [x] Table of contents
 
 ### 5. Presentation Material
-- [ ] Slide presentation
-  - [ ] Project title
-  - [ ] Team member info
+- [x] Slide presentation
+  - [x] Project title
+  - [x] Team member info
 - [ ] Video presentation
   - [ ] Every member involved
   - [ ] Duration: 15 - 30 minutes
