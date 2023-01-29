@@ -35,14 +35,14 @@ System must include:
 - [x] ASP.NET
 - [x] MS SQL Server
 - [x] Minimum 5 table (DB)
-- [ ] Data Manipulation
+- [x] Data Manipulation
 - [x] Sorting & Searching
 - [x] Authentication
-- [ ] User Roles & Permissions
+- [x] User Roles & Permissions
 - [x] Master Pages
 - [ ] Theme
 - [ ] Skin
-- [ ] Validation Control
+- [x] Validation Control
 - [ ] Ajax
 - Optional:
   - [ ] Cookie
