@@ -68,9 +68,9 @@ System must include:
 - [x] At least 5 table
 
 ### 4. User Manual
-- [ ] Instruction for each module
-- [ ] Images
-- [ ] Table of contents
+- [x] Instruction for each module
+- [x] Images
+- [x] Table of contents
 
 ### 5. Presentation Material
 - [ ] Slide presentation
