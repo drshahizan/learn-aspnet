@@ -143,23 +143,24 @@ INSERT INTO Tournaments(tournament_id, year_id, hosts_id) VALUES ('T22',2022,22)
 /*Data for the table TopScorers */
 SET IDENTITY_INSERT [dbo].[TopScorers] ON
 
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (1, N'Guillermo Stábile',8,1930,'AR');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (2, N'Leônidas',7,1938,'BR');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (3, N'Ademir',8,1950,'BR');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (4, N'Sándor Kocsis',11,1954,'HU');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (5, N'Just Fontaine',13,1958,'FR');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (6, N'Eusébio',9,1966,'PT');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [countryy_id]) VALUES (7, N'Gerd Müller',10,1970,'DE');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (8, N'Grzegorz Lato',7,1974,'PL');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (9, N'Paolo Rossi',6, 1982,'IT');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (10, N'Gary Lineker',6, 1986,'EN');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (11, N'Salvatore Schillaci',6, 1990,'IT');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (12, N'Oleg Salenko',6, 1994,'RU');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (12, N'Davor Šuker',6, 1998,'HR');
-INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_id]) VALUES (12, N'Ronaldo',8, 2002,'BR');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (1, N'Guillermo Stábile',8,1930,'Argentina');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (2, N'Leônidas',7,1938,'Brazil');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (3, N'Ademir',8,1950,'Brazil');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (4, N'Sándor Kocsis',11,1954,'Hungary');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (5, N'Just Fontaine',13,1958,'France');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (6, N'Eusébio',9,1966,'Portugal');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [countryy_name]) VALUES (7, N'Gerd Müller',10,1970,'Germany');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (8, N'Grzegorz Lato',7,1974,'Poland');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (9, N'Paolo Rossi',6, 1982,'Italy');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (10, N'Gary Lineker',6, 1986,'England');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (11, N'Salvatore Schillaci',6, 1990,'Italy');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (12, N'Oleg Salenko',6, 1994,'Russia');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (12, N'Davor Šuker',6, 1998,'Croatia');
+INSERT INTO [dbo].[TopScorers] ([scorer_id], [name], [score], [year_id], [country_name]) VALUES (12, N'Ronaldo',8, 2002,'Brazil');
 
 
 SET IDENTITY_INSERT [dbo].[TopScorers] OFF
+
 
 /*Data for the table winners */
 
