@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Page Admin - Videos" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Awards_Admin.aspx.vb" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <%: Title %></h2>
+    <h2><%: Title %></h2>
         <table class="nav-justified" style="align-content: center; margin-left: auto; margin-right: auto; padding: 0 0 0 0;">
             <tr>
             <td colspan="3"> <p style="font-weight: bold;">RECENT GOALS</p></td>
