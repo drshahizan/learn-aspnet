@@ -3,7 +3,7 @@
 	name VARCHAR (100) DEFAULT NULL,
 	score INT NOT NULL,
 	year_id INT NOT NULL,
-	country_id CHAR (20) NOT NULL,
-	FOREIGN KEY (country_id) REFERENCES Countries (country_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	country_name VARCHAR (40) NOT NULL,
+	FOREIGN KEY (country_name) REFERENCES Countries (country_name) ON DELETE CASCADE ON UPDATE CASCADE,
 	FOREIGN KEY (year_id) REFERENCES Match_year (year_id) ON DELETE CASCADE ON UPDATE CASCADE,
 );
