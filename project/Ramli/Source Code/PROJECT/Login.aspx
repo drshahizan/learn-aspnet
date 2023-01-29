@@ -41,8 +41,6 @@
                     <td class="style2" style="width: 75px"></td>  
                     <td style="width: 208px" ><asp:Button ID="btnlogin" runat="server" Text="Login" Width="117px" BackColor="Black" Height="28px"/>
 
-                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT DISTINCT [txtUserName], [txtPWD] FROM [login]"></asp:SqlDataSource>
-
                     </td>  
                     <td></td>  
                 </tr>  

@@ -76,3 +76,10 @@ C:\Users\HARI\source\repos\PROJECT\PROJECT\obj\Debug\PROJECT.vbproj.CopyComplete
 C:\Users\HARI\source\repos\PROJECT\PROJECT\obj\Debug\PROJECT.dll
 C:\Users\HARI\source\repos\PROJECT\PROJECT\obj\Debug\WebForms_Basic.xml
 C:\Users\HARI\source\repos\PROJECT\PROJECT\obj\Debug\PROJECT.pdb
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\PROJECT.vbproj.AssemblyReference.cache
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\PROJECT.Resources.resources
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\PROJECT.vbproj.GenerateResource.cache
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\PROJECT.vbproj.CoreCompileInputs.cache
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\PROJECT.dll
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\WebForms_Basic.xml
+C:\Users\bedah\Documents\GitHub\learn-aspnet\project\Ramli\Source Code\PROJECT\obj\Debug\PROJECT.pdb
