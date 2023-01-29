@@ -13,11 +13,6 @@ namespace WorldCupOnTheGo
         {
             if (!IsPostBack)
             {
-                if (Session["email"] == null)
-                {
-                    Response.Redirect("Default.aspx");
-                }
-
                 var Id = Request.QueryString["Id"];
                 var Post = Global.Class.GetPost(Convert.ToInt64(Id));
                 if (Post != null)
