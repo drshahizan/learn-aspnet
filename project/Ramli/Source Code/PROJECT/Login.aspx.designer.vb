@@ -57,4 +57,13 @@ Partial Public Class
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnlogin As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''SqlDataSource1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class
