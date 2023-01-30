@@ -19,10 +19,6 @@
                         <div class="card-body">
                             <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>
                             <div class="form-outline mb-4">
-
-                                
-
-
                                 <label class="form-label" for="form1Example1">Name</label><span style="color:red">*</span>
                                 <asp:TextBox ID="txtName" runat="server" CssClass="form-control"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="reqPlayerName" runat="server" ErrorMessage="RequiredFieldValidator" EnableClientScript="False" ControlToValidate="txtName" Text="*Required field" ForeColor="Red"></asp:RequiredFieldValidator>
