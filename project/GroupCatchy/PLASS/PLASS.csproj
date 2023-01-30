@@ -202,6 +202,9 @@
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
     <Content Include="Images\akmal1.png" />
+    <Content Include="Images\atrisya1.png" />
+    <Content Include="Images\syahmir1.png" />
+    <Content Include="Images\zunnur1.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
