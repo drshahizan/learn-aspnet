@@ -12,7 +12,7 @@
 
 ## Our Project
 
-- A web-based FIFA on the go platform
+- A web-based system which is called World Cup on the Go systems.
 - Was\Currently developed using ASPnet platform:
 
 ## System Design Details
