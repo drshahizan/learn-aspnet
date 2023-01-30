@@ -20,7 +20,7 @@
 - CSS Framework	: Bootstrap v4.3.1
 - Application	: ASP.net Web Application (.Net Framework 4.8.1)
 - Application Theme	: World Cup on the Go systems.
-- Application Theme Skin :	FIFAonTheGoSkin.skin
+- Application Theme Skin :	World Cup on the GoSkin.skin
 - Application Master Page : MainSite.Master
 
 Source Code Repository URL : [https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon/](https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon/Source%20Code)
