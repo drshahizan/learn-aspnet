@@ -19,7 +19,7 @@
 
 - CSS Framework	: Bootstrap v4.3.1
 - Application	: ASP.net Web Application (.Net Framework 4.8.1)
-- Application Theme	: FIFAonTheGoTheme
+- Application Theme	: World Cup on the Go systems.
 - Application Theme Skin :	FIFAonTheGoSkin.skin
 - Application Master Page : MainSite.Master
 
