@@ -41,7 +41,7 @@ System must include:
 - [x] User Roles & Permissions
 - [x] Master Pages
 - [ ] Theme
-- [] Skin
+- [ ] Skin
 - [ ] Validation Control
 - [ ] Ajax
 - Optional:
