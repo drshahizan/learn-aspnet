@@ -30,7 +30,7 @@ by group Catchy :v:
 System must include:
 - [x] Database
 - [x] HTML
-- [ ] CSS
+- [x] CSS
 - [ ] JavaScript
 - [x] ASP.NET
 - [x] MS SQL Server
@@ -42,7 +42,7 @@ System must include:
 - [x] Master Pages
 - [ ] Theme
 - [ ] Skin
-- [x] Validation Control
+- [ ] Validation Control
 - [ ] Ajax
 - Optional:
   - [ ] Cookie
