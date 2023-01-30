@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[tblTeam]
     [name] NVARCHAR (MAX) NOT NULL, 
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
-	[updated_date] DATETIME NULL, 
+    [updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL
 )
 CREATE TABLE [dbo].[tblPlayer]
