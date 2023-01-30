@@ -6,6 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="App_Themes/Stylesheet/Main.css" rel="stylesheet" type="text/css" />
     <title><%: Page.Title %> - PLASS</title>
 
     <asp:PlaceHolder runat="server">
@@ -79,6 +80,7 @@
                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmPlayer_Create.aspx">Create Player</a>
                         <a class="nav-link text-light  mb-3" aria-current="page" href="frmMatch_Create.aspx">Create Match</a>
                         <% } %>
+                        <a class="nav-link text-light  mb-3" aria-current="page" href="AboutUs.aspx">About Us</a>
                     </div>
                     <div class="col-md-10 shadow ms-5 py-3 rounded">
                         <div class="container-fluid py-3">
