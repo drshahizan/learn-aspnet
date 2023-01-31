@@ -3,6 +3,8 @@
 # SCSJ3253 - PROGRAMMING TECHNIQUE III
 ## PROJECT - QATAR 2022 FIFA WORLD CUP PLAYERS LIST
 
+<img src="images/Screenshots/homepage.PNG" width="550" />
+
 ### About Us
 We are made up of four members who have various job backgrounds. In this semester, we are united in the subject of Programming Techniques III. PM DR TS MOHD SHAHIZAN BIN OTHMAN, is a cool lecturer and never gets tired of teaching us especially in ASP.Net programming
 
