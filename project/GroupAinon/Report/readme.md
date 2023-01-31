@@ -12,15 +12,15 @@
 
 ## Our Project
 
-- A web-based FIFA on the go platform
+- A web-based system which is called World Cup on the Go systems.
 - Was\Currently developed using ASPnet platform:
 
 ## System Design Details
 
 - CSS Framework	: Bootstrap v4.3.1
 - Application	: ASP.net Web Application (.Net Framework 4.8.1)
-- Application Theme	: FIFAonTheGoTheme
-- Application Theme Skin :	FIFAonTheGoSkin.skin
+- Application Theme	: World Cup on the Go systems.
+- Application Theme Skin :	World Cup on the GoSkin.skin
 - Application Master Page : MainSite.Master
 
 Source Code Repository URL : [https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon/](https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon/Source%20Code)

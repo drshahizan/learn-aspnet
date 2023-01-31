@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[tblTeam]
     [name] NVARCHAR (MAX) NOT NULL, 
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
-	[updated_date] DATETIME NULL, 
+    [updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL
 )
 CREATE TABLE [dbo].[tblPlayer]
@@ -23,7 +23,7 @@ CREATE TABLE [dbo].[tblPlayer]
     [team_id] BIGINT NOT NULL, 
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
-	[updated_date] DATETIME NULL, 
+    [updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL
 )
 
@@ -55,12 +55,12 @@ CREATE TABLE [dbo].[tblPost]
     [content] NVARCHAR(MAX) NOT NULL,  
     [created_date] DATETIME NULL, 
     [created_by] BIGINT NULL,
-	[updated_date] DATETIME NULL, 
+    [updated_date] DATETIME NULL, 
     [updated_by] BIGINT NULL,
     [status] NVARCHAR(50) NULL, 
     [published_date] DATETIME NOT NULL,
-	[match_id_id] BIGINT NOT NULL,
-	[file_path] NVARCHAR(MAX) NOT NULL
+    [match_id_id] BIGINT NOT NULL,
+    [file_path] NVARCHAR(MAX) NOT NULL
 )
 
 
