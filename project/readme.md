@@ -33,8 +33,8 @@ specified project theme such as World Cup News, accommodation & ticket reservati
 
 #### 🌟 Project
 
-| Group | Title | Video |
-| -----: | ----- | :------: | 
+| Group | Title | Files |
+| ----- | ----- | :------: | 
 | GroupAinon | FIFA on the go | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
 | GroupCatchy | Player Scouting System | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
 | GroupCharlene | Qatar 2022 Fifa World Cup Players List | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
