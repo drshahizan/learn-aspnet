@@ -35,10 +35,10 @@ specified project theme such as World Cup News, accommodation & ticket reservati
 
 | Group | Title | Video |
 | -----: | ----- | :------: | 
-| GroupAinon | UTM Poetry SLAM | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| GroupCatchy | GroupCatchy | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| GroupCharlene | GroupCharlene | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| Ramli | Ramli | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupAinon | FIFA on the go | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupCatchy | Player Scouting System | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupCharlene | Qatar 2022 Fifa World Cup Players List | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Ramli | Fifa World Cup | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
 
 
 ## Contribution 🛠️
