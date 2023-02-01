@@ -40,9 +40,9 @@ System must include:
 - [x] Authentication
 - [x] User Roles & Permissions
 - [x] Master Pages
-- [ ] Theme
-- [ ] Skin
-- [ ] Validation Control
+- [x] Theme
+- [x] Skin
+- [x] Validation Control
 - [ ] Ajax
 - Optional:
   - [ ] Cookie
