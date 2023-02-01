@@ -31,6 +31,17 @@ HTML, CSS, JavaScript, ASP.NET, MS SQL Server.
 The project theme is FIFA World Cup. The title of your project must be related to the
 specified project theme such as World Cup News, accommodation & ticket reservation etc.
 
+#### 🌟 Project
+
+| Group | Title | Video |
+| -----: | ----- | :------: | 
+| 1 | UTM Poetry SLAM | <a href="https://youtu.be/-ofukIkr3X8"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a></a> |
+| 2 | UTM Poetry SLAM | <a href="https://youtu.be/-ofukIkr3X8"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a></a> |
+| 3 | UTM Poetry SLAM | <a href="https://youtu.be/-ofukIkr3X8"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a></a> |
+| 4 | UTM Poetry SLAM | <a href="https://youtu.be/-ofukIkr3X8"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a></a> |
+| 5 | UTM Poetry SLAM | <a href="https://youtu.be/-ofukIkr3X8"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a></a> |
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
 
