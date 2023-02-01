@@ -36,9 +36,9 @@ specified project theme such as World Cup News, accommodation & ticket reservati
 | Group | Title | Video |
 | -----: | ----- | :------: | 
 | GroupAinon | UTM Poetry SLAM | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| 2 | GroupCatchy | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| 3 | GroupCharlene | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| 4 | Ramli | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupCatchy | GroupCatchy | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupCharlene | GroupCharlene | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Ramli | Ramli | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
 
 
 ## Contribution 🛠️
