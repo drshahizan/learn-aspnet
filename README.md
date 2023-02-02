@@ -39,7 +39,7 @@ The information on this Github is part of the materials for the subject Programm
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
    - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
    - [Assignment 4: Web Design](#assignment-4-web-design)
-- [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
+- [Project](#project)
 - [Book](#book)
 - [Final exam](#final-exam)
 - [Contribution](#contribution)
