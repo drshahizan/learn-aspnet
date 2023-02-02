@@ -25,6 +25,16 @@ Examples of websites that you can referred:
 4. [Malaysian Food Culture](https://www.behance.net/gallery/110721813/Malaysian-Food-Culture-Digital-Editorial)
 5. [BOOS - Kadazan Language Learning](https://www.behance.net/gallery/123080573/BOOS-Mobile-App-Design)
 
+
+#### 🌟 Case Study
+
+| Group | Title | Files |
+| ----- | ----- | :------: | 
+| GroupAinon | FIFA on the go | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupCatchy | Player Scouting System | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| GroupCharlene | Qatar 2022 Fifa World Cup Players List | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Ramli | Fifa World Cup | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
 
