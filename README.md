@@ -40,7 +40,7 @@ The information on this Github is part of the materials for the subject Programm
    - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
    - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
-   - [Assignment 4: Web Design](#assignment-4:-web-design)
+   - [Assignment 4: Web Design](#assignment-4-web-design)
       - [Ainon](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ainon)
       - [Catchy](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Catchy)
       - [Nazariah](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Nazariah)
