@@ -272,7 +272,7 @@ Examples of websites that you can referred:
 
 ### 🌟 Solution
 
-| Group | Title | Files |
+| Group | Title | Github |
 | ----- | ----- | :------: | 
 | Ainon | myLekor | [:octocat:](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ainon) |
 | Catchy | Satay Tepi | [:octocat:](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Catchy) |
