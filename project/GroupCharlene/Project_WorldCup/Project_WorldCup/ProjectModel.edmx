@@ -71,6 +71,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="countryID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="countryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="loginID" Relationship="WorldCup_QatarModel.loginIDcountry" FromRole="country" ToRole="loginID" />
         </EntityType>
         <EntityType Name="loginID">
           <Key>
@@ -82,6 +83,10 @@
           <Property Name="First_Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="Last_Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="user_Role" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="countries" Relationship="WorldCup_QatarModel.loginIDcountry" FromRole="loginID" ToRole="country" />
+          <NavigationProperty Name="teamPlayers" Relationship="WorldCup_QatarModel.loginIDteamPlayer" FromRole="loginID" ToRole="teamPlayer" />
+          <NavigationProperty Name="newsArticles" Relationship="WorldCup_QatarModel.loginIDnewsArticle" FromRole="loginID" ToRole="newsArticle" />
+          <NavigationProperty Name="teamGroups" Relationship="WorldCup_QatarModel.loginIDteamGroup" FromRole="loginID" ToRole="teamGroup" />
         </EntityType>
         <EntityType Name="newsArticle">
           <Key>
@@ -90,6 +95,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="news" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="article" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="loginID" Relationship="WorldCup_QatarModel.loginIDnewsArticle" FromRole="newsArticle" ToRole="loginID" />
         </EntityType>
         <EntityType Name="teamGroup">
           <Key>
@@ -98,6 +104,7 @@
           <Property Name="groupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="teamGroup1" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Country" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="loginID" Relationship="WorldCup_QatarModel.loginIDteamGroup" FromRole="teamGroup" ToRole="loginID" />
         </EntityType>
         <EntityType Name="teamPlayer">
           <Key>
@@ -110,6 +117,7 @@
           <Property Name="position" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Club" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="loginID" Relationship="WorldCup_QatarModel.loginIDteamPlayer" FromRole="teamPlayer" ToRole="loginID" />
         </EntityType>
         <EntityContainer Name="WorldCup_QatarEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="countries" EntityType="Self.country" />
@@ -117,7 +125,39 @@
           <EntitySet Name="newsArticles" EntityType="Self.newsArticle" />
           <EntitySet Name="teamGroups" EntityType="Self.teamGroup" />
           <EntitySet Name="teamPlayers" EntityType="Self.teamPlayer" />
+          <AssociationSet Name="loginIDcountry" Association="WorldCup_QatarModel.loginIDcountry">
+            <End Role="loginID" EntitySet="loginIDs" />
+            <End Role="country" EntitySet="countries" />
+          </AssociationSet>
+          <AssociationSet Name="loginIDteamPlayer" Association="WorldCup_QatarModel.loginIDteamPlayer">
+            <End Role="loginID" EntitySet="loginIDs" />
+            <End Role="teamPlayer" EntitySet="teamPlayers" />
+          </AssociationSet>
+          <AssociationSet Name="loginIDnewsArticle" Association="WorldCup_QatarModel.loginIDnewsArticle">
+            <End Role="loginID" EntitySet="loginIDs" />
+            <End Role="newsArticle" EntitySet="newsArticles" />
+          </AssociationSet>
+          <AssociationSet Name="loginIDteamGroup" Association="WorldCup_QatarModel.loginIDteamGroup">
+            <End Role="loginID" EntitySet="loginIDs" />
+            <End Role="teamGroup" EntitySet="teamGroups" />
+          </AssociationSet>
         </EntityContainer>
+        <Association Name="loginIDcountry">
+          <End Type="WorldCup_QatarModel.loginID" Role="loginID" Multiplicity="1" />
+          <End Type="WorldCup_QatarModel.country" Role="country" Multiplicity="*" />
+        </Association>
+        <Association Name="loginIDteamPlayer">
+          <End Type="WorldCup_QatarModel.loginID" Role="loginID" Multiplicity="1" />
+          <End Type="WorldCup_QatarModel.teamPlayer" Role="teamPlayer" Multiplicity="*" />
+        </Association>
+        <Association Name="loginIDnewsArticle">
+          <End Type="WorldCup_QatarModel.loginID" Role="loginID" Multiplicity="1" />
+          <End Type="WorldCup_QatarModel.newsArticle" Role="newsArticle" Multiplicity="*" />
+        </Association>
+        <Association Name="loginIDteamGroup">
+          <End Type="WorldCup_QatarModel.loginID" Role="loginID" Multiplicity="1" />
+          <End Type="WorldCup_QatarModel.teamGroup" Role="teamGroup" Multiplicity="*" />
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->

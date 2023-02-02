@@ -17,5 +17,7 @@ namespace Project_WorldCup
         public int Id { get; set; }
         public string countryID { get; set; }
         public string countryName { get; set; }
+    
+        public virtual loginID loginID { get; set; }
     }
 }

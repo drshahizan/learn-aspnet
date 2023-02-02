@@ -14,11 +14,29 @@ namespace Project_WorldCup
     
     public partial class loginID
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public loginID()
+        {
+            this.countries = new HashSet<country>();
+            this.teamPlayers = new HashSet<teamPlayer>();
+            this.newsArticles = new HashSet<newsArticle>();
+            this.teamGroups = new HashSet<teamGroup>();
+        }
+    
         public int Id { get; set; }
         public string UserName { get; set; }
         public string Pwd { get; set; }
         public string First_Name { get; set; }
         public string Last_Name { get; set; }
         public string user_Role { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<country> countries { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<teamPlayer> teamPlayers { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<newsArticle> newsArticles { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<teamGroup> teamGroups { get; set; }
     }
 }

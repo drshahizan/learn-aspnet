@@ -17,5 +17,7 @@ namespace Project_WorldCup
         public int Id { get; set; }
         public string news { get; set; }
         public string article { get; set; }
+    
+        public virtual loginID loginID { get; set; }
     }
 }

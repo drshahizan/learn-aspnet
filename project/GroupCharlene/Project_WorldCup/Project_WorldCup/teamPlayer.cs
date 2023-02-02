@@ -21,5 +21,7 @@ namespace Project_WorldCup
         public string position { get; set; }
         public string Club { get; set; }
         public string photo { get; set; }
+    
+        public virtual loginID loginID { get; set; }
     }
 }
