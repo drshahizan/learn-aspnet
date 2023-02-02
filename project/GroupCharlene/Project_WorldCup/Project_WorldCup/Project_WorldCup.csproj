@@ -124,6 +124,32 @@
     <Content Include="img\banner3.png" />
     <Content Include="img\favicon.ico" />
     <Content Include="img\fifa_logo.png" />
+    <Content Include="img\france\1.jpg" />
+    <Content Include="img\france\10.jpg" />
+    <Content Include="img\france\11.jpg" />
+    <Content Include="img\france\12.jpg" />
+    <Content Include="img\france\13.jpg" />
+    <Content Include="img\france\14.jpg" />
+    <Content Include="img\france\15.jpg" />
+    <Content Include="img\france\16.jpg" />
+    <Content Include="img\france\17.jpg" />
+    <Content Include="img\france\18.jpg" />
+    <Content Include="img\france\19.jpg" />
+    <Content Include="img\france\2.jpg" />
+    <Content Include="img\france\20.jpg" />
+    <Content Include="img\france\21.jpg" />
+    <Content Include="img\france\22.jpg" />
+    <Content Include="img\france\23.jpg" />
+    <Content Include="img\france\24.jpg" />
+    <Content Include="img\france\25.jpg" />
+    <Content Include="img\france\26.jpg" />
+    <Content Include="img\france\3.jpg" />
+    <Content Include="img\france\4.jpg" />
+    <Content Include="img\france\5.jpg" />
+    <Content Include="img\france\6.jpg" />
+    <Content Include="img\france\7.jpg" />
+    <Content Include="img\france\8.jpg" />
+    <Content Include="img\france\9.jpg" />
     <Content Include="img\logo_fifa_admin.png" />
     <Content Include="img\news\Id_1.jpg" />
     <Content Include="img\news\Id_10.jpg" />
@@ -6325,6 +6351,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
