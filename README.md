@@ -14,8 +14,6 @@ The information on this Github is part of the materials for the subject Programm
 <img src="https://github.com/drshahizan/learn-aspnet/blob/main/image/tp3a.jpeg"  height="200" />
 </p>
 
-# [Markah](https://github.com/drshahizan/learn-aspnet/blob/main/image/markahASP.pdf)
-
 ### Contents:
 - [Course Learning Outcome](#course-learning-outcome)
 - [Useful Links](#notes)
@@ -41,10 +39,6 @@ The information on this Github is part of the materials for the subject Programm
    - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
    - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
    - [Assignment 4: Web Design](#assignment-4-web-design)
-      - [Ainon](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ainon)
-      - [Catchy](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Catchy)
-      - [Nazariah](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Nazariah)
-      - [Ramli](https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ramli)
 - [Project](https://github.com/drshahizan/learn-aspnet/tree/main/project)
 - [Book](#book)
 - [Final exam](#final-exam)
