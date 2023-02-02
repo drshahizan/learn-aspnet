@@ -30,10 +30,10 @@ Examples of websites that you can referred:
 
 | Group | Title | Files |
 | ----- | ----- | :------: | 
-| GroupAinon | FIFA on the go | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupAinon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| GroupCatchy | Player Scouting System | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCatchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| GroupCharlene | Qatar 2022 Fifa World Cup Players List | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/GroupCharlene"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
-| Ramli | Fifa World Cup | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/project/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Ainon | myLekor | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ainon"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Catchy | Satay Tepi | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Catchy"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Nazariah | Penang food hunter | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Nazariah"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
+| Ramli | Batik the unity art | <a href="https://github.com/drshahizan/learn-aspnet/tree/main/web-design/Ramli"><img src="https://cdn3.emoji.gg/emojis/3625-file.png" width="24px" height="24px" alt="File"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for any improvements, suggestions or errors in the content.
