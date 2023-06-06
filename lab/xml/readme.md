@@ -9,3 +9,6 @@
 8. [Display XML Document in ASP.NET using XML Control](https://www.ezzylearning.net/tutorial/display-xml-document-in-asp-net-using-xml-control)
 9. [Read and Write XML Data Using Asp.Net](https://www.encodedna.com/2014/07/read-write-xml-data-using-aspdotnet.htm)
 
+
+![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
