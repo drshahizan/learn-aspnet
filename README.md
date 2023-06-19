@@ -15,34 +15,39 @@ The information on this Github is part of the materials for the subject Programm
 </p>
 
 ### Contents:
+- [About Us](#about-us)
+    - [Contents:](#contents)
 - [Course Learning Outcome](#course-learning-outcome)
-- [Useful Links](#notes)
-   - [What do you need](#what-do-you-need)
-   - [Introduction to Visual Studio](#introduction-to-visual-studio)
-   - [History: ASP.Net, Web etc](#history)
-   - [Database](#database)
-   - [Themes and Skins](#themes-and-skins)
-   - [Bootstrap & Master Pages](#bootstrap-and-master-pages)
-   - [Navigation Control](#navigation-control)
-   - [AJAX](#ajax)🔥
-   - [Cookie and Session](#cookie-and-session)🔥
-   - [XML](#xml)🔥
-   - [Adv Database](#adv-database)🔥
-- Lab
-   - [Book: ASP Web Programming. NET Using VB and C#](#book)
-   - [Standard Control](#standard-control)
-   - [Database](#lab-database)
-   - [Styles and Master Pages](#styles-and-master-pages)
+- [Notes](#notes)
+  - [What do you need](#what-do-you-need)
+  - [Introduction to Visual Studio](#introduction-to-visual-studio)
+      - [ Youtube](#-youtube)
+  - [History](#history)
+  - [Database](#database)
+  - [Themes and Skins](#themes-and-skins)
+  - [Bootstrap and Master Pages](#bootstrap-and-master-pages)
+  - [Navigation Control](#navigation-control)
+  - [AJAX🔥](#ajax)
+  - [Cookie and Session🔥](#cookie-and-session)
+  - [XML🔥](#xml)
+  - [Adv Database🔥](#adv-database)
+- [Lab](#lab)
+  - [Book](#book)
+  - [Standard Control](#standard-control)
+  - [Lab: Database](#lab-database)
+    - [Microsoft SQL Server](#microsoft-sql-server)
+    - [Microsoft Access](#microsoft-access)
+    - [MySQL](#mysql)
+  - [Styles and Master Pages](#styles-and-master-pages)
 - [Case Study](#case-study)
-- Assignment
-   - [Assignment 1: Currency converter](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%201)
-   - [Assignment 2: Birthday Card Maker](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%202)
-   - [Assignment 3: Human Resource database](https://github.com/drshahizan/learn-aspnet/tree/main/assignment/assignment%203)
-   - [Assignment 4: Web Design](#assignment-4-web-design)
+- [Assignment](#assignment)
+  - [Assignment 4: Web Design](#assignment-4-web-design)
+    - [Tasks](#tasks)
+    - [🌟 Solution](#-solution)
 - [Project](#project)
-- [Book](#book)
-- [Final exam](#final-exam)
-- [Contribution](#contribution)
+- [Books](#books)
+- [Final Exam](#final-exam)
+  - [Contribution 🛠️](#contribution-️)
   
 # Course Learning Outcome
 1. Describe the key features of the Microsoft .NETFramework and ASP.NET. Understand event driven
@@ -311,5 +316,5 @@ Please create an [Issue](https://github.com/drshahizan/learn-aspnet/issues) for 
 
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
-![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
