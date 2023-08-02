@@ -53,7 +53,7 @@ The information on this Github is part of the materials for the subject Programm
 1. Describe the key features of the Microsoft .NETFramework and ASP.NET. Understand event driven
 programming model and the .NET framework.
 2. Design and implement web applications based onan analysis of business needs that use the .NET framework and a web development language
-3. Demonstrate the ability to construct multi-tier serverdriven dynamic web application incorporating access to databases using appropriate software
+3. Demonstrate the ability to construct multi-tier server driven dynamic web application incorporating access to databases using appropriate software
 methods and tools.
 4. Work in a team to develop a medium to complex program as a group mini project, applying the ASP.NET framework. 
 
